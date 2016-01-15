@@ -21,11 +21,12 @@ function createXmlHttpRequestObject(){
 	return xmlHttp;
 }
 
-function http_zapros(){
+function http_zapros(method, url, callback){
 	if(xmlHttp){
 		try{
-			xmlHttp.open("GET","request.txt",true);
-			xmlHttp.onreadystatechange = obrabotka;
+			// xmlHttp.open("GET","request.txt",true);
+			xmlHttp.open(method,url,true);
+			xmlHttp.onreadystatechange = callback;
 			xmlHttp.send(null);
 		}
 		catch(e){
@@ -39,8 +40,8 @@ function obrabotka(){
 		if(xmlHttp.status == 200){
 			try{
 				response = xmlHttp.responseText;
-				myDiv = document.getElementById("otvet");
-				myDiv.innerHTML += response;
+				var countfield = window.document.getElementById("otvet");
+				countfield.value = response;
 			}
 			catch(e){
 				alert("Request reading error");
