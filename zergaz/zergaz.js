@@ -24,9 +24,9 @@ function showStats(hero){
 }
 
 $("#show").append("<hr>"+hero1.NAME+" VS "+hero2.NAME+"<hr>")
-showStats(hero1)
+// showStats(hero1)
 $("#show").append("<hr>")
-showStats(hero2)
+// showStats(hero2)
 
 function getWin (Z,G,Zlevel,Glevel){
 	var Zhp = Z.HEALTH
