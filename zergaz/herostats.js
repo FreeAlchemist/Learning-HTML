@@ -39,11 +39,12 @@ Hero.prototype.regen = function(level){
 		return this.H_REGEN + this.H_REGEN_MOD * level
 	}
 
-function Zeratul(){
-	Hero.call(this, arguments)
+function Zeratul(obj){
+	// Hero.call(this, obj)
+	Hero.apply(this, arguments)
 }
 
-Zeratul.prototype = new Hero
+Zeratul.prototype = Object.create(Hero.prototype)
 Zeratul.prototype.constructor = Zeratul
 
 
@@ -53,7 +54,7 @@ zeratul = new Zeratul(zer)
 // zeratul = new Zeratul("Zeratul", 1607, 65, 3.35, 0.13, 500, 3, 0.8, 37, 13)
 // zeratul = new Hero("Zeratul", 1607, 65, 3.35, 0.13, 500, 3, 0.8, 37, 13)
 
-gazlowe = new Hero("Gazlowe", 1900, 76, 3.95, 0.16, 500, 3, 0.9, 47, 9)
+// gazlowe = new Hero("Gazlowe", 1900, 76, 3.95, 0.16, 500, 3, 0.9, 47, 9)
 gazlowe = new Hero(gaz)
 
 console.log(zeratul.NAME+" beat: "+zeratul.beat(1))
