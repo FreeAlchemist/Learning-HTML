@@ -9,8 +9,6 @@ function Hero(obj){
 	this.level = obj.level
 	console.log(this)
 	this.abilities = {}
-	this.addAutoAtk()
-	this.maxHP = this.getMaxHP()
 
 	this.NAME = obj.NAME
 	this.startHP = obj.startHP
@@ -24,6 +22,12 @@ function Hero(obj){
 	this.DAMAGE_MOD = obj.DAMAGE_MOD
 	this.MOVE_SPD = obj.MOVE_SPD || 4.4
 }
+
+Hero.prototype.init = function(){
+	console.log(this)
+	this.addAutoAtk()
+	this.maxHP = this.getMaxHP()
+	}
 
 Hero.prototype.beat = function(){
 		return (this.DAMAGE + this.DAMAGE_MOD * this.level) * this.ATK_SPD
@@ -39,13 +43,14 @@ Hero.prototype.getMaxHP = function(){
 
 Hero.prototype.addAutoAtk = function(){
 	this.abilities.autoattack = {
-		func : this.beat(),
-		cooldown : this.getCooldown()
+		func : this.beat,
+		cooldown : this.getCooldown(),
+		cooldownCurrent : this.getCooldown(),
 	}
 }
 
 Hero.prototype.getCooldown = function(){
-	return 1/this.ATK_SPD
+	return (1/this.ATK_SPD) * 1000
 }
 
 
@@ -65,14 +70,37 @@ Zeratul.prototype.constructor = Zeratul
 // var gaz = {name:1}
 
 zeratul = new Zeratul(zer)
+zeratul.init()
 
 // zeratul = new Zeratul("Zeratul", 1607, 65, 3.35, 0.13, 500, 3, 0.8, 37, 13)
 // zeratul = new Hero("Zeratul", 1607, 65, 3.35, 0.13, 500, 3, 0.8, 37, 13)
 
 // gazlowe = new Hero("Gazlowe", 1900, 76, 3.95, 0.16, 500, 3, 0.9, 47, 9)
 gazlowe = new Hero(gaz)
+gazlowe.init()
 
 console.log(zeratul.NAME+" beat: "+zeratul.beat(1))
 console.log(zeratul.NAME+" regen: "+zeratul.regen(1))
 console.log(gazlowe.NAME+" beat: "+gazlowe.beat(1))
 console.log(gazlowe.NAME+" regen: "+gazlowe.regen(1))
+
+for (var i = 1; i <= 20 ; i++ ) {
+	
+	for (var i = 1; i <= 20 ; i++ ) {
+		fight();	
+	}	
+}
+
+fight = function(someHero) {
+	timeStep = 0
+	while (> && >) {
+		// time +=10;
+
+		for (var i in someHero.abilities) {
+			cooldownCurrent -= getAbilityCollDown(timeStep)
+			if (cooldownCurrent) {
+				someHero.abilities[i].func()
+			}
+		}
+	}
+}
