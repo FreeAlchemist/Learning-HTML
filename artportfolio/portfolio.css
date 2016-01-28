@@ -1,0 +1,82 @@
+.container{
+	width:250px;	
+	padding:1px;
+	position:absolute;
+	left:40%;
+	top:30%;
+	}
+.container div{
+	background: Wheat;
+	background: radial-gradient(at 25% 25%, white, Wheat, Burlywood,Linen);
+	border-style: solid;
+	border-width: 1px;
+	border-radius:5%;
+	border-color:Saddlebrown;
+	border-color: linear-gradient(red, Wheat, green,Linen);
+	color: Saddlebrown;
+	text-align: left;	
+	font-family: Franklin Gothic Medium;
+	font-size: 14pt;
+	padding-left: 2%;
+	box-shadow:0 0 10px Sienna;
+	}
+.container div:hover{border-color:Darkred;color:Darkred;box-shadow:0 0 10px Sienna;}
+.container div:active{box-shadow: inset 0 0 10px Saddlebrown;}
+.w100{width:97%;}
+.w60{width:57%;}
+.w40{width:37%;}
+.w20{width:17%;}
+
+.main{
+margin-top:5%;
+height:50px;
+float: left;
+}
+
+.b{font-size: 18pt;}
+
+.sub{
+height:40px;
+float: left;
+}
+
+ @-webkit-keyframes borderanim {
+0% {background: radial-gradient(at 75% 25%, white, Wheat, Burlywood,Linen);}
+40% {background: radial-gradient(at 75% 75%, white, Wheat, Burlywood,Linen);}
+60% {background: radial-gradient(at 25% 75%, white, Wheat, Burlywood,Linen);}
+100% {background: radial-gradient(at 25% 75%, white, Wheat, Burlywood,Linen);}
+ }
+
+  @-webkit-keyframes borderanim1 {
+0% {border-color:white;}
+40% {border-color:Wheat;}
+60% {border-color:Saddlebrown;}
+100% {border-color:Linen;}
+ }
+
+.sub:hover,.main:hover{
+background: Linen;
+background: radial-gradient(at 25% 25%, white,Linen, Wheat, Burlywood);
+-webkit-animation-name:borderanim1;
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:1s;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:normal;
+-webkit-animation-play-state:running;	
+}
+
+/*
+.class{
+-webkit-animation-name:;
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:10s;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:once;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:normal;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+-webkit-animation: aniname 10s linear 2s infinite alternate;
+  }
+  */
