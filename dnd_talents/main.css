@@ -1,0 +1,430 @@
+.c {
+	float: left;
+	width: 6.3cm;
+	height: 8.8cm;
+	background-size: 100% 100%;
+	font-size: 0.225cm;
+	line-height: 0.225cm;
+	display: inline-block;
+	border-right: 1px solid  rgba(0,0,0,1);
+	border-bottom: 1px solid  rgba(0,0,0,1);
+	font-family: 'AGFriquer';
+}
+p {
+	margin: 0cm; 
+	padding: 0cm; 
+}
+
+.wrap {
+	background-color: rgba(255,255,255,1);
+	width: 6.05cm;
+	height: 8.4cm;
+	margin: 0.125cm;
+	position: relative;
+}
+.header {
+	color: #FFF;
+	padding: 0.2cm  0.1cm  0.1cm  0.1cm;
+	font-size: 2em;
+	min-height: 0.35cm;
+	line-height: 0.35cm;
+}
+.flavor {
+	padding: 0.1cm 0.1cm 0.125cm;
+	background-color:  rgba(255,255,255,0.3);
+	font-size: 0.2cm;
+	line-height: 0.2cm;
+	font-style: italic;
+
+}
+.block {
+	float: left;
+	width: 100%;
+}
+.keywords {
+	padding: 0.05cm 0.1cm;
+	font-size: 0.25cm;
+	line-height: 0.25cm;
+	background-color:  rgba(255,255,255,1);
+}
+.label {
+	/*background-color: rgba(214,226,212,1);*/
+	text-transform: uppercase;
+	background-color:  rgba(255,255,255,1);
+	line-height: 0.6em;
+	font-size: 0.6em;
+color: #666;
+	padding: 0.05cm 0.1cm 0.05cm; 
+}
+.action {
+	float: left;
+	width: 1.9cm;
+	height: 0.725cm;
+	
+}
+ .value{
+	background-color:  rgba(255,255,255,1);
+	height: 0.51cm;
+	line-height: 0.5cm;
+	font-size: 1.1em;
+	text-align: center;
+}
+ .glabel{
+	text-transform: uppercase;
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+}
+.icons {
+	float: left;
+	width: 0.73cm;
+	height: 0.725cm;
+	background-color:  rgba(255,255,255,1);
+}
+.icon1 {
+	width: 0.345cm;
+	/*background-color:  rgba(255,255,255,0.5);*/
+	float: left;
+	height: 0.35cm;
+	background-image: url('i1.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.icon2 {
+	width: 0.345cm;
+	/*background-color:  rgba(255,255,255,0.5);*/
+	float: left;
+	height: 0.35cm;
+	background-image: url('i2.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.icon3 {
+	width: 0.345cm;
+	/*background-color:  rgba(255,255,255,0.5);*/
+	height: 0.35cm;
+	float: left;
+	background-image: url('i3.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.icon4 {
+	width: 0.345cm;;
+	float: left;
+	height: 0.35cm;
+	background-image: url('i4.jpg');
+	background-size: 100% 100%;
+}
+.icons .non {
+	background: none;
+}
+.range {
+	float: left;
+	width: 3.32cm;
+}
+.versus {
+	float: left;
+	width: 2.655cm;
+	opacity: 1;
+}
+.att {
+	width: 43%;
+	margin-left:2%; 
+	float: left;
+	height: 100%;
+}
+.def {
+	width: 43%;
+	height: 100%;
+	margin-right:2%; 
+	float: left;
+}
+.vs {
+	width: 10%;
+	float: left;
+	height: 100%;
+	font-size: 0.6em;
+	text-align: center;
+}
+.target {
+	float: right;
+	width: 
+}
+.text {
+	background-color: rgba(255,255,255,0.5);
+	padding: 0.1cm 0.1cm 0.1cm 0.1cm; 
+	font-size: 1.1em;
+	min-height: 4.45cm;
+	line-height: 1.1em;
+	float: left;
+}
+.text p{
+	padding: 0cm 0cm 0.1cm 0cm; 
+}
+.bottom {
+	position: absolute;
+	bottom: 0cm;
+	width: 100%;
+	border-top: 0.05cm solid rgba(88,141,97,1);
+}
+.bottom .add {
+	border-bottom: 0.05cm solid rgba(88,141,97,1);
+	display: none;
+}
+.bottom .add .value {
+	height: 0.5cm;
+	line-height: 0.5cm;
+	font-size: 1.1em;
+	text-align: left;
+	padding: 0cm 0.1cm 0cm 0.1cm; 
+
+	font-size: 1.1em;
+	line-height: 1.1em;
+	float: left;
+
+}
+.bottom .label {
+	text-transform: uppercase;
+	line-height: 0.6em;
+	font-size: 0.6em;
+	padding: 0.05cm 0.1cm 0.05cm; 
+	color: gray;
+}
+.valueb {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0cm 0.1cm 0.02cm; 
+}
+.class {
+	min-width: 10%;
+	float: left;
+}
+.type {
+	min-width: 29%;
+	float: right;
+}
+.level {
+	width: 18%;
+	float: right;
+}
+.power {
+	position: absolute;
+	bottom: -0.25cm;
+	font-size: 1em;
+	padding-left: 0.1cm;
+	font-weight: bold;
+	color:#FFF;
+	text-transform: uppercase;
+}
+.ava {
+	position: absolute;
+	top: 0cm;
+	right: 0cm;
+	background-color: grey;
+	width: 0.8cm;
+	height: 1.55cm;
+	border-left: 0.05cm solid rgba(88,141,97,1);
+	border-bottom: 0.05cm solid rgba(88,141,97,1);
+	background-image: url('phb-ranger.jpg');
+	background-position: center center;
+	background-size:  auto 100%;
+	display: none;
+}
+.hr {
+	float: left;
+	clear: both;
+	width: 100%
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.c.green,
+.green .header  {
+	background-color: rgba(88,141,97,1);
+}
+.green .block {
+	border-bottom: 0.05cm solid rgba(88,141,97,1);
+}
+.green .icon2 {
+	border-bottom: 0.05cm solid rgba(88,141,97,0.5);
+}
+.green .action {
+	border-right: 0.05cm solid rgba(88,141,97,1);
+}
+.green .icons {
+	border-right: 0.05cm solid rgba(88,141,97,1);
+}
+.green .glabel {
+	background-color: rgba(214,226,212,1);
+
+}
+.green .icon1 {
+	border-bottom: 0.05cm solid rgba(88,141,97,0.5);
+	border-right: 0.05cm solid rgba(88,141,97,0.5);
+}
+
+.green .icon3 {
+	border-right: 0.05cm solid rgba(88,141,97,0.5);
+}
+.green .bottom  {
+	border-top: 0.05cm solid rgba(88,141,97,1);
+}
+.green .add  {
+	border-bottom: 0.05cm solid rgba(88,141,97,1);
+}
+.green .type  {
+	border-left: 0.05cm solid rgba(88,141,97,1);
+}
+.green .versus  {
+	border-right: 0.05cm solid rgba(88,141,97,1);
+}
+.green .type  {
+	border-left: 0.05cm solid rgba(88,141,97,1);
+}
+.green .level  {
+	border-left: 0.05cm solid rgba(88,141,97,1);
+}
+
+
+.c.red,
+.red .header  {
+	background-color: rgba(119,44,38,1);
+}
+.red .block {
+	border-bottom: 0.05cm solid rgba(119,44,38,1);
+}
+.red .icon2 {
+	border-bottom: 0.05cm solid rgba(119,44,38,0.5);
+}
+.red .action {
+	border-right: 0.05cm solid rgba(119,44,38,1);
+}
+.red .icons {
+	border-right: 0.05cm solid rgba(119,44,38,1);
+}
+.red .glabel {
+	background-color: rgba(206,148,144,1);
+}
+.red .icon1 {
+	border-bottom: 0.05cm solid rgba(119,44,38,0.5);
+	border-right: 0.05cm solid rgba(119,44,38,0.5);
+}
+
+.red .icon3 {
+	border-right: 0.05cm solid rgba(119,44,38,0.5);
+}
+.red .bottom  {
+	border-top: 0.05cm solid rgba(119,44,38,1);
+}
+.red .add  {
+	border-bottom: 0.05cm solid rgba(119,44,38,1);
+}
+.red .type  {
+	border-left: 0.05cm solid rgba(119,44,38,1);
+}
+.red .versus  {
+	border-right: 0.05cm solid rgba(119,44,38,1);
+}
+.red .type  {
+	border-left: 0.05cm solid rgba(119,44,38,1);
+}
+.red .level  {
+	border-left: 0.05cm solid rgba(119,44,38,1);
+}
+
+
+
+.c.grey,
+.grey .header  {
+	background-color: rgba(47,47,47,1);
+}
+.grey .block {
+	border-bottom: 0.05cm solid rgba(47,47,47,1);
+}
+.grey .icon2 {
+	border-bottom: 0.05cm solid rgba(47,47,47,0.5);
+}
+.grey .action {
+	border-right: 0.05cm solid rgba(47,47,47,1);
+}
+.grey .icons {
+	border-right: 0.05cm solid rgba(47,47,47,1);
+}
+.grey .glabel {
+	background-color: rgba(130,130,130,1);
+}
+.grey .icon1 {
+	border-bottom: 0.05cm solid rgba(47,47,47,0.5);
+	border-right: 0.05cm solid rgba(47,47,47,0.5);
+}
+
+.grey .icon3 {
+	border-right: 0.05cm solid rgba(47,47,47,0.5);
+}
+.grey .bottom  {
+	border-top: 0.05cm solid rgba(47,47,47,1);
+}
+.grey .add  {
+	border-bottom: 0.05cm solid rgba(47,47,47,1);
+}
+.grey .type  {
+	border-left: 0.05cm solid rgba(47,47,47,1);
+}
+.grey .versus  {
+	border-right: 0.05cm solid rgba(47,47,47,1);
+}
+.grey .type  {
+	border-left: 0.05cm solid rgba(47,47,47,1);
+}
+.grey .level  {
+	border-left: 0.05cm solid rgba(47,47,47,1);
+}
+
+.wizard {
+	background: url(hechizo-dnd.jpg); 
+	background-size: 100% auto; 
+	background-position: 50% -20%;
+}
+.ranger {
+	background: url(phb-ranger.jpg); 
+	background-size: 100% auto; 
+	background-position: 50% 25%;
+}
+
+.apostol {
+	background: url(apostol.jpg); 
+	background-size: 100% auto; 
+	background-position: 50% 0%;
+}
+
+.barbarian {
+	background: url(barbarian.jpg); 
+	background-size: 100% auto; 
+	background-position: 50% 0%;
+}
+
+
+.eladrin {
+	background: url(eladrin.jpg), green; 
+	background-size: 100% auto; 
+	background-position: 50% -40%;
+}
+.elf {
+	background: url(elf.jpg); 
+	background-size: 100% auto; 
+	background-position: 50% -50%;
+}
+.dev {
+	background: url(dev.jpg); 
+	background-size: 100% auto; 
+	background-position: 50% 25%;
+}
+.goliaf {
+	background: url(goliaf.jpg); 
+	background-size: 100% auto; 
+	background-position: 50% 30%;
+}
