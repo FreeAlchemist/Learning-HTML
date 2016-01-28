@@ -1,0 +1,315 @@
+#CONVFRAME_134690 {
+    height: 600px;
+}
+
+#RefreshRateMenu {
+    border-radius: 20px;
+    left: 0px;
+    margin-left: 50;
+    position: relative;
+}
+
+#__persistentAccountId__select {
+    background: Wheat;
+}
+
+#customMenuList4 {
+    background: aliceblue;
+    border-radius: 4px;
+    border-width: 1px;
+    box-shadow: 0px 1px 4px;
+}
+
+#requestId {
+    border-bottom-width: 2px;
+    border-color: silver;
+    border-left-width: 1px;
+    border-radius: 6px;
+    border-right-width: 2px;
+    border-style: groove;
+    border-top-width: 1px;
+    border-width: 2px;
+    box-shadow: inset 0px 1px 8px Darkgray;
+    padding: 5px;
+}
+
+#roleid {
+    border-radius: 4px;
+}
+
+#searchReqid {
+    border-color: Saddlebrown;
+    border-radius: 4px;
+    margin-left: 150px;
+    /*Request ID*/
+}
+
+#totalRecordsCount {
+    background: Wheat;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2;
+}
+
+.Lefttd {
+    display: none;
+}
+
+.bottomfooter {
+    display: none;
+}
+
+.calendarcell,.currentDate {
+    height: 85px;
+}
+
+.calendarcell:hover {
+    background: lightblue;
+}
+
+.currentDate {
+    background: orange;
+}
+
+.customMenu-ui2 {
+    margin-left: 100px;
+    position: relative;
+    top: -8px;
+}
+
+.dropdown-menu-i1,#customMenuList1 {
+    background-color: aliceblue;
+    height: 700px;
+    margin-left: 0px;
+    margin-top: 8px;
+    width: 370px;
+}
+
+.logo {
+    display: none;
+}
+
+.mtop5 {
+    width: 155;
+}
+
+.requests-tasksinfo {
+    margin-left: 10px;
+    position: relative;
+    top: -9px;
+}
+
+.topHeader {
+    top: 20px;
+}
+
+.topHeaderBG {
+    background: linear-gradient(to  bottom, white, gainsboro);
+    height: 11px;
+    padding-bottom: 48px;
+}
+
+.top_links {
+    background: white;
+    border-radius: 6px;
+    box-shadow: inset 2px 3px 1px Darkgray;
+    left: 720px;
+    position: absolute;
+    top: 22px;
+}
+
+.top_links td nobr a {
+    color: red;
+}
+
+.top_tabs {
+    /*Top buttons*/
+    left: 20px;
+    position: absolute;
+    top: 20px;
+}
+
+.top_tabs a {
+    background: linear-gradient(to bottom, Linen, Burlywood);
+    border-bottom-color: Burlywood;
+    border-bottom-width: 3px;
+    border-left-color: Bisque;
+    border-left-width: 2px;
+    border-radius: 5px;
+    border-right-color: Burlywood;
+    border-right-width: 3px;
+    border-style: groove;
+    border-top-color: Bisque;
+    border-top-width: 2px;
+    color: black;
+    /*Top buttons*/
+}
+
+.top_tabs a:active {
+    box-shadow: inset 0px 4px 3px Saddlebrown;
+    /*Top buttons*/
+}
+
+.top_tabs a:hover {
+    background: linear-gradient(to bottom, Burlywood ,Linen);
+    box-shadow: 0px 1px 6px Saddlebrown;
+    /*Top buttons*/
+}
+
+.ttb-pr60 {
+    /*
+
+    box-shadow: 0px 2px 10px Darkgray;
+    background: linear-gradient(to bottom, Linen, Burlywood);
+    border-radius: 10px;
+    border-left-color: Bisque;
+    border-top-color: Bisque;
+    border-bottom-color: Burlywood;
+    border-right-color: Burlywood;
+    border-style: groove;
+    border-left-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    */
+}
+
+a.active {
+    background: linear-gradient(to bottom, Burlywood ,Linen);
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    box-shadow: inset 1px 1px 6px Saddlebrown;
+}
+
+a.customMenu-ui3 {
+    background: linear-gradient(to bottom, Linen, Burlywood);
+    border-bottom-color: Burlywood;
+    border-bottom-width: 3px;
+    border-left-color: Bisque;
+    border-left-width: 2px;
+    border-radius: 5px;
+    border-right-color: Burlywood;
+    border-right-width: 3px;
+    border-style: groove;
+    border-top-color: Bisque;
+    border-top-width: 2px;
+    box-shadow: 0px 2px 10px Darkgray;
+    color: black;
+    /*ListMenu Button*/
+    /*width: 350px;*/
+    /*background: #e6eced;*/
+    height: 20px;
+    left: -1px;
+    margin-right: 10px;
+    padding: 5px;
+    padding-right: 25;
+    position: relative;
+    top: -8px;
+}
+
+a.customMenu-ui3:hover {
+    background: linear-gradient(to bottom, Burlywood ,Linen);
+    box-shadow: 0px 4px 3px Darkgray;
+    /*ListMenu Button*/
+}
+
+body, .listViewTableHeader {
+    background: linear-gradient(to  bottom, white, gainsboro);
+}
+
+div.logo,div.logo img {
+    display: none;
+    height: 10px;
+    width: 100px;
+}
+
+em {
+    background: red;
+    display: none;
+}
+
+input.formStylebutton {
+    width: 145px;
+}
+
+input.goarwbtn {
+    background: linear-gradient(to bottom, Linen, Burlywood);
+    border-bottom-color: Burlywood;
+    border-bottom-width: 3px;
+    border-left-color: Bisque;
+    border-left-width: 2px;
+    border-radius: 5px;
+    border-right-color: Burlywood;
+    border-right-width: 3px;
+    border-style: groove;
+    border-top-color: Bisque;
+    border-top-width: 2px;
+    color: black;
+    /*search button*/
+    left: 300px;
+    position: relative;
+    top: -20px;
+    width:100px;
+}
+
+input.goarwbtn:active {
+    background: linear-gradient(to bottom, Burlywood ,Linen);
+    box-shadow: inset 0px 4px 3px Darkgray;
+    /*search button*/
+}
+
+input.goarwbtn:hover {
+    background: linear-gradient(to bottom, Burlywood ,Linen);
+    box-shadow: 0px 4px 3px Darkgray;
+    /*search button*/
+}
+
+select.accountFormStyle {
+    border-radius: 6px;
+    left: 30px;
+    position: relative;
+    width: 250px;
+}
+
+td {
+    font-size: 8pt;
+    height: 22px;
+}
+
+td.mact2 {
+    width: 140px;
+}
+
+td.pright40 {
+    width: 280px;
+}
+
+ul.menulist-ui1 li a:hover {
+    background: powderblue;
+    border-radius: 4px;
+    border-width: 1px;
+    /*ListMenu*/
+}
+
+ul.menulist-ui2 {
+    background-color: aliceblue;
+    /*ListMenu Element*/
+    height: 600px;
+}
+
+ul.menulist-ui2 li:active {
+    box-shadow: inset 0px 2px 10px Darkgray;
+    /*ListMenu Element*/
+}
+
+ul.menulist-ui2 li:hover {
+    background: linear-gradient(to bottom, Linen, Burlywood);
+    /*ListMenu Element*/
+    /*background: powderblue;*/
+}
+
+ul.menulist-ui2,ul.menulist-ui2 li,ul.menulist-ui2-listui1 li {
+    width: 350px;
+}
+
