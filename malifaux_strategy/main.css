@@ -35,13 +35,14 @@ p {
 
 .header {
 	color: #FFF;
-	padding: 0  0.1cm  0  0.1cm;
+	padding: 0  0.1cm  0  0.3cm;
 	margin-top: 0.2cm;
 	font-size: 2em;
 	min-height: 1cm;
 	/*line-height: 0.35cm;*/
-	background-color: rgba(88,90,141,0.5);
 	border-bottom: 0.05cm solid rgba(0,0,0,1);
+	background-color: rgba(10,10,10,0.5);
+	
 }
 
 .seal {
@@ -118,13 +119,14 @@ p {
 .label{
 	position: absolute;
 	/*top: 3cm;*/
-	right: 1.5cm;
+	right: 1.25cm;
 	/*bottom: 3cm;*/
-	left: 1.5cm;
+	left: 1.25cm;
 	line-height: 0.7cm;
 	/*border: 0.05cm solid rgba(88,141,97,1);*/
 	background-color: rgba(10,10,10,0.5);
 	color:  rgba(255,255,255,1);
+	text-transform: uppercase;
 }
 
 
