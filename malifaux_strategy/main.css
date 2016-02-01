@@ -35,7 +35,7 @@ p {
 
 .header {
 	color: #FFF;
-	padding: 0  0.1cm  0.1cm  0.1cm;
+	padding: 0  0.1cm  0  0.1cm;
 	margin-top: 0.2cm;
 	font-size: 2em;
 	min-height: 1cm;
@@ -46,10 +46,9 @@ p {
 
 .seal {
 	float: left;
-	background-color: rgba(88,141,97,0.5);
-	width: 1cm;
-	height: 1cm;
-	/*background-image: url('phb-ranger.jpg');*/
+	/*background-color: rgba(88,141,97,0.5);*/
+	width: 1.05cm;
+	height: 1.05cm;
 	background-position: center center;
 	background-size:  auto 100%;
 }
@@ -57,23 +56,25 @@ p {
 .seal.cbr {background-image: url('img/cbr.gif');}
 
 .seal .circle{
-	width: 100%;
-	height: 100%;
+	/*width: 100%;*/
+	/*height: 100%;*/
 	border:solid 0.05cm rgba(200,160,60,1);
 	border-radius: 50%;
 	background-color: rgba(150,100,50,0.75);
 	color: rgba(255,255,255,1);
 	text-align: center;
+	line-height: 1cm;
 	font-weight: bold;
 	font-size: 18px;
 }
 
 .title{
 	float: left;
-	background-color: rgba(100,100,255,0.3);
+	/*background-color: rgba(100,100,255,0.3);*/
 	font-size: 21px;
-	padding-top: 0.25cm;
+	/*padding-top: 0.25cm;*/
 	padding-left: 0.25cm;
+	line-height: 1.05cm;
 }
 
 .block {
@@ -104,10 +105,10 @@ p {
 }
 .bottom {
 	position: absolute;
-	bottom: 0.5cm;
+	bottom: 1cm;
 	width: 100%;
-	border-top: 0.05cm solid rgba(88,141,97,1);
-	background-color: rgba(255,20,255,0.5);
+	/*border-top: 0.05cm solid rgba(88,141,97,1);*/
+	/*background-color: rgba(255,20,255,0.5);*/
 	text-align: center;
 	font-size: 16pt;
 	
@@ -115,7 +116,13 @@ p {
 }
 
 .label{
-	border: 0.05cm solid rgba(88,141,97,1);
+	position: absolute;
+	/*top: 3cm;*/
+	right: 1.5cm;
+	/*bottom: 3cm;*/
+	left: 1.5cm;
+	line-height: 0.7cm;
+	/*border: 0.05cm solid rgba(88,141,97,1);*/
 	background-color: rgba(10,10,10,0.5);
 	color:  rgba(255,255,255,1);
 }
