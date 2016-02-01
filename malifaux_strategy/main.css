@@ -48,23 +48,29 @@ p {
 .seal {
 	float: left;
 	/*background-color: rgba(88,141,97,0.5);*/
-	width: 1.05cm;
-	height: 1.05cm;
+	width: 1cm;
+	height: 1cm;
 	background-position: center center;
 	background-size:  auto 100%;
 }
 
-.seal.cbr {background-image: url('img/cbr.gif');}
+.seal.cbr {background-image: url('img/support.jpg');}
 
 .seal .circle{
 	/*width: 100%;*/
 	/*height: 100%;*/
+	width: 0.6cm;
+	height: 0.6cm;
+	position: relative;
+	top: 0.15cm;
+	left: 0.15cm;
 	border:solid 0.05cm rgba(200,160,60,1);
 	border-radius: 50%;
-	background-color: rgba(150,100,50,0.75);
+	background-color: rgba(150,100,50,1);
+	background: -webkit-radial-gradient(center, circle cover, black 0%,Wheat 100%);
 	color: rgba(255,255,255,1);
 	text-align: center;
-	line-height: 1cm;
+	line-height: 0.6cm;
 	font-weight: bold;
 	font-size: 18px;
 }
