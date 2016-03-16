@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crossroads Tarot</title>
+	<meta charset="UTF-8"/>
+	<link rel=Stylesheet href="css/crossroads.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<form>
+<div class="stage">
+	<div class="title">Name:</div>
+	<div class="title"><input id="name" type="text" placeholder="Jack Daw"></div>
+	
+</div>
+
+<div id="station" class="stage">
+	<div class="title">Station</div>
+	<select id="station_suit">
+		<option value="jockers">Jockers</option>
+		<option value="hearts">Rams</option>
+		<option value="spades">Crows</option>
+		<option value="clubs">Tomes</option>
+		<option value="diamonds">Masks</option>
+	</select>
+	<select id="station_number">
+		<option value="0">Black Joker</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11 J</option>
+		<option value="12">12 Q</option>
+		<option value="13">13 K</option>
+		<option value="14">Red Joker</option>
+	</select>
+</div>
+<div id="west" class="stage">
+	<div class="title">West</div>
+	<select id="west_suit">
+		<option value="jockers">Jockers</option>
+		<option value="hearts">Rams</option>
+		<option value="spades">Crows</option>
+		<option value="clubs">Tomes</option>
+		<option value="diamonds">Masks</option>
+	</select>
+	<select id="west_number">
+		<option value="0">Black Joker</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11 J</option>
+		<option value="12">12 Q</option>
+		<option value="13">13 K</option>
+		<option value="14">Red Joker</option>
+	</select>
+</div>
+<div id="north" class="stage">
+	<div class="title">North</div>
+	<select id="north_suit">
+		<option value="jockers">Jockers</option>
+		<option value="hearts">Rams</option>
+		<option value="spades">Crows</option>
+		<option value="clubs">Tomes</option>
+		<option value="diamonds">Masks</option>
+	</select>
+	<select id="north_number">
+		<option value="0">Black Joker</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11 J</option>
+		<option value="12">12 Q</option>
+		<option value="13">13 K</option>
+		<option value="14">Red Joker</option>
+	</select>
+</div>
+<div id="east" class="stage">
+	<div class="title">East</div>
+	<select id="east_suit">
+		<option value="jockers">Jockers</option>
+		<option value="hearts">Rams</option>
+		<option value="spades">Crows</option>
+		<option value="clubs">Tomes</option>
+		<option value="diamonds">Masks</option>
+	</select>
+	<select id="east_number">
+		<option value="0">Black Joker</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11 J</option>
+		<option value="12">12 Q</option>
+		<option value="13">13 K</option>
+		<option value="14">Red Joker</option>
+	</select>
+</div>
+<div id="south" class="stage">
+	<div class="title">South</div>
+	<select id="south_suit">
+		<option value="jockers">Jockers</option>
+		<option value="hearts">Rams</option>
+		<option value="spades">Crows</option>
+		<option value="clubs">Tomes</option>
+		<option value="diamonds">Masks</option>
+	</select>
+	<select id="south_number">
+		<option value="0">Black Joker</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11 J</option>
+		<option value="12">12 Q</option>
+		<option value="13">13 K</option>
+		<option value="14">Red Joker</option>
+	</select>
+</div>
+
+</form>
+
+<div class="crossroad">
+	<div class="crossroad-north">
+		<div class="crossroad-card" id="card-north">♠ 10</div>
+	</div>
+	<div class="crossroad-west">
+		<div class="crossroad-card" id="card-west">♥ K</div>
+	</div>
+	<div class="crossroad-station">
+		<div class="crossroad-card" id="card-station">♦ 6</div>
+	</div>
+	<div class="crossroad-east">
+		<div class="crossroad-card" id="card-east">♣ J</div>
+	</div>
+	<div class="crossroad-south">
+		<div class="crossroad-card" id="card-south"><b>J</b></div>
+	</div>
+</div>
+
+
+<div class="history">History
+	<div class="history-block" id="history-station">
+	</div>
+	<div class="history-block" id="history-west">
+	</div>
+	<div class="history-block" id="history-north">
+	</div>	
+	<div class="history-block" id="history-east">
+	</div>	
+	<div class="history-block" id="history-south">
+	</div>	
+</div>
+
+<script type="text/javascript" src="js/cardsIntrepretation.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+
+	var objs = {};
+	var arr = [];
+	for (var l in interpretation) {
+		var key = '' + l;
+		for (var v in interpretation[l]) {
+			var keyv = key+'_'+v;
+			objs[keyv] = interpretation[l][v]
+			arr.push(keyv);
+
+		}
+	}
+	
+
+	// arr.sort(function (a, b) {
+	//   return Math.random() - 0.5;
+	// });
+
+	var stationsuit = "jockers";
+	var stationnumber = "0";
+
+	console.log("stationsuit: "+stationsuit);
+	console.log("stationnumber: "+stationnumber);
+	console.log(stationsuit+'_'+stationnumber);
+
+	$('#history-station').append($('<h2 />',{text:'Station'}))
+
+	$( "#station_suit").change(function(){
+		stationsuit = $(this).val();
+	});
+
+	$( "#station_number").change(function(){
+		console.log($(this).val());
+		stationnumber = $(this).val();
+		$('#history-station')
+		.append($('<p />',{text:objs[stationsuit+'_'+stationnumber].station.text}))
+	});
+
+
+	
+	$('#history-west').append($('<h2 />',{text:'West'})).append($('<p />',{text:objs[arr[1]].west.text}))
+	$('#history-north').append($('<h2 />',{text:'North'})).append($('<p />',{text:objs[arr[0]].north.text}))
+	$('#history-east').append($('<h2 />',{text:'East'})).append($('<p />',{text:objs[arr[3]].east.text}))
+	$('#history-south').append($('<h2 />',{text:'South'})).append($('<p />',{text:objs[arr[4]].south.text}))
+
+	$('#card-station').html(objs[arr[0]].name)
+	$('#card-north').html(objs[arr[2]].name)
+	$('#card-west').html(objs[arr[1]].name)
+	$('#card-east').html(objs[arr[3]].name)
+	$('#card-south').html(objs[arr[4]].name)
+
+
+
+
+</script>
+</body>
+</html>
