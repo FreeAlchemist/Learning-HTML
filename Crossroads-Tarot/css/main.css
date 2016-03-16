@@ -8,13 +8,22 @@ body {
 }
 .crossroad {
 	position: absolute;
-	width: 50%;
+	width: 40%;
 	height: 100%;
 	left:0px;
 }
 .history {
 	position: absolute;
-	width: 50%;
+	width: 25%;
+	height: 100%;
+	left:45%;
+	/*right:0px;*/
+	overflow: auto;
+}
+
+.fate {
+	position: absolute;
+	width: 25%;
 	height: 100%;
 	right:0px;
 	overflow: auto;
@@ -61,4 +70,20 @@ body {
 .crossroad-card-lear {
 }
 .crossroad-card-value {
+}
+
+.stage{
+	width: 250px;
+	height: 30px;
+	border:1px solid;
+	margin-bottom: 10px;
+}
+.title{
+	float: left;
+	width: 50px;
+	padding: 5px;
+}
+#name{
+	float: left;
+	width: 160px;
 }
