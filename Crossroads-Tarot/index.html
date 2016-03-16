@@ -132,7 +132,7 @@ for (var l in interpretation) {
 	$popup.append($line);
 	for (var v in interpretation[l]) {
 		var keyv = key+'_'+v;
-		var $obj = $('<div />', {class:'popupCard', 'data-id':keyv, text:objs[keyv].name, click:clickCard})
+		var $obj = $('<div />', {class:'popupCard color'+l, 'data-id':keyv, text:objs[keyv].name, click:clickCard})
 		$line.append($obj);
 		// objs[keyv].$obj = $obj;
 	}
