@@ -1,0 +1,64 @@
+body {
+	background-color: rgb(241,233,222);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.crossroad {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	left:0px;
+}
+.history {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	right:0px;
+	overflow: auto;
+}
+
+.crossroad-north ,
+.crossroad-west ,
+.crossroad-station ,
+.crossroad-east,
+.crossroad-south {
+	position: absolute;	
+	background-color: rgba(0,233,222,0.2);
+	height: 30%;
+	width: 30%;
+}
+
+.crossroad-north {
+	top:2.5%;
+	left: 35%;
+}
+.crossroad-west {
+	top:35%;
+	left: 2.5%;
+}
+.crossroad-station {
+	top:35%;
+	left: 35%;
+}
+.crossroad-east {
+	top:35%;
+	left:67.5%;
+}
+.crossroad-south {
+	top:67.5%;
+	left: 35%;
+}
+
+.crossroad-card {
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;
+	border: 1px solid black;
+}
+.crossroad-card-lear {
+}
+.crossroad-card-value {
+}
