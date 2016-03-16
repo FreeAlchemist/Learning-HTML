@@ -50,9 +50,13 @@ body {
 	position: absolute;	
 	background-color: rgba(0,233,222,0.2);
 	background-image: url(../img/cardlabel.svg);
+	background-image: url(../img/cardlabel.png);
 	background-size: 15%;
 	height: 30%;
 	width: 30%;
+	border:solid 1px black;
+	border-radius: 5px;
+	font-size: 16pt;
 }
 
 .crossroad-north {
@@ -137,23 +141,32 @@ body {
 	margin-right: 0.5%;
 	margin-left: 0.5%;
 	vertical-align: top;
+	border:solid 1px black;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-size: 16pt;
 }
 
 .colorclubs{
 	background-color: SteelBlue;
+	background-color: rgba(48,100,175,1);
 	color: white;}
 .colordiamonds{
 	background-color: Indigo;
+	background-color: rgba(121,78,143,1);
 	color: white;}
 .colorhearts{
 	background-color: Darkred;
+	background-color: rgba(171,49,45,1);
 	color: white;}
 .colorspades{
 	background-color: DarkOliveGreen;
+	background-color: rgba(0,150,72,1);
 	color: white;}
-	.colorjockers{
-		background-color: Goldenrod;
-		color: black;}
+.colorjockers{
+	background-color: Goldenrod;
+	background-color: rgba(176,156,60,1);
+	color: black;}
 
 .catched {
 	background-color: black;
