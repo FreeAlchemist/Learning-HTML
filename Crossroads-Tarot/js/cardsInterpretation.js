@@ -1,539 +1,15 @@
 var interpretation = {
-	clubs : {
-		'1' : {
-			name : '♣ 1',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 1'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 1'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 1'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 1'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 1'},
-		},
-		'2' : {
-			name : '♣ 2',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 2'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 2'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 2'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 2'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 2'},
-		},
-		'3' : {
-			name : '♣ 3',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 3'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 3'},
-			north : {
-				fate:'for the hunter shall lay down to sleep upon the lilies.',
-				text:'3,2,1,1,1,1'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 3'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 3'},
-		},
-		'4' : {
-			name : '♣ 4',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 4'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 4'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 4'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 4'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 4'},
-		},
-		'5' : {
-			name : '♣ 5',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 5'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 5'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 5'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 5'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 5'},
-		},
-		'6' : {
-			name : '♣ 6',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 6'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 6'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 6'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 6'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 6'},
-		},
-		'7' : {
-			name : '♣ 7',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 7'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 7'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 7'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 7'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 7'},
-		},
-		'8' : {
-			name : '♣ 8',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 8'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 8'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 8'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 8'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 8'},
-		},
-		'9' : {
-			name : '♣ 9',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 9'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 9'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 9'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 9'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 9'},
-		},
-		'10' : {
-			name : '♣ 10',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs 10'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs 10'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 10'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 10'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 10'},
-		},
-		'11' : {
-			name : '♣ J 11',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs J 11'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs J 11'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs J 11'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs J 11'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs J 11'},
-		},
-		'12' : {
-			name : '♣ Q 12',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs Q 12'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs Q 12'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs Q 12'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs Q 12'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs Q 12'},
-		},
-		'13' : {
-			name : '♣ K 13',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC clubs K 13'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT clubs K 13'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs K 13'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs K 13'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs K 13'},
-		}
-	},
-	diamonds : {
-		'1' : {
-			name : '♦ 1',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 1'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 1'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 1'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 1'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 1'},
-		},
-		'2' : {
-			name : '♦ 2',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 2'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 2'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 2'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 2'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 2'},
-		},
-		'3' : {
-			name : '♦ 3',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 3'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 3'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 3'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 3'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 3'},
-		},
-		'4' : {
-			name : '♦ 4',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 4'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 4'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 4'},
-			east : {
-				fate:'the dusk of a new sun will light your steps into the cave',
-				text:'-2/-1/+1/+2'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 4'},
-		},
-		'5' : {
-			name : '♦ 5',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 5'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 5'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 5'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 5'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 5'},
-		},
-		'6' : {
-			name : '♦ 6',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 6'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 6'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 6'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 6'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 6'},
-		},
-		'7' : {
-			name : '♦ 7',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 7'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 7'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 7'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 7'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 7'},
-		},
-		'8' : {
-			name : '♦ 8',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 8'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 8'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 8'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 8'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 8'},
-		},
-		'9' : {
-			name : '♦ 9',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 9'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 9'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 9'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 9'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 9'},
-		},
-		'10' : {
-			name : '♦ 10',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds 10'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds 10'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 10'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 10'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 10'},
-		},
-		'11' : {
-			name : '♦ J 11',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds J 11'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds J 11'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds J 11'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds J 11'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds J 11'},
-		},
-		'12' : {
-			name : '♦ Q 12',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds Q 12'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds Q 12'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds Q 12'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds Q 12'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds Q 12'},
-		},
-		'13' : {
-			name : '♦ K 13',
-			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC diamonds K 13'},
-			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT diamonds K 13'},
-			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds K 13'},
-			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds K 13'},
-			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds K 13'},
-		}
-	},
 	hearts : {
 		'1' : {
 			name : '♥ 1',
 			station : {
+				skill:'Shotgun',
 				fate:'and you will hear the whispers beyond.',
 				birth:'Convict',
-				text:'While many serve their time and then find more traditional work, some convicts are sentenced to labor camps. When this happens, their children often go with them into their new life',
-				skill:'Shotgun'},
+				text:'While many serve their time and then find more traditional work, some convicts are sentenced to labor camps. When this happens, their children often go with them into their new life.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT'},
+				fate:'At last you give yourself up to the pyres',
+				text:'-3/0/0/+3'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT'},
@@ -547,13 +23,13 @@ var interpretation = {
 		'2' : {
 			name : '♥ 2',
 			station : {
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC',
-				skill:'SKILL'},
+				skill:'Pneumatic',
+				fate:'and you will forget yourself.',
+				birth:'Indentured Servant',
+				text:'It is an unfortunate parent who must decide between debtor’s prison and indentured servitude. Working off a deep debt, however, keeps them close to their family and out of irons.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts 2'},
+				fate:'Again, you turn the wheel and move the stone',
+				text:'-3/0/+1/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts 2'},
@@ -567,14 +43,13 @@ var interpretation = {
 		'3' : {
 			name : '♥ 3',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC'
-				},
+				skill:'Labor',
+				fate:'and you will kiss the crown.',
+				birth:'Laborer',
+				text:'Common laborers work long hours and are often joined by their immediate family. It is a hard life filled with drudgery and aching muscles, and many families find dignity in the work… but some don’t.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts 3'},
+				fate:'Hence, the dried lands are watered with the blood of sinners',
+				text:'-2/-1/+1/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts 3'},
@@ -588,13 +63,13 @@ var interpretation = {
 		'4' : {
 			name : '♥ 4',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts 4'},
+				skill:'Stealth',
+				fate:'and you cleave the sky in vain.',
+				birth:'Servant',
+				text:'Your family served a much wealthier family as maids and field labor. Your youth was spent working, playing with the other servant children, and likely being terrorized by the children of your parent’s master.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts 4'},
+				fate:'Then, the ravens bless your children',
+				text:'-2/-1/+1/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts 4'},
@@ -608,13 +83,13 @@ var interpretation = {
 		'5' : {
 			name : '♥ 5',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts 5'},
+				skill:'Barter',
+				fate:'and you will leave a twig to hold the sand.',
+				birth:'Shopkeep',
+				text:'Ownership of a shop (of any kind) kept your family fed. Your parents were likely respected in the local community, and your upbringing comfortable.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts 5'},
+				fate:'At last, you will sacrifice her on the altars of desperation',
+				text:'-2/0/0/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts 5'},
@@ -628,13 +103,13 @@ var interpretation = {
 		'6' : {
 			name : '♥ 6',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts 6'},
+				skill:'Crafting: Blacksmithing',
+				fate:'and she will turn from you, forever.',
+				birth:'Blacksmith',
+				text:'Iron working is a valuable but grueling profession. Your youth was spent helping a parent on the forge, either in a large city, town, or even on a large ranch.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts 6'},
+				fate:'You will hold the myth of life in your hands',
+				text:'-2/0/0/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts 6'},
@@ -648,13 +123,13 @@ var interpretation = {
 		'7' : {
 			name : '♥ 7',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts 7'},
+				skill:'Academic: Literacy',
+				fate:'and the arches will crumble.',
+				birth:'Reporter',
+				text:'One (or both) of your parents were journalists, investigating powerful individuals, or strange events. From time to time, this might have put them (and your family) in harm’s way.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts 7'},
+				fate:'He tightens the strings and tugs at the rivets',
+				text:'-2/0/+1/+1'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts 7'},
@@ -668,13 +143,13 @@ var interpretation = {
 		'8' : {
 			name : '♥ 8',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts 8'},
+				skill:'Track',
+				fate:'and he will be paid his price.',
+				birth:'Trapper',
+				text:'Your parents tracked animals for their pelts, and laid traps out in the wilderness. This rugged lifestyle taught you a lot about the wilderness.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts 8'},
+				fate:'The games you play are more deadly than she wishes',
+				text:'-2/0/+1/+1'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts 8'},
@@ -688,13 +163,13 @@ var interpretation = {
 		'9' : {
 			name : '♥ 9',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts 9'},
+				skill:'Academic: Bureaucracy',
+				fate:'and you take the last step.',
+				birth:'Barrister',
+				text:'The laws are the cornerstone of civilization, and the barristers are those who argue the law. Whether in a court room or a board room, one of your parents worked with the law.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts 9'},
+				fate:'The other place beckons with the voice of oblivion',
+				text:'-1/-1/0/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts 9'},
@@ -708,13 +183,13 @@ var interpretation = {
 		'10' : {
 			name : '♥ 10',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts 10'},
+				skill:'Pugilism',
+				fate:'and it dreams of you.',
+				birth:'Enforcer',
+				text:'Whether serving as constable for a town or city, or as a lawman for a government body, enforcers make sure that the masses obey the rules. This often leads to a very strict parenting style.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts 10'},
+				fate:'Watch them as they fall one by one to the ground',
+				text:'-1/-1/0/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts 10'},
@@ -728,13 +203,13 @@ var interpretation = {
 		'11' : {
 			name : '♥ J 11',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts J 11'},
+				skill:'Leadership',
+				fate:'and she is part gore and part kin.',
+				birth:'Administrator',
+				text:'One or both of your parents worked for affluent and powerful interests that required a firm hand to oversee operations on sites far removed from their seat of power.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts J 11'},
+				fate:'The shards you pass through leave a bloody trail',
+				text:'-2/-1/0/+3'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts J 11'},
@@ -748,13 +223,13 @@ var interpretation = {
 		'12' : {
 			name : '♥ Q 12',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts Q 12'},
+				skill:'Teach',
+				fate:'and the motion stutters and shudders.',
+				birth:'Academic',
+				text:'Your parents were part of the intellectual elite. This could include university professors, research scientists, or renowned scholars on a specific topic.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts Q 12'},
+				fate:'Time is an illusion of the fading light and the feast counts twice',
+				text:'-2/-1/0/+3'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts Q 12'},
@@ -768,13 +243,13 @@ var interpretation = {
 		'13' : {
 			name : '♥ K 13',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC hearts K 13'},
+				skill:'Pistols',
+				fate:'and he will watch you drink the venom.',
+				birth:'Ortega',
+				text:'You belong to the extended family of Neverborn Hunters, known as the Ortegas. You spent your childhood learning to spot the signs of their influence and how to work closely with the rest of your family on a hunt.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT hearts K 13'},
+				fate:'The circle will bind as well as the grave',
+				text:'-1/-1/-1/+3'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT hearts K 13'},
@@ -786,17 +261,279 @@ var interpretation = {
 				text:'SOUTH TEXT hearts K 13'},
 		}
 	},
+	clubs : {
+		'1' : {
+			name : '♣ 1',
+			station : {
+				skill:'Explosives',
+				fate:'and you cannot remove the red.',
+				birth:'Miner',
+				text:'Powerful mining operations love to employ families, as the children are able to get into tight spots that are impossible for more mature laborers. If you are lucky, you might have even survived childhood with only a few scars.'},
+			west : {
+				fate:'The grave spirit will call to you on a spring song',
+				text:'-3/0/0/+3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 1'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 1'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 1'},
+		},
+		'2' : {
+			name : '♣ 2',
+			station : {
+				skill:'Crafting: Homesteading',
+				fate:'and it will herald the sinister revolution.',
+				birth:'Carpenter',
+				text:'Like a blacksmith, a skilled carpenter is imperative to the workings of any civilization. Furniture and buildings are often best crafted by a dedicated professional (and his apprentice).'},
+			west : {
+				fate:'The end will find him in the garden',
+				text:'-3/0/+1/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 2'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 2'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 2'},
+		},
+		'3' : {
+			name : '♣ 3',
+			station : {
+				skill:'Enchanting',
+				fate:'and she will mourn you all of her days.',
+				birth:'Magewright',
+				text:'Not every magical Talent finds the powers of the universe at their fingers. Instead, one of your parents was a minor magical Talent, put to work in one of the Guild’s enchanting factories hammering out trinkets.'},
+			west : {
+				fate:'Pale faced the innocent will drown in bile',
+				text:'-2/-1/+1/+2'},
+			north : {
+				fate:'for the hunter shall lay down to sleep upon the lilies.',
+				text:'3,2,1,1,1,1'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 3'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 3'},
+		},
+		'4' : {
+			name : '♣ 4',
+			station : {
+				skill:'Academic: Mathematics',
+				fate:'and the torch will sputter into darkness.',
+				birth:'Accountant',
+				text:'Your family earned its living in the financial area, either working for a bank, or serving as an analyst for a wealthy patron.'},
+			west : {
+				fate:'It is, and it grows',
+				text:'-2/-1/+1/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 4'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 4'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 4'},
+		},
+		'5' : {
+			name : '♣ 5',
+			station : {
+				skill:'Crafting: Printing',
+				fate:'and he will call the Bastille into the break.',
+				birth:'Bookbinder',
+				text:'Most often found in urban centers, the Bookbinder can often be found with ink stained fingers and a tired look in his eyes. The family his work supports, however, often live comfortable lives.'},
+			west : {
+				fate:'Step through the looking glass and into the fable',
+				text:'-2/0/0/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 5'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 5'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 5'},
+		},
+		'6' : {
+			name : '♣ 6',
+			station : {
+				skill:'Melee',
+				fate:'and you will thrice damn him.',
+				birth:'Muscle',
+				text:'Powerful business concerns, as well as criminal organizations, require people with brutal qualities to impose their will. The home lives of these savage people are probably best left undocumented.'},
+			west : {
+				fate:'The dogs in the vineyard bellow for you to hunt',
+				text:'-2/0/0/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 6'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 6'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 6'},
+		},
+		'7' : {
+			name : '♣ 7',
+			station : {
+				skill:'Notice',
+				fate:'and it cackles from the locket.',
+				birth:'Caretaker',
+				text:'You had a calm childhood spent tending to the gardens and homes of the affluent with one of your parents, who may have been a gardener or butler.'},
+			west : {
+				fate:'And it is only the penitent who shall tread the path',
+				text:'-2/0/+1/+1'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 7'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 7'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 7'},
+		},
+		'8' : {
+			name : '♣ 8',
+			station : {
+				skill:'Crafting: Alchemistry',
+				fate:'and she bears the fruit of your absolution.',
+				birth:'Alchemist',
+				text:'While many herbal remedies can be gathered without much special preparation, your family contained at least one Talented alchemist who made a comfortable living creating more complex medicines.'},
+			west : {
+				fate:'The empty mind will know the lie from the judgment',
+				text:'-2/0/+1/+1'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 8'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 8'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 8'},
+		},
+		'9' : {
+			name : '♣ 9',
+			station : {
+				skill:'Acrobatics',
+				fate:'and the leaf will sink as the stone floats.',
+				birth:'Performer',
+				text:'Whether on stage in a major urban center, or on the road with a troupe, your family made its living singing, dancing, acting, and performing entertaining feats.'},
+			west : {
+				fate:'The reflection in the water shows the truth',
+				text:'-1/-1/0/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 9'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 9'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 9'},
+		},
+		'10' : {
+			name : '♣ 10',
+			station : {
+				skill:'Intimidate',
+				fate:'and he is to you as the hermit is to the forest.',
+				birth:'Madame',
+				text:'Every urban center is home to a brothel or ten. Your guardian was in charge of one of these houses, and you spent your youth surrounded by the wealthy and their concubines.'},
+			west : {
+				fate:'The end’s a miracle that you dare to dream',
+				text:'-1/-1/0/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 10'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 10'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 10'},
+		},
+		'11' : {
+			name : '♣ J 11',
+			station : {
+				skill:'Academic: Engineering',
+				fate:'and you will drive the chariot of winter.',
+				birth:'Engineer',
+				text:'Society needs those who can design massive work houses, as well as clockwork devices. An engineer is often well off, and can afford to have educated children.'},
+			west : {
+				fate:'Search for the lion of the valley',
+				text:'-2/-1/0/+3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs J 11'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs J 11'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs J 11'},
+		},
+		'12' : {
+			name : '♣ Q 12',
+			station : {
+				skill:'Crafting: Artefacting',
+				fate:'and it is the Emperor who will bring the gift.',
+				birth:'Mad Scientist',
+				text:'To say that one of your parents was eccentric is an understatement bordering on criminal mischaracterization. You spent your childhood looking at odd machinery and listening to esoteric rants on a variety of “educational topics.”'},
+			west : {
+				fate:'Lunatics fear where you will stalk',
+				text:'-2/-1/0/+3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs Q 12'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs Q 12'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs Q 12'},
+		},
+		'13' : {
+			name : '♣ K 13',
+			station : {
+				skill:'Sorcery',
+				fate:'and she will kiss the hanged man’s lips.',
+				birth:'Arcanist',
+				text:'Those who are capable of performing feats of magic must often keep their skills a secret, however your family had enough influence and power to practice their arts in only “legal secrecy.”'},
+			west : {
+				fate:'Worlds of marble turn flesh again',
+				text:'-1/-1/-1/+3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs K 13'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs K 13'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs K 13'},
+		}
+	},
 	spades : {
 		'1' : {
 			name : '♠ 1',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 1'},
+				skill:'Toughness',
+				fate:'and you will call upon the crow.',
+				birth:'Undead',
+				text:'Just because your parents were dead doesn’t mean they didn’t love you. Your childhood was odd, to say the least, as you worked hard to keep your family’s secret.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades 1'},
+				fate:'Denying the battle will win the war',
+				text:'-3/0/0/+3'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 1'},
@@ -810,13 +547,13 @@ var interpretation = {
 		'2' : {
 			name : '♠ 2',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 2'},
+				skill:'Evade',
+				fate:'and the end will come to all.',
+				birth:'Orphan',
+				text:'With no family to speak of, you spent your childhood in the children’s work houses of a major city or dodging the truancy officials on the streets.'},
 			west : {
-				fate:'Denying the battle will win the war',
-				text:'-3/0/0/+3'},
+				fate:'The mask donned for peace will blind you to bloodshed',
+				text:'-3/0/+1/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 2'},
@@ -830,13 +567,13 @@ var interpretation = {
 		'3' : {
 			name : '♠ 3',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 3'},
+				skill:'Prestidigitation',
+				fate:'and you will be maimed.',
+				birth:'Dabbler',
+				text:'Your family secretly dabbled in the magical arts, trading dusty tomes with dangerous people. The search for esoteric power, however, was often its own reward.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades 3'},
+				fate:'The song will end beyond the thrice knocked wall',
+				text:'-2/-1/+1/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 3'},
@@ -850,13 +587,13 @@ var interpretation = {
 		'4' : {
 			name : '♠ 4',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 4'},
+				skill:'Farm',
+				fate:'and the mage’s knee bends before your river.',
+				birth:'Farmer',
+				text:'A small farm was the backdrop to your youth. You lived your life by the seasons and worked the land with your family.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades 4'},
+				fate:'The chime of your blunder will ring through the village',
+				text:'-2/-1/+1/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 4'},
@@ -870,13 +607,13 @@ var interpretation = {
 		'5' : {
 			name : '♠ 5',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 5'},
+				skill:'Necromancy',
+				fate:'and the noose will snap like thunder.',
+				birth:'Graverobber',
+				text:'It’s amazing how much treasure rich people will just bury. Stealing from the dead is an easy means of garnering wealth, and kept your entire family fed and clothed.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades 5'},
+				fate:'Only in death will the pilgrim be free',
+				text:'-2/0/0/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 5'},
@@ -890,13 +627,13 @@ var interpretation = {
 		'6' : {
 			name : '♠ 6',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 6'},
+				skill:'Stitching',
+				fate:'and with a whisper you will sunder the walls.',
+				birth:'Mortuary Staff',
+				text:'Running a mortuary is often a family affair. Children are raised to take over the family business, a macabre but necessary trade for any city or town.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades 6'},
+				fate:'The sands of waters will make you clean',
+				text:'-2/0/0/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 6'},
@@ -910,13 +647,13 @@ var interpretation = {
 		'7' : {
 			name : '♠ 7',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 7'},
+				skill:'Heavy Melee',
+				fate:'and the penny paid is thrice earned.',
+				birth:'Outlaw',
+				text:'Roaming the wilderness between towns, your family made a living robbing travelers and evading the law.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades 7'},
+				fate:'Poison will be the cure',
+				text:'-2/0/+1/+1'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 7'},
@@ -930,13 +667,13 @@ var interpretation = {
 		'8' : {
 			name : '♠ 8',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 8'},
+				skill:'Long Arms',
+				fate:'and you will burn the oldest page.',
+				birth:'Mercenary',
+				text:'One (or both) of your parents was a sell-sword, providing military services to those who could afford it. You may have spent time staying with family while they were away, or you may have traveled with them.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades 8'},
+				fate:'The blind woman must lead the seeker',
+				text:'-2/0/+1/+1'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 8'},
@@ -950,13 +687,13 @@ var interpretation = {
 		'9' : {
 			name : '♠ 9',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 9'},
+				skill:'Husbandry',
+				fate:'and the crime that you hide will destroy you.',
+				birth:'Veterinary',
+				text:'A skilled veterinarian provides a good life for his family, as well as a trade education. You spent many summers helping birth calves or calming injured “patients” with soothing words.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades 9'},
+				fate:'The blood stained cheeks will weave the grasses',
+				text:'-1/-1/0/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 9'},
@@ -970,13 +707,13 @@ var interpretation = {
 		'10' : {
 			name : '♠ 10',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades 10'},
+				skill:'Centering',
+				fate:'and you are a breeze unto the leaves.',
+				birth:'Assassin',
+				text:'A parent was often gone for long periods of time, sending money home to support the family. One day, you learned why.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades 10'},
+				fate:'Frozen hearths crawl along the stone',
+				text:'-1/-1/0/+2'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades 10'},
@@ -990,13 +727,13 @@ var interpretation = {
 		'11' : {
 			name : '♠ J 11',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades J 11'},
+				skill:'Academic: Art',
+				fate:'and you will let your blood run cold.',
+				birth:'Artist',
+				text:'You likely spent your youth helping to mix paint, tighten canvas, or prepare stone for chiseling. Your family contained at least one practicing artist and you learned to appreciate, or at least understand, the world of an artist.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades J 11'},
+				fate:'The leaves will whisper your name and shout your exodus',
+				text:'-2/-1/0/+3'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades J 11'},
@@ -1010,13 +747,13 @@ var interpretation = {
 		'12' : {
 			name : '♠ Q 12',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades Q 12'},
+				skill:'Doctor',
+				fate:'and you seek the sound of your last breath.',
+				birth:'Medical',
+				text:'One of your parents was a medical professional who tended to the needs of the sick and injured. Your family was likely well respected in your community.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades Q 12'},
+				fate:'All of the screams will lead you home',
+				text:'-2/-1/0/+3'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades Q 12'},
@@ -1030,13 +767,13 @@ var interpretation = {
 		'13' : {
 			name : '♠ K 13',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC spades K 13'},
+				skill:'Harness Soulstone',
+				fate:'and you stumble upon the line of life and death.',
+				birth:'Resurrectionists',
+				text:'Your parent or guardian was a Resurrectionist, one of the few necromancers able to ply their trade Earthside. Your childhood was spent hiding in sewers and fleeing summary execution.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT spades K 13'},
+				fate:'The mute man must cry out for the wolf',
+				text:'-1/-1/-1/+3'},
 			north : {
 				fate:'NORTH FATE.',
 				text:'NORTH TEXT spades K 13'},
@@ -1048,23 +785,285 @@ var interpretation = {
 				text:'SOUTH TEXT spades K 13'},
 		}
 	},
+	diamonds : {
+		'1' : {
+			name : '♦ 1',
+			station : {
+				skill:'Forgery',
+				fate:'and obliteration’s touch will be gentle.',
+				birth:'Hustler',
+				text:'A short, or long, grift can easily make use of an entire family of trained hustlers. It is not uncommon for families of confident tricksters to play their trades both on the road and in large cities.'},
+			west : {
+				fate:'Spirits run sour in your veins',
+				text:'-3/0/0/+3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 1'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 1'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 1'},
+		},
+		'2' : {
+			name : '♦ 2',
+			station : {
+				skill:'Bewitch',
+				fate:'and your iron wishes to bleed.',
+				birth:'Harlot',
+				text:'The world’s oldest professions are said to be whore and parenthood. Technically, the two aren’t mutually exclusive, and some mothers or fathers turn to prostitution to keep their children fed.'},
+			west : {
+				fate:'She drinks only blood',
+				text:'-3/0/+1/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 2'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 2'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 2'},
+		},
+		'3' : {
+			name : '♦ 3',
+			station : {
+				skill:'Music',
+				fate:'and yours is only yours.',
+				birth:'Busker',
+				text:'A close cousin to more traditional entertainers, buskers often work in groups (which included your family), entertaining people on crowded streets for tips.'},
+			west : {
+				fate:'Love knows not the heart but the bosom',
+				text:'-2/-1/+1/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 3'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 3'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 3'},
+		},
+		'4' : {
+			name : '♦ 4',
+			station : {
+				skill:'Wilderness',
+				fate:'and you will splinter the white door.',
+				birth:'Settler',
+				text:'Your family migrated out into the wilderness and forged a homestead for themselves. Direct and often stern, your parents were nevertheless independent and proud people who worked hard to instill those traits in you.'},
+			west : {
+				fate:'Escape is impossible, freedom is inevitable',
+				text:'-2/-1/+1/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 4'},
+			east : {
+				fate:'the dusk of a new sun will light your steps into the cave',
+				text:'-2/-1/+1/+2'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 4'},
+		},
+		'5' : {
+			name : '♦ 5',
+			station : {
+				skill:'Pick Pocket',
+				fate:'and you will fall.',
+				birth:'Thief',
+				text:'It is an uncommonly good thief who is never caught, but one of your parents managed just that. Perhaps the theft was untraceable (such as banking paperwork) or maybe they just left no trace.'},
+			west : {
+				fate:'The red woman will light the path',
+				text:'-2/0/0/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 5'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 5'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 5'},
+		},
+		'6' : {
+			name : '♦ 6',
+			station : {
+				skill:'Gambling',
+				fate:'and the ordeal will be your own.',
+				birth:'Sailor',
+				text:'You travelled the seas, ferrying goods and passengers across the oceans with your parents. Whether they captained their own vessel, or were a respected member of the crew, your parents provided an exciting childhood with many new ports of call.'},
+			west : {
+				fate:'The reflection in the water shows the truth',
+				text:'-2/0/0/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 6'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 6'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 6'},
+		},
+		'7' : {
+			name : '♦ 7',
+			station : {
+				skill:'Appraise',
+				fate:'and you will unshackle the prisoner.',
+				birth:'Hawker',
+				text:'While general stores carry merchandise tailored to everyday life, a hawker provides immediate convenience and inexpensive (if shady) goods. These traveling peddlers might be perfectly fair merchants, but many work with street urchins to turn an even greater profit.'},
+			west : {
+				fate:'An abyss opens beneath your cradle',
+				text:'-2/0/+1/+1'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 7'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 7'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 7'},
+		},
+		'8' : {
+			name : '♦ 8',
+			station : {
+				skill:'Flexible',
+				fate:'and the willful earns his due.',
+				birth:'Coachman',
+				text:'A skilled coachman is part of the house staff of any proper society family. You spent your childhood learning to drive a team of horses, as well as maintain a carriage.'},
+			west : {
+				fate:'They sing for laughter, tears, and tomorrow',
+				text:'-2/0/+1/+1'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 8'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 8'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 8'},
+		},
+		'9' : {
+			name : '♦ 9',
+			station : {
+				skill:'Lockpicking',
+				fate:'and you will deal with the devil.',
+				birth:'Burglar',
+				text:'Entire families that specialize in robbing a place blind and then disappearing are not uncommon in urban environments. You began life as part of one such group.'},
+			west : {
+				fate:'The deaf man must hear the owl’s warning',
+				text:'-1/-1/0/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 9'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 9'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 9'},
+		},
+		'10' : {
+			name : '♦ 10',
+			station : {
+				skill:'Deceive',
+				fate:'and you will murder the deserving.',
+				birth:'Infiltrator',
+				text:'A family of spies can wreak havoc on an industrial concern or a government. The Ten Thunders makes great use of infiltrators, and a family group is often the last to be suspected when the mayhem starts.'},
+			west : {
+				fate:'The water falls like envy, the river runs like rage',
+				text:'-1/-1/0/+2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 10'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 10'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 10'},
+		},
+		'11' : {
+			name : '♦ J 11',
+			station : {
+				skill:'Convince',
+				fate:'and it shoulders aside the guardian.',
+				birth:'Sharp',
+				text:'Whether on the road, or as a denizen of a single saloon, one of your parents made their living at the card tables, either as a dealer or as a player.'},
+			west : {
+				fate:'The grave did not hold her',
+				text:'-2/-1/0/+3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds J 11'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds J 11'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds J 11'},
+		},
+		'12' : {
+			name : '♦ Q 12',
+			station : {
+				skill:'Leadership',
+				fate:'and the eyes in the darkness change you.',
+				birth:'Politician',
+				text:'One of your parents was a powerful political figure, such as a senator, industrialist, or even proper royalty.'},
+			west : {
+				fate:'The halo slips around your throat like the noose',
+				text:'-2/-1/0/+3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds Q 12'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds Q 12'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds Q 12'},
+		},
+		'13' : {
+			name : '♦ K 13',
+			station : {
+				skill:'Martial Arts',
+				fate:'and the Empress will know the traitor.',
+				birth:'Ten Thunders',
+				text:'Raised as part of a secretive clan of infiltrators, your family practiced martial techniques from the Three Kingdoms, as well as a variety of other traditions.'},
+			west : {
+				fate:'The sisters will show the way',
+				text:'-1/-1/-1/+3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds K 13'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds K 13'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds K 13'},
+		}
+	},
 	jockers : {
 		'14' : {
 			name : 'jockers R 14',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC jockers R 14'},
+				skill:'Counter-Spelling',
+				fate:'and you will die.',
+				birth:'Neverborn Stolen',
+				text:'It is unlikely that you knew anything was odd about your childhood spent romping with your Teddy through the nightmares of other children, until one day you were told your purpose, and released into the city of Malifaux to serve some dark means.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT jockers R 14'},
+				fate:'Then, in the middle of none, there was one',
+				text:'-1/0/0/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT jockers R 14'},
+				fate:'and upon wings of fear you will approach the tower.',
+				text:'4,2,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT jockers R 14'},
+				fate:'your deeds will be undone before the thirteenth step',
+				text:'-1/0/0/+1'},
 			south : {
 				fate:'Once you witness your golden sunset',
 				text:'4,2,1'},
@@ -1072,22 +1071,22 @@ var interpretation = {
 		'0' : {
 			name : 'jockers B 0',
 			station : {
-				skill:'SKILL',
-				fate:'STATION FATE.',
-				birth:'BIRTH',
-				text:'BIRTH DESC jockers B 0'},
+				skill:'Carouse',
+				fate:'and you will be unmade.',
+				birth:'Bayou Born',
+				text:'You weren’t necessarily born on the Bayou, so much as stolen as a baby and raised by Gremlins. Maybe you escaped to civilization, or left when you came of age, but now you come to Malifaux not through the Breach, but from the swamp.'},
 			west : {
-				fate:'WEST FATE',
-				text:'WEST TEXT jockers B 0'},
+				fate:'You will carry the seed of a thousand-fold damnations',
+				text:'-3/+1/+1/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT jockers B 0'},
+				fate:'and your blood will run black.',
+				text:'2,2,2,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT jockers B 0'},
+				fate:'your every breath will be as your last',
+				text:'-3/+1/+1/+1'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT jockers B 0'},
+				fate:'Once your soul has been stained by silence',
+				text:'2,2,2,2,2,2'},
 		},
 	}
 }
