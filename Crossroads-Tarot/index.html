@@ -3,174 +3,36 @@
 <head>
 	<title>Crossroads Tarot</title>
 	<meta charset="UTF-8"/>
-	<link rel=Stylesheet href="css/crossroads.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
-<form>
+<form id="menu">
 <div class="stage">
 	<div class="title">Name:</div>
 	<div class="title"><input id="name" type="text" placeholder="Jack Daw"></div>
-	
 </div>
 
-<div id="station" class="stage">
-	<div class="title">Station</div>
-	<select id="station_suit">
-		<option value="jockers">Jockers</option>
-		<option value="hearts">Rams</option>
-		<option value="spades">Crows</option>
-		<option value="clubs">Tomes</option>
-		<option value="diamonds">Masks</option>
-	</select>
-	<select id="station_number">
-		<option value="0">Black Joker</option>
-		<option value="1">1</option>
-		<option value="2">2</option>
-		<option value="3">3</option>
-		<option value="4">4</option>
-		<option value="5">5</option>
-		<option value="6">6</option>
-		<option value="7">7</option>
-		<option value="8">8</option>
-		<option value="9">9</option>
-		<option value="10">10</option>
-		<option value="11">11 J</option>
-		<option value="12">12 Q</option>
-		<option value="13">13 K</option>
-		<option value="14">Red Joker</option>
-	</select>
-</div>
-<div id="west" class="stage">
-	<div class="title">West</div>
-	<select id="west_suit">
-		<option value="jockers">Jockers</option>
-		<option value="hearts">Rams</option>
-		<option value="spades">Crows</option>
-		<option value="clubs">Tomes</option>
-		<option value="diamonds">Masks</option>
-	</select>
-	<select id="west_number">
-		<option value="0">Black Joker</option>
-		<option value="1">1</option>
-		<option value="2">2</option>
-		<option value="3">3</option>
-		<option value="4">4</option>
-		<option value="5">5</option>
-		<option value="6">6</option>
-		<option value="7">7</option>
-		<option value="8">8</option>
-		<option value="9">9</option>
-		<option value="10">10</option>
-		<option value="11">11 J</option>
-		<option value="12">12 Q</option>
-		<option value="13">13 K</option>
-		<option value="14">Red Joker</option>
-	</select>
-</div>
-<div id="north" class="stage">
-	<div class="title">North</div>
-	<select id="north_suit">
-		<option value="jockers">Jockers</option>
-		<option value="hearts">Rams</option>
-		<option value="spades">Crows</option>
-		<option value="clubs">Tomes</option>
-		<option value="diamonds">Masks</option>
-	</select>
-	<select id="north_number">
-		<option value="0">Black Joker</option>
-		<option value="1">1</option>
-		<option value="2">2</option>
-		<option value="3">3</option>
-		<option value="4">4</option>
-		<option value="5">5</option>
-		<option value="6">6</option>
-		<option value="7">7</option>
-		<option value="8">8</option>
-		<option value="9">9</option>
-		<option value="10">10</option>
-		<option value="11">11 J</option>
-		<option value="12">12 Q</option>
-		<option value="13">13 K</option>
-		<option value="14">Red Joker</option>
-	</select>
-</div>
-<div id="east" class="stage">
-	<div class="title">East</div>
-	<select id="east_suit">
-		<option value="jockers">Jockers</option>
-		<option value="hearts">Rams</option>
-		<option value="spades">Crows</option>
-		<option value="clubs">Tomes</option>
-		<option value="diamonds">Masks</option>
-	</select>
-	<select id="east_number">
-		<option value="0">Black Joker</option>
-		<option value="1">1</option>
-		<option value="2">2</option>
-		<option value="3">3</option>
-		<option value="4">4</option>
-		<option value="5">5</option>
-		<option value="6">6</option>
-		<option value="7">7</option>
-		<option value="8">8</option>
-		<option value="9">9</option>
-		<option value="10">10</option>
-		<option value="11">11 J</option>
-		<option value="12">12 Q</option>
-		<option value="13">13 K</option>
-		<option value="14">Red Joker</option>
-	</select>
-</div>
-<div id="south" class="stage">
-	<div class="title">South</div>
-	<select id="south_suit">
-		<option value="jockers">Jockers</option>
-		<option value="hearts">Rams</option>
-		<option value="spades">Crows</option>
-		<option value="clubs">Tomes</option>
-		<option value="diamonds">Masks</option>
-	</select>
-	<select id="south_number">
-		<option value="0">Black Joker</option>
-		<option value="1">1</option>
-		<option value="2">2</option>
-		<option value="3">3</option>
-		<option value="4">4</option>
-		<option value="5">5</option>
-		<option value="6">6</option>
-		<option value="7">7</option>
-		<option value="8">8</option>
-		<option value="9">9</option>
-		<option value="10">10</option>
-		<option value="11">11 J</option>
-		<option value="12">12 Q</option>
-		<option value="13">13 K</option>
-		<option value="14">Red Joker</option>
-	</select>
-</div>
 <input type="button" value="Random" onclick="randomize()">
 </form>
 
 <div class="crossroad">
-	<div class="crossroad-north">
+	<div class="crossroad-north" id="crossroad-north">
 		<div class="crossroad-card" id="card-north"><!-- ♠ 10 --></div>
 	</div>
-	<div class="crossroad-west">
+	<div class="crossroad-west" id="crossroad-west">
 		<div class="crossroad-card" id="card-west"><!-- ♥ K --></div>
 	</div>
-	<div class="crossroad-station">
+	<div class="crossroad-station" id="crossroad-station">
 		<div class="crossroad-card" id="card-station"><!-- ♦ 6 --></div>
 	</div>
-	<div class="crossroad-east">
+	<div class="crossroad-east" id="crossroad-east">
 		<div class="crossroad-card" id="card-east"><!-- ♣ J --></div>
 	</div>
-	<div class="crossroad-south">
+	<div class="crossroad-south" id="crossroad-south">
 		<div class="crossroad-card" id="card-south"><b><!-- J --></b></div>
 	</div>
 </div>
-
 
 <div class="history">History
 	<div class="history-block" id="history-station">
@@ -210,101 +72,8 @@
 			var keyv = key+'_'+v;
 			objs[keyv] = interpretation[l][v]
 			arr.push(keyv);
-
 		}
 	}
-	
-	var suit = "jockers";
-	var number = "0";
-	// console.log("suit: "+suit);
-	// console.log("number: "+number);
-	// console.log(suit+'_'+number);
-
-	$( "#station_suit").change(function(){
-		suit = $(this).val();
-	});
-
-	$( "#station_number").change(function(){
-		$('#history-station').html($('<h2 />',{text:'Station'}))
-		$('#fate-station').html($('<h2 />',{text:'Station Fate'}))
-		console.log($(this).val());
-		number = $(this).val();
-		$('#history-station')
-		.append($('<p />',{text:objs[suit+'_'+number].station.text}));
-		$('#card-station').html(objs[suit+'_'+number].name)
-		$('#fate-station')
-		.append($('<p />',{text:objs[suit+'_'+number].station.fate}));
-	});
-
-	$( "#west_suit").change(function(){
-		suit = $(this).val();
-	});
-
-	$( "#west_number").change(function(){
-		$('#history-west').html($('<h2 />',{text:'West (Physical aspects)'}))
-		$('#fate-west').html($('<h2 />',{text:'West Fate'}))
-		console.log($(this).val());
-		number = $(this).val();
-		$('#history-west')
-		.append($('<p />',{text:objs[suit+'_'+number].west.text}));
-		$('#card-west').html(objs[suit+'_'+number].name)
-		$('#fate-west')
-		.append($('<p />',{text:objs[suit+'_'+number].west.fate}));
-	});
-
-	$( "#north_suit").change(function(){
-		suit = $(this).val();
-	});
-
-	$( "#north_number").change(function(){
-		$('#history-north').html($('<h2 />',{text:'North (Skills)'}))
-		$('#fate-north').html($('<h2 />',{text:'North Fate'}))
-		console.log($(this).val());
-		number = $(this).val();
-		$('#history-north')
-		.append($('<p />',{text:objs[suit+'_'+number].north.text}));
-		$('#card-north').html(objs[suit+'_'+number].name)
-		$('#fate-north')
-		.append($('<p />',{text:objs[suit+'_'+number].north.fate}));
-	});
-
-	$( "#east_suit").change(function(){
-		suit = $(this).val();
-	});
-
-	$( "#east_number").change(function(){
-		$('#history-east').html($('<h2 />',{text:'East (Mental aspects)'}))
-		$('#fate-east').html($('<h2 />',{text:'East Fate'}))
-		console.log($(this).val());
-		number = $(this).val();
-		$('#history-east')
-		.append($('<p />',{text:objs[suit+'_'+number].east.text}));
-		$('#card-east').html(objs[suit+'_'+number].name)
-		$('#fate-east')
-		.append($('<p />',{text:objs[suit+'_'+number].east.fate}));
-	});
-
-	$( "#south_suit").change(function(){
-		suit = $(this).val();
-	});
-
-	$( "#south_number").change(function(){
-		$('#history-south').html($('<h2 />',{text:'South (Endeavour Skills)'}))
-		$('#fate-south').html($('<h2 />',{text:'South Fate'}))
-		console.log($(this).val());
-		number = $(this).val();
-		$('#history-south')
-		.append($('<p />',{text:objs[suit+'_'+number].south.text}));
-		$('#card-south').html(objs[suit+'_'+number].name)
-		$('#fate-south')
-		.append($('<p />',{text:objs[suit+'_'+number].south.fate}));
-	});
-
-
-
-
-
-	
 
 /*Random*/
 
@@ -312,10 +81,13 @@ function randomize(){
 	arr.sort(function (a, b) {
 	  return Math.random() - 0.5;
 	});
-	$('#history-station').html($('<h2 />',{text:'Station'})).append($('<p />',{text:objs[arr[0]].station.text}))
+	$('#history-station').html($('<h2 />',{text:'Station'}))
+	.append($('<p />',{text:objs[arr[0]].station.birth}))
+	.append($('<p />',{text:objs[arr[0]].station.text}))
+	.append($('<p />',{text:'Station skill: '+objs[arr[0]].station.skill}));
 	
 	$('#history-west').html($('<h2 />',{text:'West (Physical aspects)'})).append($('<p />',{text:objs[arr[1]].west.text}))
-	$('#history-north').html($('<h2 />',{text:'North (Skills)'})).append($('<p />',{text:objs[arr[2]].north.text}))
+	$('#history-north').html($('<h2 />',{text:'North (Main Skills)'})).append($('<p />',{text:objs[arr[2]].north.text}))
 	$('#history-east').html($('<h2 />',{text:'East (Mental aspects)'})).append($('<p />',{text:objs[arr[3]].east.text}))
 	$('#history-south').html($('<h2 />',{text:'South (Endeavour Skills)'})).append($('<p />',{text:objs[arr[4]].south.text}))
 
@@ -330,10 +102,139 @@ function randomize(){
 	$('#card-north').html(objs[arr[2]].name)	
 	$('#card-east').html(objs[arr[3]].name)
 	$('#card-south').html(objs[arr[4]].name)
+
+	$('.crossroad-station, .crossroad-west, .crossroad-north, .crossroad-east, .crossroad-south').css("background-image","none");
 }
 
 
 
+/* POPUP */
+
+var $body = $('body');
+var $popupWrapper = $('<div />', {class:'popupWrapper notdisplay', click:function(){$(this).addClass('notdisplay')}});
+var $popupClose = $('<div />', {class:'popupClose notdisplay', text:'X'});
+var $popup = $('<div />', {class:'popup'});
+$body.append($popupWrapper);
+$popupWrapper.append($popup);
+
+var popupSelectedCard = {
+	'crossroad-south' : null,
+	'crossroad-east' : null,
+	'crossroad-north' : null,
+	'crossroad-west' : null,
+	'crossroad-station' : null,
+}
+var popupSelectedDirection = null;
+
+for (var l in interpretation) {
+	var key = '' + l;
+	var $line =  $('<div />', {class:'popupLine'});
+	$popup.append($line);
+	for (var v in interpretation[l]) {
+		var keyv = key+'_'+v;
+		var $obj = $('<div />', {class:'popupCard', 'data-id':keyv, text:objs[keyv].name, click:clickCard})
+		$line.append($obj);
+		// objs[keyv].$obj = $obj;
+	}
+}
+
+$('#crossroad-north').click(function(){
+	openCards(this);
+})
+$('#crossroad-west').click(function(){
+	openCards(this);
+})
+$('#crossroad-station').click(function(){
+	openCards(this);
+})
+$('#crossroad-east').click(function(){
+	openCards(this);
+})
+$('#crossroad-south').click(function(){
+	openCards(this);
+})
+
+function openCards(derection) {
+	popupSelectedDirection = $(derection).attr('id');
+	$popupWrapper.removeClass('notdisplay');
+}
+function clickCard(o) {
+	// console.log($(this).attr('data-id'))
+	var $this = $(this);
+	if ($this.hasClass('catched')) {
+		return;
+	}
+	var card = $(this).attr('data-id');
+	if (popupSelectedCard[popupSelectedDirection]) {
+		$(popupSelectedCard[popupSelectedDirection]).removeClass('catched')
+	}
+	popupSelectedCard[popupSelectedDirection] = this;
+	$(this).addClass('catched');
+	$popupWrapper.addClass('notdisplay');
+
+	// alert(card + ' -> ' + popupSelectedDirection);
+	console.log(card + ' -> ' + popupSelectedDirection)
+	// console.log(objs[card])
+
+	if(popupSelectedDirection == "crossroad-station"){
+		$('#card-station').html(objs[card].name);
+		$('.crossroad-station').css("background-image","none");
+		$('#history-station')
+		.html('<h2>Station</h2>')
+		.append($('<p />',{text:objs[card].station.birth}))
+		.append($('<p />',{text:objs[card].station.text}))
+		.append($('<p />',{text:'Station skill: '+objs[card].station.skill}));
+		$('#fate-station')
+		// .html($('<h2 />',{text:'Station Fate'}))
+		// .append($('<p />',{text:objs[card].station.fate}));
+		.html($('<p />',{text:objs[card].station.fate}));
+	}
+	if(popupSelectedDirection == "crossroad-west"){
+		$('#card-west').html(objs[card].name)
+		$('.crossroad-west').css("background-image","none");
+		$('#history-west')
+		.html($('<h2 />',{text:'West (Physical aspects)'}))
+		.append($('<p />',{text:objs[card].west.text}));
+		$('#fate-west')
+		// .html($('<h2 />',{text:'West Fate'}))
+		// .append($('<p />',{text:objs[card].west.fate}));
+		.html($('<p />',{text:objs[card].west.fate}));
+	}
+	if(popupSelectedDirection == "crossroad-north"){
+		$('#card-north').html(objs[card].name)
+		$('.crossroad-north').css("background-image","none");
+		$('#history-north')
+		.html($('<h2 />',{text:'North (Main Skills)'}))
+		.append($('<p />',{text:objs[card].north.text}));
+		$('#fate-north')
+		// .html($('<h2 />',{text:'North Fate'}))
+		// .append($('<p />',{text:objs[card].north.fate}));
+		.html($('<p />',{text:objs[card].north.fate}));
+	}
+	if(popupSelectedDirection == "crossroad-east"){
+		$('#card-east').html(objs[card].name)
+		$('.crossroad-east').css("background-image","none");
+		$('#history-east')
+		.html($('<h2 />',{text:'East (Mental aspects)'}))
+		.append($('<p />',{text:objs[card].east.text}));
+		$('#fate-east')
+		// .html($('<h2 />',{text:'East Fate'}))
+		// .append($('<p />',{text:objs[card].east.fate}));
+		.html($('<p />',{text:objs[card].east.fate}));
+	}
+	if(popupSelectedDirection == "crossroad-south"){
+		$('#card-south').html(objs[card].name)
+		$('.crossroad-south').css("background-image","none");
+		$('#history-south')
+		.html($('<h2 />',{text:'South (Endeavour Skills)'}))
+		.append($('<p />',{text:objs[card].south.text}));
+		$('#fate-south')
+		// .html($('<h2 />',{text:'South Fate'}))
+		// .append($('<p />',{text:objs[card].south.fate}));
+		.html($('<p />',{text:objs[card].south.fate}));
+	}
+
+}
 
 </script>
 </body>
