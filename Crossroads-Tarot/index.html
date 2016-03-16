@@ -150,24 +150,24 @@
 		<option value="14">Red Joker</option>
 	</select>
 </div>
-
+<input type="button" value="Random" onclick="randomize()">
 </form>
 
 <div class="crossroad">
 	<div class="crossroad-north">
-		<div class="crossroad-card" id="card-north">♠ 10</div>
+		<div class="crossroad-card" id="card-north"><!-- ♠ 10 --></div>
 	</div>
 	<div class="crossroad-west">
-		<div class="crossroad-card" id="card-west">♥ K</div>
+		<div class="crossroad-card" id="card-west"><!-- ♥ K --></div>
 	</div>
 	<div class="crossroad-station">
-		<div class="crossroad-card" id="card-station">♦ 6</div>
+		<div class="crossroad-card" id="card-station"><!-- ♦ 6 --></div>
 	</div>
 	<div class="crossroad-east">
-		<div class="crossroad-card" id="card-east">♣ J</div>
+		<div class="crossroad-card" id="card-east"><!-- ♣ J --></div>
 	</div>
 	<div class="crossroad-south">
-		<div class="crossroad-card" id="card-south"><b>J</b></div>
+		<div class="crossroad-card" id="card-south"><b><!-- J --></b></div>
 	</div>
 </div>
 
@@ -183,6 +183,19 @@
 	</div>	
 	<div class="history-block" id="history-south">
 	</div>	
+</div>
+
+<div class="fate">Fate:
+	<div class="fate-block" id="fate-south">
+	</div>
+	<div class="fate-block" id="fate-east">
+	</div>	
+	<div class="fate-block" id="fate-north">
+	</div>	
+	<div class="fate-block" id="fate-west">
+	</div>
+	<div class="fate-block" id="fate-station">
+	</div>
 </div>
 
 <script type="text/javascript" src="js/cardsInterpretation.js"></script>
@@ -201,43 +214,123 @@
 		}
 	}
 	
-
-	// arr.sort(function (a, b) {
-	//   return Math.random() - 0.5;
-	// });
-
-	var stationsuit = "jockers";
-	var stationnumber = "0";
-
-	console.log("stationsuit: "+stationsuit);
-	console.log("stationnumber: "+stationnumber);
-	console.log(stationsuit+'_'+stationnumber);
-
-	$('#history-station').append($('<h2 />',{text:'Station'}))
+	var suit = "jockers";
+	var number = "0";
+	// console.log("suit: "+suit);
+	// console.log("number: "+number);
+	// console.log(suit+'_'+number);
 
 	$( "#station_suit").change(function(){
-		stationsuit = $(this).val();
+		suit = $(this).val();
 	});
 
 	$( "#station_number").change(function(){
+		$('#history-station').html($('<h2 />',{text:'Station'}))
+		$('#fate-station').html($('<h2 />',{text:'Station Fate'}))
 		console.log($(this).val());
-		stationnumber = $(this).val();
+		number = $(this).val();
 		$('#history-station')
-		.append($('<p />',{text:objs[stationsuit+'_'+stationnumber].station.text}))
+		.append($('<p />',{text:objs[suit+'_'+number].station.text}));
+		$('#card-station').html(objs[suit+'_'+number].name)
+		$('#fate-station')
+		.append($('<p />',{text:objs[suit+'_'+number].station.fate}));
+	});
+
+	$( "#west_suit").change(function(){
+		suit = $(this).val();
+	});
+
+	$( "#west_number").change(function(){
+		$('#history-west').html($('<h2 />',{text:'West (Physical aspects)'}))
+		$('#fate-west').html($('<h2 />',{text:'West Fate'}))
+		console.log($(this).val());
+		number = $(this).val();
+		$('#history-west')
+		.append($('<p />',{text:objs[suit+'_'+number].west.text}));
+		$('#card-west').html(objs[suit+'_'+number].name)
+		$('#fate-west')
+		.append($('<p />',{text:objs[suit+'_'+number].west.fate}));
+	});
+
+	$( "#north_suit").change(function(){
+		suit = $(this).val();
+	});
+
+	$( "#north_number").change(function(){
+		$('#history-north').html($('<h2 />',{text:'North (Skills)'}))
+		$('#fate-north').html($('<h2 />',{text:'North Fate'}))
+		console.log($(this).val());
+		number = $(this).val();
+		$('#history-north')
+		.append($('<p />',{text:objs[suit+'_'+number].north.text}));
+		$('#card-north').html(objs[suit+'_'+number].name)
+		$('#fate-north')
+		.append($('<p />',{text:objs[suit+'_'+number].north.fate}));
+	});
+
+	$( "#east_suit").change(function(){
+		suit = $(this).val();
+	});
+
+	$( "#east_number").change(function(){
+		$('#history-east').html($('<h2 />',{text:'East (Mental aspects)'}))
+		$('#fate-east').html($('<h2 />',{text:'East Fate'}))
+		console.log($(this).val());
+		number = $(this).val();
+		$('#history-east')
+		.append($('<p />',{text:objs[suit+'_'+number].east.text}));
+		$('#card-east').html(objs[suit+'_'+number].name)
+		$('#fate-east')
+		.append($('<p />',{text:objs[suit+'_'+number].east.fate}));
+	});
+
+	$( "#south_suit").change(function(){
+		suit = $(this).val();
+	});
+
+	$( "#south_number").change(function(){
+		$('#history-south').html($('<h2 />',{text:'South (Endeavour Skills)'}))
+		$('#fate-south').html($('<h2 />',{text:'South Fate'}))
+		console.log($(this).val());
+		number = $(this).val();
+		$('#history-south')
+		.append($('<p />',{text:objs[suit+'_'+number].south.text}));
+		$('#card-south').html(objs[suit+'_'+number].name)
+		$('#fate-south')
+		.append($('<p />',{text:objs[suit+'_'+number].south.fate}));
 	});
 
 
+
+
+
 	
-	$('#history-west').append($('<h2 />',{text:'West'})).append($('<p />',{text:objs[arr[1]].west.text}))
-	$('#history-north').append($('<h2 />',{text:'North'})).append($('<p />',{text:objs[arr[0]].north.text}))
-	$('#history-east').append($('<h2 />',{text:'East'})).append($('<p />',{text:objs[arr[3]].east.text}))
-	$('#history-south').append($('<h2 />',{text:'South'})).append($('<p />',{text:objs[arr[4]].south.text}))
+
+/*Random*/
+
+function randomize(){
+	arr.sort(function (a, b) {
+	  return Math.random() - 0.5;
+	});
+	$('#history-station').html($('<h2 />',{text:'Station'})).append($('<p />',{text:objs[arr[0]].station.text}))
+	
+	$('#history-west').html($('<h2 />',{text:'West (Physical aspects)'})).append($('<p />',{text:objs[arr[1]].west.text}))
+	$('#history-north').html($('<h2 />',{text:'North (Skills)'})).append($('<p />',{text:objs[arr[2]].north.text}))
+	$('#history-east').html($('<h2 />',{text:'East (Mental aspects)'})).append($('<p />',{text:objs[arr[3]].east.text}))
+	$('#history-south').html($('<h2 />',{text:'South (Endeavour Skills)'})).append($('<p />',{text:objs[arr[4]].south.text}))
+
+	$('#fate-south').html($('<h2 />',{text:'South Fate'})).append($('<p />',{text:objs[arr[4]].south.fate}))
+	$('#fate-east').html($('<h2 />',{text:'East Fate'})).append($('<p />',{text:objs[arr[3]].east.fate}))
+	$('#fate-north').html($('<h2 />',{text:'North Fate'})).append($('<p />',{text:objs[arr[2]].north.fate}))
+	$('#fate-west').html($('<h2 />',{text:'West Fate'})).append($('<p />',{text:objs[arr[1]].west.fate}))
+	$('#fate-station').html($('<h2 />',{text:'Station Fate'})).append($('<p />',{text:objs[arr[0]].station.fate}))
 
 	$('#card-station').html(objs[arr[0]].name)
-	$('#card-north').html(objs[arr[2]].name)
 	$('#card-west').html(objs[arr[1]].name)
+	$('#card-north').html(objs[arr[2]].name)	
 	$('#card-east').html(objs[arr[3]].name)
 	$('#card-south').html(objs[arr[4]].name)
+}
 
 
 
