@@ -2,443 +2,1092 @@ var interpretation = {
 	clubs : {
 		'1' : {
 			name : '♣ 1',
-			north : {fate:'north fate',text:'value north clubs 1'},
-			west : {fate:'west fate',text:'value west clubs 1'},
-			station : {fate:'station fate',text:'value station clubs 1'},
-			east : {fate:'east fate',text:'value east clubs 1'},
-			south : {fate:'south fate',text:'value south clubs 1'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 1'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 1'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 1'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 1'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 1'},
 		},
 		'2' : {
 			name : '♣ 2',
-			north : {fate:'north fate',text:'value north clubs 2'},
-			west : {fate:'west fate',text:'value west clubs 2'},
-			station : {fate:'station fate',text:'value station clubs 2'},
-			east : {fate:'east fate',text:'value east clubs 2'},
-			south : {fate:'south fate',text:'value south clubs 2'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 2'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 2'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 2'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 2'},
 		},
 		'3' : {
 			name : '♣ 3',
-			north : {fate:'north fate',text:'value north clubs 3'},
-			west : {fate:'west fate',text:'value west clubs 3'},
-			station : {fate:'station fate',text:'value station clubs 3'},
-			east : {fate:'east fate',text:'value east clubs 3'},
-			south : {fate:'south fate',text:'value south clubs 3'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 3'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 3'},
+			north : {
+				fate:'for the hunter shall lay down to sleep upon the lilies.',
+				text:'3,2,1,1,1,1'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 3'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 3'},
 		},
 		'4' : {
 			name : '♣ 4',
-			north : {fate:'north fate',text:'value north clubs 4'},
-			west : {fate:'west fate',text:'value west clubs 4'},
-			station : {fate:'station fate',text:'value station clubs 4'},
-			east : {fate:'east fate',text:'value east clubs 4'},
-			south : {fate:'south fate',text:'value south clubs 4'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 4'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 4'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 4'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 4'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 4'},
 		},
 		'5' : {
 			name : '♣ 5',
-			north : {fate:'north fate',text:'value north clubs 5'},
-			west : {fate:'west fate',text:'value west clubs 5'},
-			station : {fate:'station fate',text:'value station clubs 5'},
-			east : {fate:'east fate',text:'value east clubs 5'},
-			south : {fate:'south fate',text:'value south clubs 5'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 5'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 5'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 5'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 5'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 5'},
 		},
 		'6' : {
 			name : '♣ 6',
-			north : {fate:'north fate',text:'value north clubs 6'},
-			west : {fate:'west fate',text:'value west clubs 6'},
-			station : {fate:'station fate',text:'value station clubs 6'},
-			east : {fate:'east fate',text:'value east clubs 6'},
-			south : {fate:'south fate',text:'value south clubs 6'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 6'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 6'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 6'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 6'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 6'},
 		},
 		'7' : {
 			name : '♣ 7',
-			north : {fate:'north fate',text:'value north clubs 7'},
-			west : {fate:'west fate',text:'value west clubs 7'},
-			station : {fate:'station fate',text:'value station clubs 7'},
-			east : {fate:'east fate',text:'value east clubs 7'},
-			south : {fate:'south fate',text:'value south clubs 7'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 7'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 7'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 7'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 7'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 7'},
 		},
 		'8' : {
 			name : '♣ 8',
-			north : {fate:'north fate',text:'value north clubs 8'},
-			west : {fate:'west fate',text:'value west clubs 8'},
-			station : {fate:'station fate',text:'value station clubs 8'},
-			east : {fate:'east fate',text:'value east clubs 8'},
-			south : {fate:'south fate',text:'value south clubs 8'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 8'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 8'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 8'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 8'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 8'},
 		},
 		'9' : {
 			name : '♣ 9',
-			north : {fate:'north fate',text:'value north clubs 9'},
-			west : {fate:'west fate',text:'value west clubs 9'},
-			station : {fate:'station fate',text:'value station clubs 9'},
-			east : {fate:'east fate',text:'value east clubs 9'},
-			south : {fate:'south fate',text:'value south clubs 9'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 9'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 9'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 9'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 9'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 9'},
 		},
 		'10' : {
 			name : '♣ 10',
-			north : {fate:'north fate',text:'value north clubs 10'},
-			west : {fate:'west fate',text:'value west clubs 10'},
-			station : {fate:'station fate',text:'value station clubs 10'},
-			east : {fate:'east fate',text:'value east clubs 10'},
-			south : {fate:'south fate',text:'value south clubs 10'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs 10'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs 10'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs 10'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs 10'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs 10'},
 		},
 		'11' : {
 			name : '♣ J 11',
-			north : {fate:'north fate',text:'value north clubs J 11'},
-			west : {fate:'west fate',text:'value west clubs J 11'},
-			station : {fate:'station fate',text:'value station clubs J 11'},
-			east : {fate:'east fate',text:'value east clubs J 11'},
-			south : {fate:'south fate',text:'value south clubs J 11'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs J 11'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs J 11'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs J 11'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs J 11'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs J 11'},
 		},
 		'12' : {
 			name : '♣ Q 12',
-			north : {fate:'north fate',text:'value north clubs Q 12'},
-			west : {fate:'west fate',text:'value west clubs Q 12'},
-			station : {fate:'station fate',text:'value station clubs Q 12'},
-			east : {fate:'east fate',text:'value east clubs Q 12'},
-			south : {fate:'south fate',text:'value south clubs Q 12'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs Q 12'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs Q 12'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs Q 12'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs Q 12'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs Q 12'},
 		},
 		'13' : {
 			name : '♣ K 13',
-			north : {fate:'north fate',text:'value north clubs K 13'},
-			west : {fate:'west fate',text:'value west clubs K 13'},
-			station : {fate:'station fate',text:'value station clubs K 13'},
-			east : {fate:'east fate',text:'value east clubs K 13'},
-			south : {fate:'south fate',text:'value south clubs K 13'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC clubs K 13'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT clubs K 13'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT clubs K 13'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT clubs K 13'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT clubs K 13'},
 		}
 	},
 	diamonds : {
 		'1' : {
 			name : '♦ 1',
-			north : {fate:'north fate',text:'value north diamonds 1'},
-			west : {fate:'west fate',text:'value west diamonds 1'},
-			station : {fate:'station fate',text:'value station diamonds 1'},
-			east : {fate:'east fate',text:'value east diamonds 1'},
-			south : {fate:'south fate',text:'value south diamonds 1'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 1'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 1'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 1'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 1'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 1'},
 		},
 		'2' : {
 			name : '♦ 2',
-			north : {fate:'north fate',text:'value north diamonds 2'},
-			west : {fate:'west fate',text:'value west diamonds 2'},
-			station : {fate:'station fate',text:'value station diamonds 2'},
-			east : {fate:'east fate',text:'value east diamonds 2'},
-			south : {fate:'south fate',text:'value south diamonds 2'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 2'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 2'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 2'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 2'},
 		},
 		'3' : {
 			name : '♦ 3',
-			north : {fate:'north fate',text:'value north diamonds 3'},
-			west : {fate:'west fate',text:'value west diamonds 3'},
-			station : {fate:'station fate',text:'value station diamonds 3'},
-			east : {fate:'east fate',text:'value east diamonds 3'},
-			south : {fate:'south fate',text:'value south diamonds 3'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 3'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 3'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 3'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 3'},
 		},
 		'4' : {
 			name : '♦ 4',
-			north : {fate:'north fate',text:'value north diamonds 4'},
-			west : {fate:'west fate',text:'value west diamonds 4'},
-			station : {fate:'station fate',text:'value station diamonds 4'},
-			east : {fate:'east fate',text:'value east diamonds 4'},
-			south : {fate:'south fate',text:'value south diamonds 4'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 4'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 4'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 4'},
+			east : {
+				fate:'the dusk of a new sun will light your steps into the cave',
+				text:'-2/-1/+1/+2'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 4'},
 		},
 		'5' : {
 			name : '♦ 5',
-			north : {fate:'north fate',text:'value north diamonds 5'},
-			west : {fate:'west fate',text:'value west diamonds 5'},
-			station : {fate:'station fate',text:'value station diamonds 5'},
-			east : {fate:'east fate',text:'value east diamonds 5'},
-			south : {fate:'south fate',text:'value south diamonds 5'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 5'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 5'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 5'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 5'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 5'},
 		},
 		'6' : {
 			name : '♦ 6',
-			north : {fate:'north fate',text:'value north diamonds 6'},
-			west : {fate:'west fate',text:'value west diamonds 6'},
-			station : {fate:'station fate',text:'value station diamonds 6'},
-			east : {fate:'east fate',text:'value east diamonds 6'},
-			south : {fate:'south fate',text:'value south diamonds 6'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 6'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 6'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 6'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 6'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 6'},
 		},
 		'7' : {
 			name : '♦ 7',
-			north : {fate:'north fate',text:'value north diamonds 7'},
-			west : {fate:'west fate',text:'value west diamonds 7'},
-			station : {fate:'station fate',text:'value station diamonds 7'},
-			east : {fate:'east fate',text:'value east diamonds 7'},
-			south : {fate:'south fate',text:'value south diamonds 7'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 7'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 7'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 7'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 7'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 7'},
 		},
 		'8' : {
 			name : '♦ 8',
-			north : {fate:'north fate',text:'value north diamonds 8'},
-			west : {fate:'west fate',text:'value west diamonds 8'},
-			station : {fate:'station fate',text:'value station diamonds 8'},
-			east : {fate:'east fate',text:'value east diamonds 8'},
-			south : {fate:'south fate',text:'value south diamonds 8'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 8'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 8'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 8'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 8'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 8'},
 		},
 		'9' : {
 			name : '♦ 9',
-			north : {fate:'north fate',text:'value north diamonds 9'},
-			west : {fate:'west fate',text:'value west diamonds 9'},
-			station : {fate:'station fate',text:'value station diamonds 9'},
-			east : {fate:'east fate',text:'value east diamonds 9'},
-			south : {fate:'south fate',text:'value south diamonds 9'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 9'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 9'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 9'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 9'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 9'},
 		},
 		'10' : {
 			name : '♦ 10',
-			north : {fate:'north fate',text:'value north diamonds 10'},
-			west : {fate:'west fate',text:'value west diamonds 10'},
-			station : {fate:'station fate',text:'value station diamonds 10'},
-			east : {fate:'east fate',text:'value east diamonds 10'},
-			south : {fate:'south fate',text:'value south diamonds 10'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds 10'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds 10'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds 10'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds 10'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds 10'},
 		},
 		'11' : {
 			name : '♦ J 11',
-			north : {fate:'north fate',text:'value north diamonds J 11'},
-			west : {fate:'west fate',text:'value west diamonds J 11'},
-			station : {fate:'station fate',text:'value station diamonds J 11'},
-			east : {fate:'east fate',text:'value east diamonds J 11'},
-			south : {fate:'south fate',text:'value south diamonds J 11'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds J 11'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds J 11'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds J 11'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds J 11'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds J 11'},
 		},
 		'12' : {
 			name : '♦ Q 12',
-			north : {fate:'north fate',text:'value north diamonds Q 12'},
-			west : {fate:'west fate',text:'value west diamonds Q 12'},
-			station : {fate:'station fate',text:'value station diamonds Q 12'},
-			east : {fate:'east fate',text:'value east diamonds Q 12'},
-			south : {fate:'south fate',text:'value south diamonds Q 12'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds Q 12'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds Q 12'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds Q 12'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds Q 12'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds Q 12'},
 		},
 		'13' : {
 			name : '♦ K 13',
-			north : {fate:'north fate',text:'value north diamonds K 13'},
-			west : {fate:'west fate',text:'value west diamonds K 13'},
-			station : {fate:'station fate',text:'value station diamonds K 13'},
-			east : {fate:'east fate',text:'value east diamonds K 13'},
-			south : {fate:'south fate',text:'value south diamonds K 13'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC diamonds K 13'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT diamonds K 13'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT diamonds K 13'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT diamonds K 13'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT diamonds K 13'},
 		}
 	},
 	hearts : {
 		'1' : {
 			name : '♥ 1',
-			north : {fate:'north fate',text:'value north hearts 1'},
-			west : {fate:'west fate',text:'value west hearts 1'},
-			station : {fate:'station fate',text:'value station hearts 1'},
-			east : {fate:'east fate',text:'value east hearts 1'},
-			south : {fate:'south fate',text:'value south hearts 1'},
+			station : {
+				fate:'and you will hear the whispers beyond.',
+				birth:'Convict',
+				text:'While many serve their time and then find more traditional work, some convicts are sentenced to labor camps. When this happens, their children often go with them into their new life',
+				skill:'Shotgun'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT'},
 		},
 		'2' : {
 			name : '♥ 2',
-			north : {fate:'north fate',text:'value north hearts 2'},
-			west : {fate:'west fate',text:'value west hearts 2'},
-			station : {fate:'station fate',text:'value station hearts 2'},
-			east : {fate:'east fate',text:'value east hearts 2'},
-			south : {fate:'south fate',text:'value south hearts 2'},
+			station : {
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC',
+				skill:'SKILL'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts 2'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts 2'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts 2'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts 2'},
 		},
 		'3' : {
 			name : '♥ 3',
-			north : {fate:'north fate',text:'value north hearts 3'},
-			west : {fate:'west fate',text:'value west hearts 3'},
-			station : {fate:'station fate',text:'value station hearts 3'},
-			east : {fate:'east fate',text:'value east hearts 3'},
-			south : {fate:'south fate',text:'value south hearts 3'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC'
+				},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts 3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts 3'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts 3'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts 3'},
 		},
 		'4' : {
 			name : '♥ 4',
-			north : {fate:'north fate',text:'value north hearts 4'},
-			west : {fate:'west fate',text:'value west hearts 4'},
-			station : {fate:'station fate',text:'value station hearts 4'},
-			east : {fate:'east fate',text:'value east hearts 4'},
-			south : {fate:'south fate',text:'value south hearts 4'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts 4'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts 4'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts 4'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts 4'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts 4'},
 		},
 		'5' : {
 			name : '♥ 5',
-			north : {fate:'north fate',text:'value north hearts 5'},
-			west : {fate:'west fate',text:'value west hearts 5'},
-			station : {fate:'station fate',text:'value station hearts 5'},
-			east : {fate:'east fate',text:'value east hearts 5'},
-			south : {fate:'south fate',text:'value south hearts 5'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts 5'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts 5'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts 5'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts 5'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts 5'},
 		},
 		'6' : {
 			name : '♥ 6',
-			north : {fate:'north fate',text:'value north hearts 6'},
-			west : {fate:'west fate',text:'value west hearts 6'},
-			station : {fate:'station fate',text:'value station hearts 6'},
-			east : {fate:'east fate',text:'value east hearts 6'},
-			south : {fate:'south fate',text:'value south hearts 6'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts 6'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts 6'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts 6'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts 6'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts 6'},
 		},
 		'7' : {
 			name : '♥ 7',
-			north : {fate:'north fate',text:'value north hearts 7'},
-			west : {fate:'west fate',text:'value west hearts 7'},
-			station : {fate:'station fate',text:'value station hearts 7'},
-			east : {fate:'east fate',text:'value east hearts 7'},
-			south : {fate:'south fate',text:'value south hearts 7'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts 7'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts 7'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts 7'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts 7'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts 7'},
 		},
 		'8' : {
 			name : '♥ 8',
-			north : {fate:'north fate',text:'value north hearts 8'},
-			west : {fate:'west fate',text:'value west hearts 8'},
-			station : {fate:'station fate',text:'value station hearts 8'},
-			east : {fate:'east fate',text:'value east hearts 8'},
-			south : {fate:'south fate',text:'value south hearts 8'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts 8'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts 8'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts 8'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts 8'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts 8'},
 		},
 		'9' : {
 			name : '♥ 9',
-			north : {fate:'north fate',text:'value north hearts 9'},
-			west : {fate:'west fate',text:'value west hearts 9'},
-			station : {fate:'station fate',text:'value station hearts 9'},
-			east : {fate:'east fate',text:'value east hearts 9'},
-			south : {fate:'south fate',text:'value south hearts 9'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts 9'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts 9'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts 9'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts 9'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts 9'},
 		},
 		'10' : {
 			name : '♥ 10',
-			north : {fate:'north fate',text:'value north hearts 10'},
-			west : {fate:'west fate',text:'value west hearts 10'},
-			station : {fate:'station fate',text:'value station hearts 10'},
-			east : {fate:'east fate',text:'value east hearts 10'},
-			south : {fate:'south fate',text:'value south hearts 10'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts 10'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts 10'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts 10'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts 10'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts 10'},
 		},
 		'11' : {
 			name : '♥ J 11',
-			north : {fate:'north fate',text:'value north hearts J 11'},
-			west : {fate:'west fate',text:'value west hearts J 11'},
-			station : {fate:'station fate',text:'value station hearts J 11'},
-			east : {fate:'east fate',text:'value east hearts J 11'},
-			south : {fate:'south fate',text:'value south hearts J 11'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts J 11'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts J 11'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts J 11'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts J 11'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts J 11'},
 		},
 		'12' : {
 			name : '♥ Q 12',
-			north : {fate:'north fate',text:'value north hearts Q 12'},
-			west : {fate:'west fate',text:'value west hearts Q 12'},
-			station : {fate:'station fate',text:'value station hearts Q 12'},
-			east : {fate:'east fate',text:'value east hearts Q 12'},
-			south : {fate:'south fate',text:'value south hearts Q 12'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts Q 12'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts Q 12'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts Q 12'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts Q 12'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts Q 12'},
 		},
 		'13' : {
 			name : '♥ K 13',
-			north : {fate:'north fate',text:'value north hearts K 13'},
-			west : {fate:'west fate',text:'value west hearts K 13'},
-			station : {fate:'station fate',text:'value station hearts K 13'},
-			east : {fate:'east fate',text:'value east hearts K 13'},
-			south : {fate:'south fate',text:'value south hearts K 13'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC hearts K 13'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT hearts K 13'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT hearts K 13'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT hearts K 13'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT hearts K 13'},
 		}
 	},
 	spades : {
 		'1' : {
 			name : '♠ 1',
-			north : {fate:'north fate',text:'value north spades 1'},
-			west : {fate:'west fate',text:'value west spades 1'},
-			station : {fate:'station fate',text:'value station spades 1'},
-			east : {fate:'east fate',text:'value east spades 1'},
-			south : {fate:'south fate',text:'value south spades 1'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 1'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades 1'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 1'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 1'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 1'},
 		},
 		'2' : {
 			name : '♠ 2',
-			north : {fate:'north fate',text:'value north spades 2'},
-			west : {fate:'west fate',text:'value west spades 2'},
-			station : {fate:'station fate',text:'value station spades 2'},
-			east : {fate:'east fate',text:'value east spades 2'},
-			south : {fate:'south fate',text:'value south spades 2'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 2'},
+			west : {
+				fate:'Denying the battle will win the war',
+				text:'-3/0/0/+3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 2'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 2'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 2'},
 		},
 		'3' : {
 			name : '♠ 3',
-			north : {fate:'north fate',text:'value north spades 3'},
-			west : {fate:'west fate',text:'value west spades 3'},
-			station : {fate:'station fate',text:'value station spades 3'},
-			east : {fate:'east fate',text:'value east spades 3'},
-			south : {fate:'south fate',text:'value south spades 3'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 3'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades 3'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 3'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 3'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 3'},
 		},
 		'4' : {
 			name : '♠ 4',
-			north : {fate:'north fate',text:'value north spades 4'},
-			west : {fate:'west fate',text:'value west spades 4'},
-			station : {fate:'station fate',text:'value station spades 4'},
-			east : {fate:'east fate',text:'value east spades 4'},
-			south : {fate:'south fate',text:'value south spades 4'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 4'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades 4'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 4'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 4'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 4'},
 		},
 		'5' : {
 			name : '♠ 5',
-			north : {fate:'north fate',text:'value north spades 5'},
-			west : {fate:'west fate',text:'value west spades 5'},
-			station : {fate:'station fate',text:'value station spades 5'},
-			east : {fate:'east fate',text:'value east spades 5'},
-			south : {fate:'south fate',text:'value south spades 5'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 5'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades 5'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 5'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 5'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 5'},
 		},
 		'6' : {
 			name : '♠ 6',
-			north : {fate:'north fate',text:'value north spades 6'},
-			west : {fate:'west fate',text:'value west spades 6'},
-			station : {fate:'station fate',text:'value station spades 6'},
-			east : {fate:'east fate',text:'value east spades 6'},
-			south : {fate:'south fate',text:'value south spades 6'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 6'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades 6'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 6'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 6'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 6'},
 		},
 		'7' : {
 			name : '♠ 7',
-			north : {fate:'north fate',text:'value north spades 7'},
-			west : {fate:'west fate',text:'value west spades 7'},
-			station : {fate:'station fate',text:'value station spades 7'},
-			east : {fate:'east fate',text:'value east spades 7'},
-			south : {fate:'south fate',text:'value south spades 7'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 7'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades 7'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 7'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 7'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 7'},
 		},
 		'8' : {
 			name : '♠ 8',
-			north : {fate:'north fate',text:'value north spades 8'},
-			west : {fate:'west fate',text:'value west spades 8'},
-			station : {fate:'station fate',text:'value station spades 8'},
-			east : {fate:'east fate',text:'value east spades 8'},
-			south : {fate:'south fate',text:'value south spades 8'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 8'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades 8'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 8'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 8'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 8'},
 		},
 		'9' : {
 			name : '♠ 9',
-			north : {fate:'north fate',text:'value north spades 9'},
-			west : {fate:'west fate',text:'value west spades 9'},
-			station : {fate:'station fate',text:'value station spades 9'},
-			east : {fate:'east fate',text:'value east spades 9'},
-			south : {fate:'south fate',text:'value south spades 9'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 9'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades 9'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 9'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 9'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 9'},
 		},
 		'10' : {
 			name : '♠ 10',
-			north : {fate:'north fate',text:'value north spades 10'},
-			west : {fate:'west fate',text:'value west spades 10'},
-			station : {fate:'station fate',text:'value station spades 10'},
-			east : {fate:'east fate',text:'value east spades 10'},
-			south : {fate:'south fate',text:'value south spades 10'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades 10'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades 10'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades 10'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades 10'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades 10'},
 		},
 		'11' : {
 			name : '♠ J 11',
-			north : {fate:'north fate',text:'value north spades J 11'},
-			west : {fate:'west fate',text:'value west spades J 11'},
-			station : {fate:'station fate',text:'value station spades J 11'},
-			east : {fate:'east fate',text:'value east spades J 11'},
-			south : {fate:'south fate',text:'value south spades J 11'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades J 11'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades J 11'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades J 11'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades J 11'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades J 11'},
 		},
 		'12' : {
 			name : '♠ Q 12',
-			north : {fate:'north fate',text:'value north spades Q 12'},
-			west : {fate:'west fate',text:'value west spades Q 12'},
-			station : {fate:'station fate',text:'value station spades Q 12'},
-			east : {fate:'east fate',text:'value east spades Q 12'},
-			south : {fate:'south fate',text:'value south spades Q 12'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades Q 12'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades Q 12'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades Q 12'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades Q 12'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades Q 12'},
 		},
 		'13' : {
 			name : '♠ K 13',
-			north : {fate:'north fate',text:'value north spades K 13'},
-			west : {fate:'west fate',text:'value west spades K 13'},
-			station : {fate:'station fate',text:'value station spades K 13'},
-			east : {fate:'east fate',text:'value east spades K 13'},
-			south : {fate:'south fate',text:'value south spades K 13'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC spades K 13'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT spades K 13'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT spades K 13'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT spades K 13'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT spades K 13'},
 		}
 	},
 	jockers : {
 		'14' : {
 			name : 'jockers R 14',
-			north : {fate:'north fate',text:'value north jockers R 14'},
-			west : {fate:'west fate',text:'value west jockers R 14'},
-			station : {fate:'station fate',text:'value station jockers R 14'},
-			east : {fate:'east fate',text:'value east jockers R 14'},
-			south : {fate:'south fate',text:'value south jockers R 14'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC jockers R 14'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT jockers R 14'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT jockers R 14'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT jockers R 14'},
+			south : {
+				fate:'Once you witness your golden sunset',
+				text:'4,2,1'},
 		},
 		'0' : {
 			name : 'jockers B 0',
-			north : {fate:'north fate',text:'value north jockers B 0'},
-			west : {fate:'west fate',text:'value west jockers B 0'},
-			station : {fate:'and you will be unmade.',text:'station value jockers B 0 Bad things happen!'},
-			east : {fate:'east fate',text:'value east jockers B 0'},
-			south : {fate:'south fate',text:'value south jockers B 0'},
+			station : {
+				skill:'SKILL',
+				fate:'STATION FATE.',
+				birth:'BIRTH',
+				text:'BIRTH DESC jockers B 0'},
+			west : {
+				fate:'WEST FATE',
+				text:'WEST TEXT jockers B 0'},
+			north : {
+				fate:'NORTH FATE.',
+				text:'NORTH TEXT jockers B 0'},
+			east : {
+				fate:'EAST FATE',
+				text:'EAST TEXT jockers B 0'},
+			south : {
+				fate:'SOUTH FATE',
+				text:'SOUTH TEXT jockers B 0'},
 		},
 	}
 }
