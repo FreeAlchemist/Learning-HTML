@@ -71,47 +71,7 @@
 			arr.push(keyv);
 		}
 	}
-/*Random*/
-function randomize(){
-	arr.sort(function (a, b) {
-	  return Math.random() - 0.5;
-	});
-	$('#history-station').html($('<h2 />',{text:'Station'}))
-	.append($('<p />',{text:objs[arr[0]].station.birth}))
-	.append($('<p />',{text:objs[arr[0]].station.text}))
-	.append($('<p />',{text:'Station skill: '+objs[arr[0]].station.skill}));
-	
-	$('#history-west').html($('<h2 />',{text:'West (Physical aspects)'})).append($('<p />',{text:objs[arr[1]].west.text}))
-	$('#history-north').html($('<h2 />',{text:'North (Main Skills)'})).append($('<p />',{text:objs[arr[2]].north.text}))
-	$('#history-east').html($('<h2 />',{text:'East (Mental aspects)'})).append($('<p />',{text:objs[arr[3]].east.text}))
-	$('#history-south').html($('<h2 />',{text:'South (Endeavour Skills)'})).append($('<p />',{text:objs[arr[4]].south.text}))
-	$('#fate-south')
-	.html($('<div />',{class:'fate-title',text:'South Fate: '}))
-	.append($('<div />',{text:objs[arr[4]].south.fate}));
-	$('#fate-east')
-	.html($('<div />',{class:'fate-title',text:'East Fate: '}))
-	.append($('<div />',{text:objs[arr[3]].east.fate}));
-	$('#fate-north')
-	.html($('<div />',{class:'fate-title',text:'North Fate: '}))
-	.append($('<div />',{text:objs[arr[2]].north.fate}));
-	$('#fate-west')
-	.html($('<div />',{class:'fate-title',text:'West Fate: '}))
-	.append($('<div />',{text:objs[arr[1]].west.fate}));
-	$('#fate-station')
-	.html($('<div />',{class:'fate-title',text:'Station Fate: '}))
-	.append($('<div />',{text:objs[arr[0]].station.fate}));
-	// $('#card-station').html(objs[arr[0]].name)
-	// $('#card-west').html(objs[arr[1]].name)
-	// $('#card-north').html(objs[arr[2]].name)	
-	// $('#card-east').html(objs[arr[3]].name)
-	// $('#card-south').html(objs[arr[4]].name)
-	$('#card-station').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[0]].name}));
-	$('#card-west').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[1]].name}));
-	$('#card-north').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[2]].name}));
-	$('#card-east').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[3]].name}));
-	$('#card-south').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[4]].name}));
-	$('.crossroad-station, .crossroad-west, .crossroad-north, .crossroad-east, .crossroad-south').addClass('checked');
-}
+
 /* POPUP */
 var $body = $('body');
 var $popupWrapper = $('<div />', {class:'popupWrapper notdisplay', click:function(){$(this).addClass('notdisplay')}});
@@ -157,6 +117,30 @@ function openCards(derection) {
 	popupSelectedDirection = $(derection).attr('id');
 	$popupWrapper.removeClass('notdisplay');
 }
+
+var func = function(){
+		var obj = {
+			south : {
+				cardId : '#card-south',
+				crossroadClass : '.crossroad-south',
+				historyId : '#history-south',
+				text1 : 'South (Endeavour Skills)',
+				fateId : '#fate-south',
+				text2 : 'South Fate: ',
+			} 
+		}
+		return function(dir,classfinish,T0,T1,T2) {
+			$(obj[dir].cardId).html($('<div />',{class:classfinish,text:T0}));
+			$(obj[dir].crossroadClass).addClass('checked');
+			$(obj[dir].historyId)
+			.html($('<h2 />',{text:obj[dir].text1}))
+			.append($('<p />',{text:T1}));
+			$(obj[dir].fateId)
+			.html($('<div />',{class:'fate-title',text:obj[dir].text2}))
+			.append($('<div />',{text:T2}));
+		}
+	}()
+
 function clickCard(o) {
 	// console.log($(this).attr('data-id'))
 	var $this = $(this);
@@ -228,28 +212,7 @@ function clickCard(o) {
 	}
 
 
-	var func = function(){
-		var obj = {
-			south : {
-				cardId : '#card-south',
-				crossroadClass : '.crossroad-south',
-				historyId : '#history-south',
-				text1 : 'South (Endeavour Skills)',
-				fateId : '#fate-south',
-				text2 : 'South Fate: ',
-			} 
-		}
-		return function(dir,classfinish,T0,T1,T2) {
-			$(obj[dir].cardId).html($('<div />',{class:classfinish,text:T0}));
-			$(obj[dir].crossroadClass).addClass('checked');
-			$(obj[dir].historyId)
-			.html($('<h2 />',{text:obj[dir].text1}))
-			.append($('<p />',{text:T1}));
-			$(obj[dir].fateId)
-			.html($('<div />',{class:'fate-title',text:obj[dir].text2}))
-			.append($('<div />',{text:T2}));
-		}
-	}()
+	
 
 
 	if(popupSelectedDirection == "crossroad-south"){
@@ -266,6 +229,50 @@ function clickCard(o) {
 	}
 
 }
+
+/*Random*/
+function randomize(){
+	arr.sort(function (a, b) {
+	  return Math.random() - 0.5;
+	});
+	$('#history-station').html($('<h2 />',{text:'Station'}))
+	.append($('<p />',{text:objs[arr[0]].station.birth}))
+	.append($('<p />',{text:objs[arr[0]].station.text}))
+	.append($('<p />',{text:'Station skill: '+objs[arr[0]].station.skill}));
+	
+	$('#history-west').html($('<h2 />',{text:'West (Physical aspects)'})).append($('<p />',{text:objs[arr[1]].west.text}))
+	$('#history-north').html($('<h2 />',{text:'North (Main Skills)'})).append($('<p />',{text:objs[arr[2]].north.text}))
+	$('#history-east').html($('<h2 />',{text:'East (Mental aspects)'})).append($('<p />',{text:objs[arr[3]].east.text}))
+	// $('#history-south').html($('<h2 />',{text:'South (Endeavour Skills)'})).append($('<p />',{text:objs[arr[4]].south.text}))
+	// $('#fate-south')
+	// .html($('<div />',{class:'fate-title',text:'South Fate: '}))
+	// .append($('<div />',{text:objs[arr[4]].south.fate}));
+	$('#fate-east')
+	.html($('<div />',{class:'fate-title',text:'East Fate: '}))
+	.append($('<div />',{text:objs[arr[3]].east.fate}));
+	$('#fate-north')
+	.html($('<div />',{class:'fate-title',text:'North Fate: '}))
+	.append($('<div />',{text:objs[arr[2]].north.fate}));
+	$('#fate-west')
+	.html($('<div />',{class:'fate-title',text:'West Fate: '}))
+	.append($('<div />',{text:objs[arr[1]].west.fate}));
+	$('#fate-station')
+	.html($('<div />',{class:'fate-title',text:'Station Fate: '}))
+	.append($('<div />',{text:objs[arr[0]].station.fate}));
+	// $('#card-station').html(objs[arr[0]].name)
+	// $('#card-west').html(objs[arr[1]].name)
+	// $('#card-north').html(objs[arr[2]].name)	
+	// $('#card-east').html(objs[arr[3]].name)
+	// $('#card-south').html(objs[arr[4]].name)
+	$('#card-station').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[0]].name}));
+	$('#card-west').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[1]].name}));
+	$('#card-north').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[2]].name}));
+	$('#card-east').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[3]].name}));
+	// $('#card-south').html($('<div />',{class:'crossroad-checked-'+l,text:objs[arr[4]].name}));
+	$('.crossroad-station, .crossroad-west, .crossroad-north, .crossroad-east, .crossroad-south').addClass('checked');
+	func('south',classfinish, objs[arr[4]].name,objs[arr[4]].south.text,objs[arr[4]].south.fate )
+}
+
 </script>
 </body>
 </html>
