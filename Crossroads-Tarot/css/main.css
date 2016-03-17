@@ -150,6 +150,7 @@ float: left;
 	width: 6%;
 	height: 70%;
 	background-color: rgba(255,255,255,0.5);
+	background-color: Wheat;
 	margin-right: 0.5%;
 	margin-left: 0.5%;
 	vertical-align: top;
@@ -159,43 +160,6 @@ float: left;
 	font-size: 16pt;
 }
 
-.colorclubs{
-	background-color: SteelBlue;
-	background-color: rgba(48,100,175,1);
-	color: white;}
-.colordiamonds{
-	background-color: Indigo;
-	background-color: rgba(121,78,143,1);
-	color: white;}
-.colorhearts{
-	background-color: Darkred;
-	background-color: rgba(171,49,45,1);
-	color: white;}
-.colorspades{
-	background-color: DarkOliveGreen;
-	background-color: rgba(0,150,72,1);
-	color: white;}
-.colorjockers{
-	background-color: Goldenrod;
-	background-color: rgba(176,156,60,1);
-	color: black;}
-
-.catched {
-	background-color: black;
-	color: #FFF;
-	/*background-image: url(../img/cardlabel.svg);
-	background-size: 15%;*/
-	box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
-}
-
-.checked {
-	background-image: none;
-	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, #0081b5),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, #0081b5);
-	color: Linen;
-	color: Darkred;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-
 .crossroad-checked-text{
 	/*margin: 5px;*/
 	/*padding: 5px;*/
@@ -203,4 +167,48 @@ float: left;
 	border-radius: 5px;
 	width: 100%;
 	height: 100%;
+}
+
+.colorclubs{
+	background-color: SteelBlue;
+	background-color: rgba(48,100,175,1);
+	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(48,100,175,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(48,100,175,1));
+	color: white;}
+.colordiamonds{
+	background-color: Indigo;
+	background-color: rgba(121,78,143,1);
+	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(121,78,143,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(121,78,143,1));
+
+	color: white;}
+.colorhearts{
+	background-color: Darkred;
+	background-color: rgba(171,49,45,1);
+	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(171,49,45,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(171,49,45,1));
+	color: white;}
+.colorspades{
+	background-color: DarkOliveGreen;
+	background-color: rgba(0,150,72,1);
+	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(0,150,72,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(0,150,72,1));
+	color: white;}
+.colorjockers{
+	background-color: Goldenrod;
+	background-color: rgba(176,156,60,1);
+	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(176,156,60,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(176,156,60,1));
+	color: black;}
+
+.catched {
+	background-color: black;
+	color: #FFF;
+	/*background-image: url(../img/cardlabel.svg);
+	background-size: 15%;*/
+	box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
+}
+
+.checked {
+	background-image: none;
+	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(200,150,60,1)),
+	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(200,150,60,1));
+	color: Linen;
+	color: Darkred;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
