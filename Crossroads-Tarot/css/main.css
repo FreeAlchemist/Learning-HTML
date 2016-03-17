@@ -1,5 +1,6 @@
 body {
 	background-color: rgb(241,233,222);
+	background-color: Whitesmoke;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -7,39 +8,42 @@ body {
 	margin: 0px;
 }
 
-#menu{
-	position: absolute;
-	width: 30%;
-	height: 30%;
-	top: 0px;
-	left: 40%;
-}
+/*.crossroad,.fate,.history{border:solid 1px black;}*/
+
 
 .crossroad {
 	position: absolute;
-	width: 30%;
-	height: 40%;
+	width: 40%;
+	height: 60%;
 	top: 0px;
-	left:0px;
+	left:3%;
 }
 
 
 .fate {
 	position: absolute;
-	width: 30%;
-	height: 60%;
-	top: 40%;
-	left:10px;
+	width: 40%;
+	height: 20%;
+	top: 60%;
+	left:3%;
 	overflow: auto;
+	padding: 10px;
+}
+
+.fate-title{
+width: 100px;
+position: relative;
+float: left;
 }
 
 .history {
 	position: absolute;
 	width: 50%;
-	height: 70%;
-	top: 30%;
-	left: 40%;
+	height: 90%;
+	top: 0px;
+	left: 45%;
 	overflow: auto;
+	padding: 10px;
 }
 
 .crossroad-north ,
@@ -49,14 +53,19 @@ body {
 .crossroad-south {
 	position: absolute;	
 	background-color: rgba(0,233,222,0.2);
-	background-image: url(../img/cardlabel.svg);
-	background-image: url(../img/cardlabel.png);
-	background-size: 15%;
+	background-color: Steelblue;
+	background-image:
+	linear-gradient(to bottom right, Bisque 25%, transparent 25%, transparent 75%, Bisque 75%),
+	linear-gradient(to bottom left, Bisque 25%, transparent 25%, transparent 75%, Bisque 75%);
+	background-size: 10% 15% ;
+	background-position: center;
 	height: 30%;
 	width: 30%;
-	border:solid 1px black;
+	border:solid 3px black;
 	border-radius: 5px;
 	font-size: 16pt;
+	padding: 5px;
+	box-sizing: border-box;
 }
 
 .crossroad-north {
@@ -85,6 +94,9 @@ body {
 	height: 100%;
 	box-sizing:border-box;
 	border: 1px solid black;
+	border-radius: 5px;
+	/*background-color: Linen;*/
+	/*padding: 5px;*/
 }
 .crossroad-card-lear {
 }
@@ -136,7 +148,7 @@ body {
 .popupCard {
 	display: inline-block;
 	width: 6%;
-	height: 80%;
+	height: 70%;
 	background-color: rgba(255,255,255,0.5);
 	margin-right: 0.5%;
 	margin-left: 0.5%;
@@ -173,4 +185,22 @@ body {
 	color: #FFF;
 	/*background-image: url(../img/cardlabel.svg);
 	background-size: 15%;*/
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+.checked {
+	background-image: none;
+	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, #0081b5),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, #0081b5);
+	color: Linen;
+	color: Darkred;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.crossroad-checked-text{
+	/*margin: 5px;*/
+	/*padding: 5px;*/
+	background-color: Wheat;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
 }
