@@ -8,8 +8,8 @@ body {
 	margin: 0px;
 }
 
-/*.crossroad,.fate,.history{border:solid 1px black;}*/
-
+/*.crossroad,.fate,.history{border:solid 1px Crimson;border-radius: 10px;}*/
+.fate,.history{border:solid 1px Crimson;border-radius: 10px;}
 
 .crossroad {
 	position: absolute;
@@ -23,7 +23,7 @@ body {
 .fate {
 	position: absolute;
 	width: 40%;
-	height: 20%;
+	height: 35%;
 	top: 60%;
 	left:3%;
 	overflow: auto;
@@ -36,10 +36,14 @@ position: relative;
 float: left;
 }
 
+.fate-block{
+border:solid 1px black;border-radius: 3px;
+}
+
 .history {
 	position: absolute;
 	width: 50%;
-	height: 90%;
+	height: 95%;
 	top: 0px;
 	left: 45%;
 	overflow: auto;
@@ -61,7 +65,7 @@ float: left;
 	background-position: center;
 	height: 30%;
 	width: 30%;
-	border:solid 3px black;
+	border:solid 2px black;
 	border-radius: 5px;
 	font-size: 16pt;
 	padding: 5px;
@@ -107,6 +111,7 @@ float: left;
 	width: 250px;
 	height: 30px;
 	border:1px solid;
+	border-radius: 3px;
 	margin-bottom: 10px;
 }
 .title{
@@ -171,29 +176,54 @@ float: left;
 
 .colorclubs{
 	background-color: SteelBlue;
-	background-color: rgba(48,100,175,1);
-	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(48,100,175,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(48,100,175,1));
-	color: white;}
-.colordiamonds{
-	background-color: Indigo;
-	background-color: rgba(121,78,143,1);
-	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(121,78,143,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(121,78,143,1));
+	/*background-color: rgba(48,100,175,1);*/
+	background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent, rgba(48,100,175,1)),
+	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent, rgba(48,100,175,1)),
+	url(../img/tomes.svg);
+	background-size: 100% 100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+}
 
-	color: white;}
+.colordiamonds{
+	/*background-color: Indigo;*/
+	/*background-color: rgba(121,78,143,1);*/
+	background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent, rgba(121,78,143,1)),
+	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent, rgba(121,78,143,1)),
+	url(../img/masks.svg);
+	background-size: 100% 100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+}
+
 .colorhearts{
-	background-color: Darkred;
-	background-color: rgba(171,49,45,1);
-	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(171,49,45,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(171,49,45,1));
-	color: white;}
+	/*background-color: Darkred;*/
+	/*background-color: rgba(171,49,45,1);*/
+	/*background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(171,49,45,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(171,49,45,1));*/
+	
+	background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent,
+		rgba(171,49,45,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent,rgba(171,49,45,1)),
+		url(../img/rams.svg);
+	background-size: 100% 100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+}
+
 .colorspades{
 	background-color: DarkOliveGreen;
 	background-color: rgba(0,150,72,1);
-	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(0,150,72,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(0,150,72,1));
+	background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(0,150,72,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(0,150,72,1));
 	color: white;}
+
 .colorjockers{
 	background-color: Goldenrod;
-	background-color: rgba(176,156,60,1);
-	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(176,156,60,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(176,156,60,1));
+	background-color: Wheat;
+	/*background-color: rgba(176,156,60,1);*/
+	/*background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(176,156,60,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(176,156,60,1));*/
+	/*background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(176,156,60,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(176,156,60,1));*/
 	color: black;}
 
 .catched {
@@ -212,3 +242,12 @@ float: left;
 	color: Darkred;
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
+
+/*Print*/
+.bodyprint{
+	background-color: transparent;
+	width: 20cm;
+	height: 20cm;
+}
+
+.bodyprint #printbtn,.bodyprint #randombtn{display: none;}
