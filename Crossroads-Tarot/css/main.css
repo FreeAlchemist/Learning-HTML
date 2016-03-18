@@ -189,12 +189,14 @@ border:solid 1px black;border-radius: 3px;
 .colordiamonds{
 	/*background-color: Indigo;*/
 	/*background-color: rgba(121,78,143,1);*/
-	background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent, rgba(121,78,143,1)),
+	background-image:
+	radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent, rgba(121,78,143,1)),
 	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent, rgba(121,78,143,1)),
 	url(../img/masks.svg);
+	/*background-image:url(../img/masks.svg);*/
 	background-size: 100% 100% ;
-	background-position: center;
-	background-repeat: no-repeat;
+	/*background-position: center;*/
+	/*background-repeat: no-repeat;*/
 	color: white;
 }
 
