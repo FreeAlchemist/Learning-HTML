@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Создано Microsoft Visio 11.0, Экспорт SVG, версия 1.0 tomes.svg Страница-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.26146in" height="1.71303in"
+		viewBox="0 0 234.825 123.338" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
+	<v:documentProperties v:langID="1049" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:url(#grad30-5);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:url(#grad30-9);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st3 {fill:url(#grad30-13);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:url(#grad30-13);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st5 {fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st6 {fill:url(#grad30-5);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st7 {fill:url(#grad30-34);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st8 {fill:url(#grad30-44);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st9 {fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st10 {fill:#000000;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st11 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st12 {fill:url(#grad30-34);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad30-5" v:fillPattern="30" v:foreground="#d0a691" v:background="#d9b7a6" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#d0a691;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#d9b7a6;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad30-9" v:fillPattern="30" v:foreground="#f0f0f0" v:background="#ffffff" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#f0f0f0;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#ffffff;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad30-13" v:fillPattern="30" v:foreground="#f4ead9" v:background="#fbf7f0" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#f4ead9;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#fbf7f0;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad30-34" v:fillPattern="30" v:foreground="#000000" v:background="#000000" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#000000;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#000000;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad30-44" v:fillPattern="30" v:foreground="#ba9f8d" v:background="#c5afa0" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#ba9f8d;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#c5afa0;stop-opacity:1"/>
+		</linearGradient>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Страница-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group36-1" transform="translate(0.75,-0.25)" v:mID="36" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<title>Лист.36</title>
+			<g id="shape15-2" v:mID="15" v:groupContext="shape" transform="translate(0,-16.0387)">
+				<title>Лист.15</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M134.55 117.69 C119.62 117.39 54.43 120.22 43.94 123.34 C28.91 95.27 13.04 72.6 0 65.23 C2.54 63.03 5.09
+							 61.43 7.84 60.32 C38.76 70.41 72.82 79.17 101.77 96.34 C107.93 100 113.86 104.03 120.75 106.2 C122.73
+							 106.82 124.78 107.29 126.42 108.01 C130.66 109.87 132.09 113.42 135.15 117.41 C134.85 117.41 134.64
+							 117.52 134.55 117.69 Z" class="st1"/>
+			</g>
+			<g id="shape13-6" v:mID="13" v:groupContext="shape" transform="translate(130.755,-14.8812)">
+				<title>Лист.13</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M20.07 114.49 C23.45 116.79 24.06 118.45 23.4 119.66 C22.08 122.12 15.56 122.77 10.05 123.14 C6.01 123.41
+							 2.51 123.53 0.98 122.68 C-0.93 121.62 0.21 119.06 2.2 116.09 C6.44 112.83 16.48 113.47 20.07 114.49
+							 Z" class="st2"/>
+			</g>
+			<g id="shape10-10" v:mID="10" v:groupContext="shape" transform="translate(7.79528,-20.2906)">
+				<title>Лист.10</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 64.53 C1.84 60.98 1.84 55.31 2.13 46.8 C113.39 95.71 133.94 93.57 133.98 122.19 C97.09 119.09 68.74 119.09
+							 40.39 123.34 C29.06 102.36 25.51 88.62 0 64.53 Z" class="st3"/>
+			</g>
+			<g id="shape4-14" v:mID="4" v:groupContext="shape" transform="translate(113.386,-26.0101)">
+				<title>Лист.4</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M28.47 123.34 C60.66 114.88 68.03 112.05 117.35 109.21 C93.54 72.36 92.41 69.53 76.54 52.52 C31.18 69.53
+							 2.83 74.84 0 103.55 C4.87 104.3 12.46 129.13 16.6 107.15 C17.23 103.8 17.78 99.37 28.47 123.34 Z"
+						class="st4"/>
+			</g>
+			<g id="shape3-17" v:mID="3" v:groupContext="shape" transform="translate(113.386,-25.9599)">
+				<title>Лист.3</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M28.35 123.34 C49.61 114.47 66.61 103.14 120.19 93.29 C98.08 58.14 92.41 55.31 76.54 38.3 C31.18 55.31 2.83
+							 60.62 0 89.32 C4.87 90.08 9.45 101.48 20.16 108.78 C21.79 109.89 23.56 110.91 28.35 123.34 Z"
+						class="st4"/>
+			</g>
+			<g id="shape1-20" v:mID="1" v:groupContext="shape" transform="translate(9.92126,-27.3772)">
+				<title>Лист.1</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 53.89 C52.44 51.05 70.87 56.72 96.38 62.39 C113.39 85.07 123.43 101.91 131.81 123.34 C99.21 113.42 68.03
+							 113.42 42.52 114.83 C34.02 89.32 25.51 77.98 0 53.89 Z" class="st3"/>
+			</g>
+			<g id="shape2-23" v:mID="2" v:groupContext="shape" transform="translate(106.681,-27.3772)">
+				<title>Лист.2</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M35.05 123.34 C56.31 103.5 73.32 92.16 105.92 83.37 C87.78 59.56 69.62 44.69 44.97 28.38 C37.89 31.21 9.54
+							 49.64 0 62.9 C11.58 79.1 15.74 83.29 27.35 106.32 C29.12 109.83 31.06 113.77 35.05 123.34 Z"
+						class="st3"/>
+			</g>
+			<g id="shape11-26" v:mID="11" v:groupContext="shape" transform="translate(141.486,-26.8293)">
+				<title>Лист.11</title>
+				<path d="M59.93 86.13 C33.69 95.86 18.95 104.93 0 123.34 C29.16 107.77 32.84 102.95 68.28 94.44 C64.88 89.62 63.18
+							 88.77 59.93 86.13 Z" class="st5"/>
+			</g>
+			<g id="shape9-28" v:mID="9" v:groupContext="shape" transform="translate(141.732,-21.4245)">
+				<title>Лист.9</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 121.64 C41.39 109.5 68.61 108.82 87.94 108.46 C87.31 109.16 87.31 110.3 87.87 111.43 C70.03 111.84 32.03
+							 114.55 0 123.34 L0 121.64 L0 121.64 Z" class="st6"/>
+			</g>
+			<g id="shape5-31" v:mID="5" v:groupContext="shape" transform="translate(143.7,-26.4961)">
+				<title>Лист.5</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M70.27 97.84 C46.22 103.46 30.91 108 0 123.34 C37.15 111.12 41.97 110.27 75.99 106.87 C73.72 101.76 71.73
+							 99.78 70.27 97.84 Z" class="st7"/>
+			</g>
+			<g id="shape6-35" v:mID="6" v:groupContext="shape" transform="translate(106.907,-28.8303)">
+				<title>Лист.6</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M34.25 123.34 C24.62 91.06 19.38 82.57 0 64.05 C6.48 78.02 22.35 103.53 34.25 123.34 Z" class="st7"/>
+			</g>
+			<g id="shape7-38" v:mID="7" v:groupContext="shape" transform="translate(141.732,-23.1253)">
+				<title>Лист.7</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 120.5 C41.39 108.37 68.61 107.69 89.01 106.33 C88.63 108.39 89.29 107.18 87.87 110.3 C70.03 110.7 32.03
+							 113.42 0 123.34 L0 120.5 L0 120.5 Z" class="st7"/>
+			</g>
+			<g id="shape8-41" v:mID="8" v:groupContext="shape" transform="translate(182.835,4.26326E-014)">
+				<title>Лист.8</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 90.82 C5.07 90.53 3.24 106.98 4.28 115.48 C4.76 119.41 5.86 121.64 9.02 123.34 C8.23 119.78 9.82 117.41
+							 11.79 115.83 C11.27 115 13.77 120.57 18.12 119.78 C12.98 111.08 22.07 92.11 12.75 89.58 C7.09 89.44
+							 5.1 89.72 0 90.82 Z" class="st8"/>
+			</g>
+			<g id="shape19-45" v:mID="19" v:groupContext="shape" transform="translate(7.56094,-20.4312)">
+				<title>Лист.19</title>
+				<path d="M1.56 60.12 C-0.19 61.12 -0.19 63.95 0.23 64.53 C25.75 88.62 29.29 102.36 40.63 123.34 C42.12 123.11 43.61
+							 122.9 45.11 122.7 C29.39 96.49 25.26 82.86 1.56 60.12 Z" class="st9"/>
+			</g>
+			<g id="shape12-47" v:mID="12" v:groupContext="shape" transform="translate(9.0428,-80.4872)">
+				<title>Лист.12</title>
+				<path d="M8.81 123.34 C9.52 121.73 9.95 119.76 10.23 117.37 C7.49 114.4 4.44 111.36 0.96 108.13 C0.96 108.14 0.96
+							 108.15 0.96 108.16 C0.95 108.15 0.95 108.14 0.94 108.13 C-0.54 110.4 0.03 112.67 0.62 114.49 C-0.12
+							 114.26 0.32 114.69 0.75 115.1 C0.75 115.1 0.75 115.1 0.75 115.1 C3.72 117.96 6.38 120.69 8.81 123.34
+							 Z" class="st9"/>
+			</g>
+			<g id="shape18-49" v:mID="18" v:groupContext="shape" transform="translate(8.61977,-68.5547)">
+				<title>Лист.18</title>
+				<path d="M14.62 122.85 C14.53 123.39 14.54 123.36 14.55 123.32 C14.55 123.31 14.54 123.31 14.53 123.3 C14.56 123.24
+							 14.59 123.18 14.62 123.12 C15.04 121.93 15.32 120.56 15.51 118.99 C11.63 114.21 7.2 109.38 1.71 104.06
+							 C1.71 104.05 1.71 104.05 1.71 104.04 C1.55 103.88 1.38 103.72 1 103.27 C-0.4 105.27 -0.12 106.97 0.55
+							 108.06 C0.93 108.96 0.93 108.97 0.55 108.11 C6.69 113.21 10.76 118.91 14.62 122.85 Z" class="st10"/>
+			</g>
+			<g id="shape14-51" v:mID="14" v:groupContext="shape" transform="translate(132.567,-15.7966)">
+				<title>Лист.14</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M9.55 111.4 C19.79 116.56 20.23 118.58 19.69 119.94 C18.59 122.69 13.44 122.71 8.46 123.06 C4.81 123.32
+							 1.26 123.75 0.28 122.57 C-0.93 121.09 1.86 117.11 7.06 111.13 C8.05 111.42 7.87 111.37 9.55 111.4 Z"
+						class="st7"/>
+			</g>
+			<g id="shape16-54" v:mID="16" v:groupContext="shape" transform="translate(43.7947,-22.7243) rotate(-4.72081)">
+				<title>Лист.16</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 A22.0302 2.9102 7.19 0 1 13.57 123.34" class="st11"/>
+			</g>
+			<g id="shape17-58" v:mID="17" v:groupContext="shape" transform="translate(51.5062,-25.9183) rotate(-1.48787)">
+				<title>Лист.17</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 A36.6463 6.44278 9.78 0 1 22.42 123.34" class="st11"/>
+			</g>
+			<g id="shape20-62" v:mID="20" v:groupContext="shape" transform="translate(55.5591,-28.7946)">
+				<title>Лист.20</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M-0 123.34 A50.6152 6.4875 6.96 0 1 31.18 123.34" class="st11"/>
+			</g>
+			<g id="shape21-66" v:mID="21" v:groupContext="shape" transform="translate(54.4252,-31.6292)">
+				<title>Лист.21</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M-0 123.34 A58.785 6.49994 5.96 0 1 36.28 123.34" class="st11"/>
+			</g>
+			<g id="shape22-70" v:mID="22" v:groupContext="shape" transform="translate(53.8583,-33.8969)">
+				<title>Лист.22</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 A74.2495 6.51309 4.7 0 1 45.92 123.34" class="st11"/>
+			</g>
+			<g id="shape23-74" v:mID="23" v:groupContext="shape" transform="translate(42.0066,-58.4603) rotate(-38.6598)">
+				<title>Лист.23</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C7.97 122.45 9.3 121.7 18.15 123.34" class="st11"/>
+			</g>
+			<g id="shape24-78" v:mID="24" v:groupContext="shape" transform="translate(68.2144,-70.4422) rotate(-33.6901)">
+				<title>Лист.24</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C4.49 122.91 5.23 122.54 10.22 123.34" class="st11"/>
+			</g>
+			<g id="shape25-82" v:mID="25" v:groupContext="shape" transform="translate(51.0638,-45.2514) rotate(-40.0303)">
+				<title>Лист.25</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C4.06 122.91 4.74 122.54 9.26 123.34" class="st11"/>
+			</g>
+			<g id="shape26-86" v:mID="26" v:groupContext="shape" transform="translate(76.7784,-63.7708) rotate(-33.3407)">
+				<title>Лист.26</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C5.66 122.91 6.6 122.54 12.89 123.34" class="st11"/>
+			</g>
+			<g id="shape27-90" v:mID="27" v:groupContext="shape" transform="translate(106.943,-81.9209) rotate(-25.56)">
+				<title>Лист.27</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C3.7 122.91 4.31 122.54 8.42 123.34" class="st11"/>
+			</g>
+			<g id="shape28-94" v:mID="28" v:groupContext="shape" transform="translate(67.7296,-34.7412) rotate(-36.8699)">
+				<title>Лист.28</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C3.11 122.91 3.63 122.54 7.09 123.34" class="st11"/>
+			</g>
+			<g id="shape29-98" v:mID="29" v:groupContext="shape" transform="translate(94.0204,-52.0731) rotate(-29.3578)">
+				<title>Лист.29</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C6.85 122.91 8 122.54 15.61 123.34" class="st11"/>
+			</g>
+			<g id="shape30-102" v:mID="30" v:groupContext="shape" transform="translate(71.1311,-28.7884) rotate(-36.8699)">
+				<title>Лист.30</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C5.26 122.91 6.13 122.54 11.98 123.34" class="st11"/>
+			</g>
+			<g id="shape31-106" v:mID="31" v:groupContext="shape" transform="translate(104.713,-82.989) rotate(6.5198)">
+				<title>Лист.31</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C4.38 122.91 5.11 122.54 9.99 123.34" class="st11"/>
+			</g>
+			<g id="shape32-110" v:mID="32" v:groupContext="shape" transform="translate(89.6896,-84.6898) rotate(6.5198)">
+				<title>Лист.32</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C4.38 122.81 5.11 122.36 9.99 123.34" class="st11"/>
+			</g>
+			<g id="shape33-114" v:mID="33" v:groupContext="shape" transform="translate(42.5197,-85.7709)">
+				<title>Лист.33</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C6.47 122.98 7.55 122.68 14.74 123.34" class="st11"/>
+			</g>
+			<g id="shape34-118" v:mID="34" v:groupContext="shape" transform="translate(62.3622,-68.4796)">
+				<title>Лист.34</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M0 123.34 C4.98 122.81 5.81 122.36 11.34 123.34" class="st11"/>
+			</g>
+			<g id="shape35-122" v:mID="35" v:groupContext="shape" transform="translate(45.8736,-26.4222) rotate(-23)">
+				<title>Лист.35</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+					<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+				</v:userDefs>
+				<path d="M11.52 112.28 C9.6 114.37 8.47 116.42 3.72 117.59 C12.3 117.44 11.76 117.3 21.6 123.34 C13.59 114.85 14.51
+							 115.4 13.3 112.42 C20.93 120.59 24.65 112.94 22.5 107.61 C21.2 104.37 17.73 101.99 14.45 104.46 C19.28
+							 98.33 14.42 96.88 10.15 96.88 C5.77 96.87 2.01 98.39 9.86 106.03 C-2.02 94.83 -2.84 110.51 5.66 113.43
+							 C6.89 113.85 8.32 114 11.52 112.28 Z" class="st12"/>
+			</g>
+		</g>
+	</g>
+</svg>
