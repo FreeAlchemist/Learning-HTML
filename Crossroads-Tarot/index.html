@@ -27,11 +27,12 @@
 
 <div class="history"><h3>History</h3>
 	<form>
+		<input type="button" id="printbtn" value="Print" onclick="print()">
 		<div class="stage">
-			<div class="title">Name:</div>
+			<div class="title">Fated:</div>
 			<div class="title"><input id="name" type="text" placeholder="Jack Daw"></div>
 		</div>
-		<input type="button" value="Random Fate" onclick="randomize()">
+		<input type="button" id="randombtn" value="Random Fate" onclick="randomize()">
 	</form>
 	<div class="history-block" id="history-station">
 	</div>
@@ -118,16 +119,6 @@ function openCards(derection) {
 }
 var func = function(){
 		var obj = {
-			// $('#card-station').html($('<div />',{class:classfinish,text:objs[card].name}));
-			// $('.crossroad-station').addClass('checked');
-			// $('#history-station')
-			// .html('<h2>Station</h2>')
-			// .append($('<p />',{text:objs[card].station.birth}))
-			// .append($('<p />',{text:objs[card].station.text}))
-			// .append($('<p />',{text:'Station skill: '+objs[card].station.skill}));
-			// $('#fate-station')
-			// .html($('<div />',{class:'fate-title',text:'Station Fate: '}))
-			// .append($('<div />',{text:objs[card].station.fate}));
 			station : {
 				cardId : '#card-station',
 				crossroadClass : '.crossroad-station',
@@ -178,7 +169,7 @@ var func = function(){
 			.append($('<p />',{text:T1}));
 			if(S1){
 				$(obj[dir].historyId)
-				.append($('<p />',{text:'Station skill2: '+S1}));
+				.append($('<p />',{text:'Station skill: '+S1}));
 			}
 			$(obj[dir].fateId)
 			.html($('<div />',{class:'fate-title',text:obj[dir].text2}))
@@ -211,16 +202,6 @@ function clickCard(o) {
 	// console.log(card + ' -> ' + popupSelectedDirection)
 	// console.log(objs[card])
 	if(popupSelectedDirection == "crossroad-station"){
-		// $('#card-station').html($('<div />',{class:classfinish,text:objs[card].name}));
-		// $('.crossroad-station').addClass('checked');
-		// $('#history-station')
-		// .html('<h2>Station</h2>')
-		// .append($('<p />',{text:objs[card].station.birth}))
-		// .append($('<p />',{text:objs[card].station.text}))
-		// .append($('<p />',{text:'Station skill: '+objs[card].station.skill}));
-		// $('#fate-station')
-		// .html($('<div />',{class:'fate-title',text:'Station Fate: '}))
-		// .append($('<div />',{text:objs[card].station.fate}));
 		func('station',classfinish, objs[card].name,objs[card].station.text,objs[card].station.fate,objs[card].station.skill,objs[card].station.birth)
 	}
 	if(popupSelectedDirection == "crossroad-west"){
@@ -236,13 +217,11 @@ function clickCard(o) {
 		func('south',classfinish, objs[card].name,objs[card].south.text,objs[card].south.fate )
 	}
 }
-
 /*Random*/
 function randomize(){
 	arr.sort(function (a, b) {
 	  return Math.random() - 0.5;
 	});
-
 	var classarr = []
 	// console.log(classarr)
 	for (var i = 4; i >= 0; i--) {
@@ -250,7 +229,7 @@ function randomize(){
 		if(arr[i].indexOf('clubs') != -1){classarr[i] = 'colorclubs'}
 		if(arr[i].indexOf('spades') != -1){classarr[i] = 'colorspades'}
 		if(arr[i].indexOf('diamonds') != -1){classarr[i] = 'colordiamonds'}
-		if(arr[i].indexOf('jockers') != -1){classarr[i] = 'jockers'}
+		if(arr[i].indexOf('jockers') != -1){classarr[i] = 'colorjockers'}
 	};
 	// console.log(classarr)
 	func('station',classarr[0], objs[arr[0]].name,objs[arr[0]].station.text,objs[arr[0]].station.fate,objs[arr[0]].station.skill,objs[arr[0]].station.birth)
@@ -259,6 +238,12 @@ function randomize(){
 	func('east',classarr[3], objs[arr[3]].name,objs[arr[3]].east.text,objs[arr[3]].east.fate)
 	func('south',classarr[4], objs[arr[4]].name,objs[arr[4]].south.text,objs[arr[4]].south.fate)
 }
+
+/*Print*/
+function print(){
+	$('body').addClass('bodyprint')
+}
+
 </script>
 </body>
 </html>
