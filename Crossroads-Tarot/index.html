@@ -25,7 +25,9 @@
 	</div>
 </div>
 
-<div class="history"><h3>History</h3>
+<div class="history">
+	<h2>Crossroads Tarot</h2>
+	<h3>History</h3>
 	<form>
 		<input type="button" id="printbtn" value="Print" onclick="print()">
 		<div class="stage">
@@ -57,6 +59,8 @@
 	</div>
 	<div class="fate-block" id="fate-station">
 	</div>
+	<h4>Web part, FreeAlchemist</h4>
+	<h4>Contents copyright ©, <a href="http://www.wyrd-games.net/home">Wyrd Miniatures</a>, LLC.</h4>
 </div>
 
 <script type="text/javascript" src="js/cardsInterpretation.js"></script>
@@ -93,7 +97,7 @@ for (var l in interpretation) {
 	$popup.append($line);
 	for (var v in interpretation[l]) {
 		var keyv = key+'_'+v;
-		var $obj = $('<div />', {class:'popupCard color'+l, 'data-id':keyv, text:objs[keyv].name, click:clickCard})
+		var $obj = $('<div />', {class:'popupCard '+l+'_'+v+' color-'+l,'data-id':keyv, text:objs[keyv].name, click:clickCard})
 		$line.append($obj);
 		// objs[keyv].$obj = $obj;
 	}
@@ -190,7 +194,7 @@ function clickCard(o) {
 	if(classstart != -1){
 		console.log("something: "+cardcolor)
 		console.log(cardcolor.substr(classstart))
-		var classfinish = cardcolor.substr(classstart)
+		var classfinish = cardcolor.substr(classstart)+' '+card
 	}
 	if (popupSelectedCard[popupSelectedDirection]) {
 		$(popupSelectedCard[popupSelectedDirection]).removeClass('catched')
@@ -225,11 +229,11 @@ function randomize(){
 	var classarr = []
 	// console.log(classarr)
 	for (var i = 4; i >= 0; i--) {
-		if(arr[i].indexOf('hearts') != -1){classarr[i] = 'colorhearts'}
-		if(arr[i].indexOf('clubs') != -1){classarr[i] = 'colorclubs'}
-		if(arr[i].indexOf('spades') != -1){classarr[i] = 'colorspades'}
-		if(arr[i].indexOf('diamonds') != -1){classarr[i] = 'colordiamonds'}
-		if(arr[i].indexOf('jockers') != -1){classarr[i] = 'colorjockers'}
+		if(arr[i].indexOf('hearts') != -1){classarr[i] = 'color-hearts '+arr[i]}
+		if(arr[i].indexOf('clubs') != -1){classarr[i] = 'color-clubs '+arr[i]}
+		if(arr[i].indexOf('spades') != -1){classarr[i] = 'color-spades '+arr[i]}
+		if(arr[i].indexOf('diamonds') != -1){classarr[i] = 'color-diamonds '+arr[i]}
+		if(arr[i].indexOf('jockers') != -1){classarr[i] = arr[i]}
 	};
 	// console.log(classarr)
 	func('station',classarr[0], objs[arr[0]].name,objs[arr[0]].station.text,objs[arr[0]].station.fate,objs[arr[0]].station.skill,objs[arr[0]].station.birth)
@@ -238,12 +242,10 @@ function randomize(){
 	func('east',classarr[3], objs[arr[3]].name,objs[arr[3]].east.text,objs[arr[3]].east.fate)
 	func('south',classarr[4], objs[arr[4]].name,objs[arr[4]].south.text,objs[arr[4]].south.fate)
 }
-
 /*Print*/
 function print(){
 	$('body').addClass('bodyprint')
 }
-
 </script>
 </body>
 </html>
