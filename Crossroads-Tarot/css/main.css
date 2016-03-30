@@ -1,6 +1,7 @@
 body {
-	background-color: rgb(241,233,222);
-	background-color: Whitesmoke;
+	/*background-color: rgb(241,233,222);*/
+	background-color: Burlywood;
+	/*background-color: Whitesmoke;*/
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -8,26 +9,24 @@ body {
 	margin: 0px;
 }
 
-/*.crossroad,.fate,.history{border:solid 1px Crimson;border-radius: 10px;}*/
-.fate,.history{border:solid 1px Crimson;border-radius: 10px;}
+.crossroad,.fate,.history,{border:solid 1px Crimson;border-radius: 10px;}
+/*.fate,.history{border:solid 1px Crimson;border-radius: 10px;}*/
 
-.crossroad {
-	position: absolute;
-	width: 40%;
-	height: 60%;
-	top: 0px;
-	left:3%;
-}
+
 
 
 .fate {
 	position: absolute;
-	width: 40%;
+	width: 70%;
 	height: 35%;
 	top: 60%;
 	left:3%;
 	overflow: auto;
 	padding: 10px;
+	/*background-image: url(../img/Terrain-Interior-Room-2x2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;*/
 }
 
 .fate-title{
@@ -50,6 +49,14 @@ border:solid 1px black;border-radius: 3px;
 	padding: 10px;
 }
 
+.crossroad {
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	top: 0px;
+	left:3%;
+}
+
 .crossroad-north ,
 .crossroad-west ,
 .crossroad-station ,
@@ -58,19 +65,20 @@ border:solid 1px black;border-radius: 3px;
 	position: absolute;	
 	background-color: rgba(0,233,222,0.2);
 	background-color: Steelblue;
-	background-image:
-	linear-gradient(to bottom right, Bisque 25%, transparent 25%, transparent 75%, Bisque 75%),
-	linear-gradient(to bottom left, Bisque 25%, transparent 25%, transparent 75%, Bisque 75%);
-	background-size: 10% 15% ;
+	background-image: url(../img/CardBackSepia.png);
+	background-image: url(../img/malifaux_cards/player_two_card_back.png);
+	background-size: 100% 100% ;
 	background-position: center;
+	background-repeat: no-repeat;	
 	height: 30%;
-	width: 30%;
+	width: 15%;
 	border:solid 2px black;
 	border-radius: 5px;
 	font-size: 16pt;
-	padding: 5px;
+	/*padding: 5px;*/
 	box-sizing: border-box;
 }
+
 
 .crossroad-north {
 	top:2.5%;
@@ -78,7 +86,7 @@ border:solid 1px black;border-radius: 3px;
 }
 .crossroad-west {
 	top:35%;
-	left: 2.5%;
+	left: 18%;
 }
 .crossroad-station {
 	top:35%;
@@ -86,10 +94,10 @@ border:solid 1px black;border-radius: 3px;
 }
 .crossroad-east {
 	top:35%;
-	left:67.5%;
+	left:52%;
 }
 .crossroad-south {
-	top:67.5%;
+	top:67%;
 	left: 35%;
 }
 
@@ -168,70 +176,114 @@ border:solid 1px black;border-radius: 3px;
 .crossroad-checked-text{
 	/*margin: 5px;*/
 	/*padding: 5px;*/
-	background-color: Wheat;
+	background-color: Yellow;
 	border-radius: 5px;
 	width: 100%;
 	height: 100%;
-}
-
-.colorclubs{
-	background-color: SteelBlue;
-	/*background-color: rgba(48,100,175,1);*/
-	background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent, rgba(48,100,175,1)),
-	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent, rgba(48,100,175,1)),
-	url(../img/tomes.svg);
 	background-size: 100% 100% ;
 	background-position: center;
 	background-repeat: no-repeat;
-	color: white;
+	color: red;
+	/*color: transparent;*/
 }
 
-.colordiamonds{
-	/*background-color: Indigo;*/
+.color-hearts,.color-clubs,.color-spades,.color-diamonds{
+	color: black;
+	
+}
+
+.crossroad-checked-text{
+	color: transparent;
+}
+
+.color-clubs{
+	background-color: SteelBlue;
+	background-color: White;
+	/*background-color: rgba(48,100,175,1);*/
+	/*background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent, rgba(48,100,175,1)),
+	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent, rgba(48,100,175,1)),
+	url(../img/tomes.svg);*/
+	background-image: url(../img/cards/ace_of_clubs.svg);
+	/*background-size: 100% 100% ;*/
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*color: black;*/
+}
+
+.color-diamonds{
+	background-color: Indigo;
+	background-color: White;
 	/*background-color: rgba(121,78,143,1);*/
 	background-image:
 	radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent, rgba(121,78,143,1)),
 	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent, rgba(121,78,143,1)),
-	url(../img/masks.svg);
+	url(../img/cards/ace_of_diamonds.svg);
 	/*background-image:url(../img/masks.svg);*/
-	background-size: 100% 100% ;
-	/*background-position: center;*/
-	/*background-repeat: no-repeat;*/
-	color: white;
+	background-image:url(../img/cards/ace_of_diamonds.svg);
+	/*background-size: 100% 100% ;*/
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*color: black;*/
 }
 
-.colorhearts{
-	/*background-color: Darkred;*/
+.color-hearts{
+	background-color: Darkred;
+	background-color: White;
 	/*background-color: rgba(171,49,45,1);*/
 	/*background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(171,49,45,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(171,49,45,1));*/
 	
-	background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent,
+	/*background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent,
 		rgba(171,49,45,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent,rgba(171,49,45,1)),
-		url(../img/rams.svg);
-	background-size: 100% 100% ;
+		url(../img/cards/ace_of_hearts.svg);*/
+	background-image: url(../img/cards/ace_of_hearts.svg);
+	/*background-size: 100% 100% ;*/
+	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	color: white;
+	/*color: black;*/
 }
 
-.colorspades{
-	background-color: DarkOliveGreen;
-	background-color: rgba(0,150,72,1);
-	background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(0,150,72,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(0,150,72,1));
-	color: white;}
 
-.colorjockers{
-	background-color: Goldenrod;
-	background-color: Wheat;
-	/*background-color: rgba(176,156,60,1);*/
-	/*background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(176,156,60,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(176,156,60,1));*/
-	/*background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(176,156,60,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(176,156,60,1));*/
-	color: black;}
+
+.color-spades{
+	background-color: DarkOliveGreen;
+	background-color: White;
+	/*background-color: rgba(0,150,72,1);*/
+	/*background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent,
+			rgba(0,150,72,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent,rgba(0,150,72,1)),
+			url(../img/cards/ace_of_spades.svg);*/
+	background-image: url(../img/cards/ace_of_spades.svg);
+	/*background-size: 100% 100% ;*/
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*color: black;*/
+}
+
+.color-jockers{
+	/*background-color: red;*/
+	background-color: Linen;
+	background-color: White;
+	/*background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent,
+			Wheat),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent,Wheat),
+			url(../img/card/joker.svg);*/
+	/*background-image: url(../img/cards/red_joker.svg);*/
+	/*background-image:url(../img/jocker_black.png);*/
+	background-image:url(../img/bjocker.jpg);
+	background-image:url(../img/rjocker.jpg);
+	/*background-size: 100% 100% ;*/
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*color: black;*/
+}
 
 .catched {
 	background-color: black;
 	color: #FFF;
-	/*background-image: url(../img/cardlabel.svg);
+	/*background-image: url(../img/CardBackSepia.png);
 	background-size: 15%;*/
 	box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
 }
@@ -240,50 +292,240 @@ border:solid 1px black;border-radius: 3px;
 	background-image: none;
 	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(200,150,60,1)),
 	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(200,150,60,1));
-	color: Linen;
 	color: Darkred;
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 /*Print*/
+body{
+	background-color: transparent;
+	width: 20cm;
+	height: 29cm;
+	border:solid 3px Black;
+}
+
+.crossroad-north , .crossroad-west , .crossroad-station , .crossroad-east, .crossroad-south  {
+	height: 20%;
+	width: 27%;	
+}
+
+.crossroad-north {
+	top:2.5%;
+	left: 35%;
+}
+.crossroad-west {
+	top:25%;
+	left: 2.5%;
+}
+.crossroad-station {
+	top:25%;
+	left: 35%;
+}
+.crossroad-east {
+	top:25%;
+	left:67.5%;
+}
+.crossroad-south {
+	top:48%;
+	left: 35%;
+}
+
 .bodyprint{
 	background-color: transparent;
 	width: 20cm;
-	height: 20cm;
+	height: 29cm;
+	border:solid 3px Black;
 }
+/*
+6.2
+8.7
+*/
 
 .bodyprint #printbtn,.bodyprint #randombtn{display: none;}
 
+.bodyprint .crossroad,.crossroad {
+	position: absolute;
+	width: 40%;
+	height: 50%;
+	top: 0px;
+	left:3%;
+}
+
+.bodyprint .crossroad-north ,
+.bodyprint .crossroad-west ,
+.bodyprint .crossroad-station ,
+.bodyprint .crossroad-east,
+.bodyprint .crossroad-south  {
+	height: 20%;
+	width: 27%;	
+}
+
+.bodyprint .crossroad-north {
+	top:2.5%;
+	left: 35%;
+}
+.bodyprint .crossroad-west {
+	top:25%;
+	left: 2.5%;
+}
+.bodyprint .crossroad-station {
+	top:25%;
+	left: 35%;
+}
+.bodyprint .crossroad-east {
+	top:25%;
+	left:67.5%;
+}
+.bodyprint .crossroad-south {
+	top:48%;
+	left: 35%;
+}
+
+/*.hearts_1{background-image: url(../img/cards/hearts_1.svg);}
+.hearts_2{background-image: url(../img/cards/hearts_2.svg);}
+.hearts_3{background-image: url(../img/cards/hearts_3.svg);}
+.hearts_4{background-image: url(../img/cards/hearts_4.svg);}
+.hearts_5{background-image: url(../img/cards/hearts_5.svg);}
+.hearts_6{background-image: url(../img/cards/hearts_6.svg);}
+.hearts_7{background-image: url(../img/cards/hearts_7.svg);}
+.hearts_8{background-image: url(../img/cards/hearts_8.svg);}
+.hearts_9{background-image: url(../img/cards/hearts_9.svg);}
+.hearts_10{background-image: url(../img/cards/hearts_10.svg);}
+.hearts_11{background-image: url(../img/cards/hearts_11.svg);}
+.hearts_12{background-image: url(../img/cards/hearts_12.svg);}
+.hearts_13{background-image: url(../img/cards/hearts_13.svg);}
+
+.clubs_1{background-image: url(../img/cards/clubs_1.svg);}
+.clubs_2{background-image: url(../img/cards/clubs_2.svg);}
+.clubs_3{background-image: url(../img/cards/clubs_3.svg);}
+.clubs_4{background-image: url(../img/cards/clubs_4.svg);}
+.clubs_5{background-image: url(../img/cards/clubs_5.svg);}
+.clubs_6{background-image: url(../img/cards/clubs_6.svg);}
+.clubs_7{background-image: url(../img/cards/clubs_7.svg);}
+.clubs_8{background-image: url(../img/cards/clubs_8.svg);}
+.clubs_9{background-image: url(../img/cards/clubs_9.svg);}
+.clubs_10{background-image: url(../img/cards/clubs_10.svg);}
+.clubs_11{background-image: url(../img/cards/clubs_11.svg);}
+.clubs_12{background-image: url(../img/cards/clubs_12.svg);}
+.clubs_13{background-image: url(../img/cards/clubs_13.svg);}
+
+.spades_1{background-image: url(../img/cards/spades_1.svg);}
+.spades_2{background-image: url(../img/cards/spades_2.svg);}
+.spades_3{background-image: url(../img/cards/spades_3.svg);}
+.spades_4{background-image: url(../img/cards/spades_4.svg);}
+.spades_5{background-image: url(../img/cards/spades_5.svg);}
+.spades_6{background-image: url(../img/cards/spades_6.svg);}
+.spades_7{background-image: url(../img/cards/spades_7.svg);}
+.spades_8{background-image: url(../img/cards/spades_8.svg);}
+.spades_9{background-image: url(../img/cards/spades_9.svg);}
+.spades_10{background-image: url(../img/cards/spades_10.svg);}
+.spades_11{background-image: url(../img/cards/spades_11.svg);}
+.spades_12{background-image: url(../img/cards/spades_12.svg);}
+.spades_13{background-image: url(../img/cards/spades_13.svg);}
+
+.diamonds_1{background-image: url(../img/cards/diamonds_1.svg);}
+.diamonds_2{background-image: url(../img/cards/diamonds_2.svg);}
+.diamonds_3{background-image: url(../img/cards/diamonds_3.svg);}
+.diamonds_4{background-image: url(../img/cards/diamonds_4.svg);}
+.diamonds_5{background-image: url(../img/cards/diamonds_5.svg);}
+.diamonds_6{background-image: url(../img/cards/diamonds_6.svg);}
+.diamonds_7{background-image: url(../img/cards/diamonds_7.svg);}
+.diamonds_8{background-image: url(../img/cards/diamonds_8.svg);}
+.diamonds_9{background-image: url(../img/cards/diamonds_9.svg);}
+.diamonds_10{background-image: url(../img/cards/diamonds_10.svg);}
+.diamonds_11{background-image: url(../img/cards/diamonds_11.svg);}
+.diamonds_12{background-image: url(../img/cards/diamonds_12.svg);}
+.diamonds_13{background-image: url(../img/cards/diamonds_13.svg);}*/
+
+.hearts_1{background-image: url(../img/malifaux_cards/card_p1_ram_1.png);}
+.hearts_2{background-image: url(../img/malifaux_cards/card_p1_ram_2.png);}
+.hearts_3{background-image: url(../img/malifaux_cards/card_p1_ram_3.png);}
+.hearts_4{background-image: url(../img/malifaux_cards/card_p1_ram_4.png);}
+.hearts_5{background-image: url(../img/malifaux_cards/card_p1_ram_5.png);}
+.hearts_6{background-image: url(../img/malifaux_cards/card_p1_ram_6.png);}
+.hearts_7{background-image: url(../img/malifaux_cards/card_p1_ram_7.png);}
+.hearts_8{background-image: url(../img/malifaux_cards/card_p1_ram_8.png);}
+.hearts_9{background-image: url(../img/malifaux_cards/card_p1_ram_9.png);}
+.hearts_10{background-image: url(../img/malifaux_cards/card_p1_ram_10.png);}
+.hearts_11{background-image: url(../img/malifaux_cards/card_p1_ram_11.png);}
+.hearts_12{background-image: url(../img/malifaux_cards/card_p1_ram_12.png);}
+.hearts_13{background-image: url(../img/malifaux_cards/card_p1_ram_13.png);}
+
+.clubs_1{background-image: url(../img/malifaux_cards/card_p1_tomes_1.png);}
+.clubs_2{background-image: url(../img/malifaux_cards/card_p1_tomes_2.png);}
+.clubs_3{background-image: url(../img/malifaux_cards/card_p1_tomes_3.png);}
+.clubs_4{background-image: url(../img/malifaux_cards/card_p1_tomes_4.png);}
+.clubs_5{background-image: url(../img/malifaux_cards/card_p1_tomes_5.png);}
+.clubs_6{background-image: url(../img/malifaux_cards/card_p1_tomes_6.png);}
+.clubs_7{background-image: url(../img/malifaux_cards/card_p1_tomes_7.png);}
+.clubs_8{background-image: url(../img/malifaux_cards/card_p1_tomes_8.png);}
+.clubs_9{background-image: url(../img/malifaux_cards/card_p1_tomes_9.png);}
+.clubs_10{background-image: url(../img/malifaux_cards/card_p1_tomes_10.png);}
+.clubs_11{background-image: url(../img/malifaux_cards/card_p1_tomes_11.png);}
+.clubs_12{background-image: url(../img/malifaux_cards/card_p1_tomes_12.png);}
+.clubs_13{background-image: url(../img/malifaux_cards/card_p1_tomes_13.png);}
+
+.spades_1{background-image: url(../img/malifaux_cards/card_p1_crows_1.png);}
+.spades_2{background-image: url(../img/malifaux_cards/card_p1_crows_2.png);}
+.spades_3{background-image: url(../img/malifaux_cards/card_p1_crows_3.png);}
+.spades_4{background-image: url(../img/malifaux_cards/card_p1_crows_4.png);}
+.spades_5{background-image: url(../img/malifaux_cards/card_p1_crows_5.png);}
+.spades_6{background-image: url(../img/malifaux_cards/card_p1_crows_6.png);}
+.spades_7{background-image: url(../img/malifaux_cards/card_p1_crows_7.png);}
+.spades_8{background-image: url(../img/malifaux_cards/card_p1_crows_8.png);}
+.spades_9{background-image: url(../img/malifaux_cards/card_p1_crows_9.png);}
+.spades_10{background-image: url(../img/malifaux_cards/card_p1_crows_10.png);}
+.spades_11{background-image: url(../img/malifaux_cards/card_p1_crows_11.png);}
+.spades_12{background-image: url(../img/malifaux_cards/card_p1_crows_12.png);}
+.spades_13{background-image: url(../img/malifaux_cards/card_p1_crows_13.png);}
+
+.diamonds_1{background-image: url(../img/malifaux_cards/card_p1_masks_1.png);}
+.diamonds_2{background-image: url(../img/malifaux_cards/card_p1_masks_2.png);}
+.diamonds_3{background-image: url(../img/malifaux_cards/card_p1_masks_3.png);}
+.diamonds_4{background-image: url(../img/malifaux_cards/card_p1_masks_4.png);}
+.diamonds_5{background-image: url(../img/malifaux_cards/card_p1_masks_5.png);}
+.diamonds_6{background-image: url(../img/malifaux_cards/card_p1_masks_6.png);}
+.diamonds_7{background-image: url(../img/malifaux_cards/card_p1_masks_7.png);}
+.diamonds_8{background-image: url(../img/malifaux_cards/card_p1_masks_8.png);}
+.diamonds_9{background-image: url(../img/malifaux_cards/card_p1_masks_9.png);}
+.diamonds_10{background-image: url(../img/malifaux_cards/card_p1_masks_10.png);}
+.diamonds_11{background-image: url(../img/malifaux_cards/card_p1_masks_11.png);}
+.diamonds_12{background-image: url(../img/malifaux_cards/card_p1_masks_12.png);}
+.diamonds_13{background-image: url(../img/malifaux_cards/card_p1_masks_13.png);}
+
+.jockers_0{background-image:url(../img/malifaux_cards/card_p1_black_joker.png);}
+.jockers_14{background-image:url(../img/malifaux_cards/card_p1_red_joker.png);}
+
 /*22.03.2016*/
-.crossroad-checked-text{
+/*.crossroad-checked-text{
 	background-color: Wheat;
 	border-radius: 5px;
 	width: 100%;
 	height: 100%;
 }
-.colorclubs,.colordiamonds,.colorhearts,.colorspades,.colorjockers{
+.color-clubs,.color-diamonds,.color-hearts,.color-spades,.color-jockers{
 	color: black;
 	background-position: center;
 	background-size: 80%;
 	/*background-size: 50% ;*/
-	background-repeat: no-repeat;
-}
-.colorclubs{
+	/*background-repeat: no-repeat;*/
+/*}
+.color-clubs{
 	background-image: url(../img/clubs.svg);
 	background-image: url(../img/tomes.svg);
 }
-.colordiamonds{
+.color-diamonds{
 	background-image: url(../img/diamonds.svg);
 	background-image: url(../img/masks.svg);
 }
-.colorhearts{
+.color-hearts{
 	background-image: url(../img/hearts.svg);
 	background-image:url(../img/rams.svg);
 }
-.colorspades{
+.color-spades{
 	background-image: url(../img/spades.svg);
 	background-image: url(../img/crows.svg);
 }
-.colorjockers{
+.color-jockers{
 	background-color: Goldenrod;
-}
+}*/
