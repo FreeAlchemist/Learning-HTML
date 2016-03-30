@@ -11,14 +11,14 @@ var interpretation = {
 				fate:'At last you give yourself up to the pyres',
 				text:'-3/0/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT'},
+				fate:'but the people in the windows will greet you with terror.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT'},
+				fate:'you will make dust of the ram\'s horns',
+				text:'-3/0/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT'},
+				fate:'When the accounting passes you by',
+				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
 			name : '♥ 2',
@@ -31,14 +31,14 @@ var interpretation = {
 				fate:'Again, you turn the wheel and move the stone',
 				text:'-3/0/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts 2'},
+				fate:'for the gloom will deny that it knows you.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts 2'},
+				fate:'you will be bold when it is needed most',
+				text:'-3/0/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts 2'},
+				fate:'If you ignore the rope in the trees',
+				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
 			name : '♥ 3',
@@ -51,14 +51,14 @@ var interpretation = {
 				fate:'Hence, the dried lands are watered with the blood of sinners',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts 3'},
+				fate:'but fear the shadow cast by no man.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts 3'},
+				fate:'your journey will never begin',
+				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts 3'},
+				fate:'When the seventh gifts despair',
+				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
 			name : '♥ 4',
@@ -71,14 +71,14 @@ var interpretation = {
 				fate:'Then, the ravens bless your children',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts 4'},
+				fate:'and the sullen stars align for you.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts 4'},
+				fate:'you will wait when you should act',
+				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts 4'},
+				fate:'After the quiet of a thousand nights falls upon your ears',
+				text:'3,2,2,1,1'},
 		},
 		'5' : {
 			name : '♥ 5',
@@ -91,14 +91,14 @@ var interpretation = {
 				fate:'At last, you will sacrifice her on the altars of desperation',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts 5'},
+				fate:'but welcome the song of frozen winter.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts 5'},
+				fate:'an idea will betray you',
+				text:'-2/0/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts 5'},
+				fate:'As upon your back you carry the brightest star into the shadows',
+				text:'3,2,2,1,1'},
 		},
 		'6' : {
 			name : '♥ 6',
@@ -111,14 +111,14 @@ var interpretation = {
 				fate:'You will hold the myth of life in your hands',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts 6'},
+				fate:'as the gathering mocks your gift.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts 6'},
+				fate:'you will be the uninvited',
+				text:'-2/0/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts 6'},
+				fate:'Once you rise from the ashes',
+				text:'3,2,2,1,1'},
 		},
 		'7' : {
 			name : '♥ 7',
@@ -131,14 +131,14 @@ var interpretation = {
 				fate:'He tightens the strings and tugs at the rivets',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts 7'},
+				fate:'for the coldest court will bow to their king.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts 7'},
+				fate:'you will find the answer you cannot speak',
+				text:'-2/0/+1/+1'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts 7'},
+				fate:'When your shadow is cast upon the wall',
+				text:'3,2,2,2'},
 		},
 		'8' : {
 			name : '♥ 8',
@@ -151,14 +151,14 @@ var interpretation = {
 				fate:'The games you play are more deadly than she wishes',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts 8'},
+				fate:'and the moon shines upon the forest but not your path.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts 8'},
+				fate:'the melody will be lost within the gutters',
+				text:'-2/0/+1/+1'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts 8'},
+				fate:'After the echoes of your laughter die',
+				text:'3,2,2,2'},
 		},
 		'9' : {
 			name : '♥ 9',
@@ -171,14 +171,14 @@ var interpretation = {
 				fate:'The other place beckons with the voice of oblivion',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts 9'},
+				fate:'and beware the red letter.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts 9'},
+				fate:'your shame will be as beaten as the hooves',
+				text:'-1/-1/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts 9'},
+				fate:'If you beware oblivion’s hand',
+				text:'3,2,2,2'},
 		},
 		'10' : {
 			name : '♥ 10',
@@ -191,14 +191,14 @@ var interpretation = {
 				fate:'Watch them as they fall one by one to the ground',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts 10'},
+				fate:'but the fear of tomorrow will be drowned in the sorrow of yesterday.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts 10'},
+				fate:'the cauldron-spawn will crawl to your birth',
+				text:'-1/-1/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts 10'},
+				fate:'When you run when you should walk',
+				text:'3,3,1,1'},
 		},
 		'11' : {
 			name : '♥ J 11',
@@ -211,14 +211,14 @@ var interpretation = {
 				fate:'The shards you pass through leave a bloody trail',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts J 11'},
+				fate:'and not but ashes upon your tongue.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts J 11'},
+				fate:'you will be the grape that sours the wine',
+				text:'-2/-1/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts J 11'},
+				fate:'As you walk backwards through the knife',
+				text:'3,3,1,1'},
 		},
 		'12' : {
 			name : '♥ Q 12',
@@ -231,14 +231,14 @@ var interpretation = {
 				fate:'Time is an illusion of the fading light and the feast counts twice',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts Q 12'},
+				fate:'for you will know that a long life is a hundred curses.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts Q 12'},
+				fate:'you will return with the balm for all ills',
+				text:'-2/-1/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts Q 12'},
+				fate:'If you choose to see no evil in the chiming of the hour',
+				text:'3,3,1,1'},
 		},
 		'13' : {
 			name : '♥ K 13',
@@ -251,14 +251,14 @@ var interpretation = {
 				fate:'The circle will bind as well as the grave',
 				text:'-1/-1/-1/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT hearts K 13'},
+				fate:'and she knows.',
+				text:'3,3,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT hearts K 13'},
+				fate:'you will invite him in',
+				text:'-1/-1/-1/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT hearts K 13'},
+				fate:'When you sup upon your pride and dance with cadavers',
+				text:'3,3,2'},
 		}
 	},
 	clubs : {
@@ -273,14 +273,14 @@ var interpretation = {
 				fate:'The grave spirit will call to you on a spring song',
 				text:'-3/0/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 1'},
+				fate:'but your misfortune will not be your own.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 1'},
+				fate:'the wondering hour will settle on your hearth',
+				text:'-3/0/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 1'},
+				fate:'When the gears turn upon the story best forgotten',
+				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
 			name : '♣ 2',
@@ -293,14 +293,14 @@ var interpretation = {
 				fate:'The end will find him in the garden',
 				text:'-3/0/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 2'},
+				fate:'as the witless man fears the child.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 2'},
+				fate:'she will sit alone amongst your misery',
+				text:'-3/0/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 2'},
+				fate:'Once your silver thread spends like golden promises',
+				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
 			name : '♣ 3',
@@ -316,11 +316,11 @@ var interpretation = {
 				fate:'for the hunter shall lay down to sleep upon the lilies.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 3'},
+				fate:'you will refuse the call',
+				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 3'},
+				fate:'If you refuse the hero’s call',
+				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
 			name : '♣ 4',
@@ -333,14 +333,14 @@ var interpretation = {
 				fate:'It is, and it grows',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 4'},
+				fate:'and the forgotten shall be recalled.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 4'},
+				fate:'an exception will corrupt the rule',
+				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 4'},
+				fate:'After the branch snaps beneath your sorrow',
+				text:'3,2,2,1,1'},
 		},
 		'5' : {
 			name : '♣ 5',
@@ -353,14 +353,14 @@ var interpretation = {
 				fate:'Step through the looking glass and into the fable',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 5'},
+				fate:'but his smile shall never fade.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 5'},
+				fate:'your dance will draw the sleeping eye',
+				text:'-2/0/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 5'},
+				fate:'When you wake from the dream of ancestors',
+				text:'3,2,2,1,1'},
 		},
 		'6' : {
 			name : '♣ 6',
@@ -373,14 +373,14 @@ var interpretation = {
 				fate:'The dogs in the vineyard bellow for you to hunt',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 6'},
+				fate:'as the jester dances where he will.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 6'},
+				fate:'the mud flows like a river into the sky',
+				text:'-2/0/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 6'},
+				fate:'As your hands of flesh touch feet of steel',
+				text:'3,2,2,1,1'},
 		},
 		'7' : {
 			name : '♣ 7',
@@ -393,14 +393,14 @@ var interpretation = {
 				fate:'And it is only the penitent who shall tread the path',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 7'},
+				fate:'for your secrets are not yours alone.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 7'},
+				fate:'he will know you not by your rage, but by your temperance',
+				text:'-2/0/+1/+1'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 7'},
+				fate:'When you’ve traded away your beloved',
+				text:'3,2,2,2'},
 		},
 		'8' : {
 			name : '♣ 8',
@@ -413,14 +413,14 @@ var interpretation = {
 				fate:'The empty mind will know the lie from the judgment',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 8'},
+				fate:'and the page turned is empty of promises.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 8'},
+				fate:'she must lurk within your joyless paradise',
+				text:'-2/0/+1/+1'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 8'},
+				fate:'Once your strangers travel in three',
+				text:'3,2,2,2'},
 		},
 		'9' : {
 			name : '♣ 9',
@@ -433,14 +433,14 @@ var interpretation = {
 				fate:'The reflection in the water shows the truth',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 9'},
+				fate:'but heed the cripple who speaks for the coin.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 9'},
+				fate:'the gloom will know you as a brother',
+				text:'-1/-1/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 9'},
+				fate:'When you open the dead man’s eyes',
+				text:'3,2,2,2'},
 		},
 		'10' : {
 			name : '♣ 10',
@@ -453,14 +453,14 @@ var interpretation = {
 				fate:'The end’s a miracle that you dare to dream',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs 10'},
+				fate:'as the dead rise by your fist.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs 10'},
+				fate:'your eyes will be open unto the Abyss',
+				text:'-1/-1/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs 10'},
+				fate:'After you have seen the forever',
+				text:'3,3,1,1'},
 		},
 		'11' : {
 			name : '♣ J 11',
@@ -473,14 +473,14 @@ var interpretation = {
 				fate:'Search for the lion of the valley',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs J 11'},
+				fate:'for you will be reborn in soot and flame.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs J 11'},
+				fate:'you will fall from grace',
+				text:'-2/-1/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs J 11'},
+				fate:'Once you cross the bloody threshold',
+				text:'3,3,1,1'},
 		},
 		'12' : {
 			name : '♣ Q 12',
@@ -493,14 +493,14 @@ var interpretation = {
 				fate:'Lunatics fear where you will stalk',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs Q 12'},
+				fate:'but you know this has all happened before.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs Q 12'},
+				fate:'he will trust your falsehoods',
+				text:'-2/-1/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs Q 12'},
+				fate:'If justice finds you guilty of the only crime',
+				text:'3,3,1,1'},
 		},
 		'13' : {
 			name : '♣ K 13',
@@ -513,14 +513,14 @@ var interpretation = {
 				fate:'Worlds of marble turn flesh again',
 				text:'-1/-1/-1/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT clubs K 13'},
+				fate:'and the lost will drag you into the depths.',
+				text:'3,3,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT clubs K 13'},
+				fate:'she strikes with daggers battered from your shield',
+				text:'-1/-1/-1/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT clubs K 13'},
+				fate:'As you walk the lonely road',
+				text:'3,3,2'},
 		}
 	},
 	spades : {
@@ -535,14 +535,14 @@ var interpretation = {
 				fate:'Denying the battle will win the war',
 				text:'-3/0/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 1'},
+				fate:'for you must dredge the waters till the just give up the dead.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 1'},
+				fate:'you will not be deceived by the ghosts of the tower',
+				text:'-3/0/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 1'},
+				fate:'Once the first has been the last and the last has been the first',
+				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
 			name : '♠ 2',
@@ -555,14 +555,14 @@ var interpretation = {
 				fate:'The mask donned for peace will blind you to bloodshed',
 				text:'-3/0/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 2'},
+				fate:'and the wolf will howl at the door.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 2'},
+				fate:'the sleeper dreams not of tomorrow, but of you',
+				text:'-3/0/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 2'},
+				fate:'When you accept your fates on the river',
+				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
 			name : '♠ 3',
@@ -575,14 +575,14 @@ var interpretation = {
 				fate:'The song will end beyond the thrice knocked wall',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 3'},
+				fate:'but your loss will be what you would discard.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 3'},
+				fate:'you will be reborn of flesh and redemption',
+				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 3'},
+				fate:'If you open the gates of wonder in the wall of lies',
+				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
 			name : '♠ 4',
@@ -595,14 +595,14 @@ var interpretation = {
 				fate:'The chime of your blunder will ring through the village',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 4'},
+				fate:'as you begin, so shall you end.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 4'},
+				fate:'you will refuse to open the tome',
+				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 4'},
+				fate:'As you are unmourned by the father',
+				text:'3,2,2,1,1'},
 		},
 		'5' : {
 			name : '♠ 5',
@@ -615,14 +615,14 @@ var interpretation = {
 				fate:'Only in death will the pilgrim be free',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 5'},
+				fate:'for your borrowing is also your lending.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 5'},
+				fate:'you will not heed the mentor',
+				text:'-2/0/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 5'},
+				fate:'After what is dead has died',
+				text:'3,2,2,1,1'},
 		},
 		'6' : {
 			name : '♠ 6',
@@ -635,14 +635,14 @@ var interpretation = {
 				fate:'The sands of waters will make you clean',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 6'},
+				fate:'and time waits for no man but you.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 6'},
+				fate:'an open door will let him into the red chapel',
+				text:'-2/0/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 6'},
+				fate:'Once your stains have been bound within',
+				text:'3,2,2,1,1'},
 		},
 		'7' : {
 			name : '♠ 7',
@@ -655,14 +655,14 @@ var interpretation = {
 				fate:'Poison will be the cure',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 7'},
+				fate:'but love was left behind.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 7'},
+				fate:'your relic will rust and gleam',
+				text:'-2/0/+1/+1'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 7'},
+				fate:'If you open the box best left closed',
+				text:'3,2,2,2'},
 		},
 		'8' : {
 			name : '♠ 8',
@@ -675,14 +675,14 @@ var interpretation = {
 				fate:'The blind woman must lead the seeker',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 8'},
+				fate:'as the cloud drifts upon your rest.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 8'},
+				fate:'the sting of a single wasp will light the agony',
+				text:'-2/0/+1/+1'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 8'},
+				fate:'When at last you look upon your beating heart',
+				text:'3,2,2,2'},
 		},
 		'9' : {
 			name : '♠ 9',
@@ -695,14 +695,14 @@ var interpretation = {
 				fate:'The blood stained cheeks will weave the grasses',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 9'},
+				fate:'for not all treasures glimmer in the light.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 9'},
+				fate:'she will sicken to the blessed touch',
+				text:'-1/-1/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 9'},
+				fate:'As the hunter watches you swallow the maggots',
+				text:'3,2,2,2'},
 		},
 		'10' : {
 			name : '♠ 10',
@@ -715,14 +715,14 @@ var interpretation = {
 				fate:'Frozen hearths crawl along the stone',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades 10'},
+				fate:'and the reaper walks the path alongside you.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades 10'},
+				fate:'an anvil of the horde will ring with war',
+				text:'-1/-1/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades 10'},
+				fate:'If you allow the hands to pull you down',
+				text:'3,3,1,1'},
 		},
 		'11' : {
 			name : '♠ J 11',
@@ -735,14 +735,14 @@ var interpretation = {
 				fate:'The leaves will whisper your name and shout your exodus',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades J 11'},
+				fate:'but as destiny grows weary of your follies.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades J 11'},
+				fate:'your chime of warning will be drowned in voices',
+				text:'-2/-1/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades J 11'},
+				fate:'After you bleed the coal from the bones',
+				text:'3,3,1,1'},
 		},
 		'12' : {
 			name : '♠ Q 12',
@@ -755,14 +755,14 @@ var interpretation = {
 				fate:'All of the screams will lead you home',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades Q 12'},
+				fate:'as wonders surround your waking echoes.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades Q 12'},
+				fate:'the August will leave melancholy in everything after',
+				text:'-2/-1/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades Q 12'},
+				fate:'As you strain to see through the high noon veil',
+				text:'3,3,1,1'},
 		},
 		'13' : {
 			name : '♠ K 13',
@@ -775,14 +775,14 @@ var interpretation = {
 				fate:'The mute man must cry out for the wolf',
 				text:'-1/-1/-1/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT spades K 13'},
+				fate:'for the stars illuminate your path.',
+				text:'3,3,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT spades K 13'},
+				fate:'you will shatter the stone',
+				text:'-1/-1/-1/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT spades K 13'},
+				fate:'When your death rattles at the door',
+				text:'3,3,2'},
 		}
 	},
 	diamonds : {
@@ -797,14 +797,14 @@ var interpretation = {
 				fate:'Spirits run sour in your veins',
 				text:'-3/0/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 1'},
+				fate:'and you will be repaid thrice for the sins you have sold.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 1'},
+				fate:'you will lead the children through the valley',
+				text:'-3/0/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 1'},
+				fate:'As the crimson writhes upon the belly of the fallen',
+				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
 			name : '♦ 2',
@@ -817,14 +817,14 @@ var interpretation = {
 				fate:'She drinks only blood',
 				text:'-3/0/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 2'},
+				fate:'but there are dragons here.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 2'},
+				fate:'he will shade your tired eyes, and wet your thirsty lips',
+				text:'-3/0/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 2'},
+				fate:'If the autumn bridge shakes in your bellows',
+				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
 			name : '♦ 3',
@@ -837,14 +837,14 @@ var interpretation = {
 				fate:'Love knows not the heart but the bosom',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 3'},
+				fate:'as the living wither from your grasp.',
+				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 3'},
+				fate:'she is unknown to your divine',
+				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 3'},
+				fate:'When your power begets your heresy',
+				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
 			name : '♦ 4',
@@ -857,14 +857,14 @@ var interpretation = {
 				fate:'Escape is impossible, freedom is inevitable',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 4'},
+				fate:'for new enemies are made from old allies.',
+				text:'3,2,2,1,1'},
 			east : {
 				fate:'the dusk of a new sun will light your steps into the cave',
 				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 4'},
+				fate:'Once the nemesis has become the mother',
+				text:'3,2,2,1,1'},
 		},
 		'5' : {
 			name : '♦ 5',
@@ -877,14 +877,14 @@ var interpretation = {
 				fate:'The red woman will light the path',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 5'},
+				fate:'and you will pan the gutter’s glitter.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 5'},
+				fate:'the peer of a thousand faces will weep',
+				text:'-2/0/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 5'},
+				fate:'As the watcher awaits your cry of vengeance',
+				text:'3,2,2,1,1'},
 		},
 		'6' : {
 			name : '♦ 6',
@@ -897,14 +897,14 @@ var interpretation = {
 				fate:'The reflection in the water shows the truth',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 6'},
+				fate:'but the balance will teeter but not tumble.',
+				text:'3,2,2,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 6'},
+				fate:'you will be asked three times, and deny each',
+				text:'-2/0/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 6'},
+				fate:'When you are a stranger to yourself',
+				text:'3,2,2,1,1'},
 		},
 		'7' : {
 			name : '♦ 7',
@@ -917,14 +917,14 @@ var interpretation = {
 				fate:'An abyss opens beneath your cradle',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 7'},
+				fate:'as your steed takes you into the jousts of war.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 7'},
+				fate:'you will take up the sword of your father',
+				text:'-2/0/+1/+1'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 7'},
+				fate:'After the reaper has come for innocence',
+				text:'3,2,2,2'},
 		},
 		'8' : {
 			name : '♦ 8',
@@ -937,14 +937,14 @@ var interpretation = {
 				fate:'They sing for laughter, tears, and tomorrow',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 8'},
+				fate:'for the silence brings inspiration at the door.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 8'},
+				fate:'you will refuse deserved love',
+				text:'-2/0/+1/+1'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 8'},
+				fate:'Once your vendetta is nigh upon the mountains',
+				text:'3,2,2,2'},
 		},
 		'9' : {
 			name : '♦ 9',
@@ -957,14 +957,14 @@ var interpretation = {
 				fate:'The deaf man must hear the owl’s warning',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 9'},
+				fate:'and you will find the other lands on the day she dies.',
+				text:'3,2,2,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 9'},
+				fate:'he chooses not you, but the downfall',
+				text:'-1/-1/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 9'},
+				fate:'When you choose between the quill or the blade',
+				text:'3,2,2,2'},
 		},
 		'10' : {
 			name : '♦ 10',
@@ -977,14 +977,14 @@ var interpretation = {
 				fate:'The water falls like envy, the river runs like rage',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds 10'},
+				fate:'but leave your mark in many woes.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds 10'},
+				fate:'an empty grave will fill with melody',
+				text:'-1/-1/0/+2'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds 10'},
+				fate:'After you don the crimson silks',
+				text:'3,3,1,1'},
 		},
 		'11' : {
 			name : '♦ J 11',
@@ -997,14 +997,14 @@ var interpretation = {
 				fate:'The grave did not hold her',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds J 11'},
+				fate:'but leave your mark in many woes.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds J 11'},
+				fate:'your ruination will hound your desperate exodus',
+				text:'-2/-1/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds J 11'},
+				fate:'If you know the dimming of the lanterns',
+				text:'3,3,1,1'},
 		},
 		'12' : {
 			name : '♦ Q 12',
@@ -1017,14 +1017,14 @@ var interpretation = {
 				fate:'The halo slips around your throat like the noose',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds Q 12'},
+				fate:'but leave your mark in many woes.',
+				text:'3,3,1,1'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds Q 12'},
+				fate:'the last man will speak the lies of your glory',
+				text:'-2/-1/0/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds Q 12'},
+				fate:'As the bell tolls for judgment',
+				text:'3,3,1,1'},
 		},
 		'13' : {
 			name : '♦ K 13',
@@ -1037,14 +1037,14 @@ var interpretation = {
 				fate:'The sisters will show the way',
 				text:'-1/-1/-1/+3'},
 			north : {
-				fate:'NORTH FATE.',
-				text:'NORTH TEXT diamonds K 13'},
+				fate:'but you are safe beneath the ice.',
+				text:'3,3,2'},
 			east : {
-				fate:'EAST FATE',
-				text:'EAST TEXT diamonds K 13'},
+				fate:'she will fear your iron, but not your thread',
+				text:'-1/-1/-1/+3'},
 			south : {
-				fate:'SOUTH FATE',
-				text:'SOUTH TEXT diamonds K 13'},
+				fate:'When hope drowns in but three tears',
+				text:'3,3,2'},
 		}
 	},
 	jockers : {
