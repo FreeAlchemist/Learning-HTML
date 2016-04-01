@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Таро перекрёстка</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<div class="crossroad">
+	<div class="crossroad-north" id="crossroad-north">
+		<div class="crossroad-card" id="card-north"><!-- ♠ 10 --></div>
+	</div>
+	<div class="crossroad-west" id="crossroad-west">
+		<div class="crossroad-card" id="card-west"><!-- ♥ K --></div>
+	</div>
+	<div class="crossroad-station" id="crossroad-station">
+		<div class="crossroad-card" id="card-station"><!-- ♦ 6 --></div>
+	</div>
+	<div class="crossroad-east" id="crossroad-east">
+		<div class="crossroad-card" id="card-east"><!-- ♣ J --></div>
+	</div>
+	<div class="crossroad-south" id="crossroad-south">
+		<div class="crossroad-card" id="card-south"><b><!-- J --></b></div>
+	</div>
+</div>
+
+<div class="history">
+	<p id="lang">Язык:<a href="index.html">ENG</a><a href="index-rus.html">RUS</a></p>
+	<h2>Таро перекрёстка</h2>
+	<h3>История</h3>
+	<form>
+		<input type="button" id="printbtn" value="Print" onclick="print()">
+		<div class="stage">
+			<div class="title">Обречённый:</div>
+			<div class="title"><input id="name" type="text" placeholder="Иван Петров"></div>
+		</div>
+		<input type="button" id="randombtn" value="Random Fate" onclick="randomize()">
+	</form>
+	<div class="history-block" id="history-station">
+	</div>
+	<div class="history-block" id="history-west">
+	</div>
+	<div class="history-block" id="history-north">
+	</div>	
+	<div class="history-block" id="history-east">
+	</div>	
+	<div class="history-block" id="history-south">
+	</div>	
+</div>
+
+<div class="fate"><h3>Судьба:</h3>
+	<div class="fate-block" id="fate-south">
+	</div>
+	<div class="fate-block" id="fate-east">
+	</div>	
+	<div class="fate-block" id="fate-north">
+	</div>	
+	<div class="fate-block" id="fate-west">
+	</div>
+	<div class="fate-block" id="fate-station">
+	</div>
+	<h4>Web part, FreeAlchemist</h4>
+	<h4>Contents copyright ©, <a href="http://www.wyrd-games.net/home">Wyrd Miniatures</a>, LLC.</h4>
+</div>
+
+<script type="text/javascript" src="js/cardsInterpretation-rus.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/cardsFlip.js"></script>
+</body>
+</html>
