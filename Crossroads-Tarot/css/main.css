@@ -47,6 +47,7 @@ border:solid 1px black;border-radius: 3px;
 	left: 45%;
 	overflow: auto;
 	padding: 10px;
+	font-size: 10pt;
 }
 
 .crossroad {
@@ -78,7 +79,6 @@ border:solid 1px black;border-radius: 3px;
 	/*padding: 5px;*/
 	box-sizing: border-box;
 }
-
 
 .crossroad-north {
 	top:2.5%;
@@ -116,7 +116,7 @@ border:solid 1px black;border-radius: 3px;
 }
 
 .stage{
-	width: 250px;
+	width: 280px;
 	height: 30px;
 	border:1px solid;
 	border-radius: 3px;
@@ -124,7 +124,7 @@ border:solid 1px black;border-radius: 3px;
 }
 .title{
 	float: left;
-	width: 50px;
+	width: 90px;
 	padding: 5px;
 }
 #name{
@@ -394,7 +394,6 @@ body{
 .hearts_11{background-image: url(../img/cards/hearts_11.svg);}
 .hearts_12{background-image: url(../img/cards/hearts_12.svg);}
 .hearts_13{background-image: url(../img/cards/hearts_13.svg);}
-
 .clubs_1{background-image: url(../img/cards/clubs_1.svg);}
 .clubs_2{background-image: url(../img/cards/clubs_2.svg);}
 .clubs_3{background-image: url(../img/cards/clubs_3.svg);}
@@ -408,7 +407,6 @@ body{
 .clubs_11{background-image: url(../img/cards/clubs_11.svg);}
 .clubs_12{background-image: url(../img/cards/clubs_12.svg);}
 .clubs_13{background-image: url(../img/cards/clubs_13.svg);}
-
 .spades_1{background-image: url(../img/cards/spades_1.svg);}
 .spades_2{background-image: url(../img/cards/spades_2.svg);}
 .spades_3{background-image: url(../img/cards/spades_3.svg);}
@@ -422,7 +420,6 @@ body{
 .spades_11{background-image: url(../img/cards/spades_11.svg);}
 .spades_12{background-image: url(../img/cards/spades_12.svg);}
 .spades_13{background-image: url(../img/cards/spades_13.svg);}
-
 .diamonds_1{background-image: url(../img/cards/diamonds_1.svg);}
 .diamonds_2{background-image: url(../img/cards/diamonds_2.svg);}
 .diamonds_3{background-image: url(../img/cards/diamonds_3.svg);}
@@ -496,20 +493,30 @@ body{
 .jockers_0{background-image:url(../img/malifaux_cards/card_p1_black_joker.png);}
 .jockers_14{background-image:url(../img/malifaux_cards/card_p1_red_joker.png);}
 
-/*22.03.2016*/
-/*.crossroad-checked-text{
+/*01.04.2016*/
+.crossroad-north ,
+.crossroad-west ,
+.crossroad-station ,
+.crossroad-east,
+.crossroad-south {
+	background-color: Aliceblue;
+	background-image: url(../img/Back.svg);
+}
+
+.crossroad-checked-text{
 	background-color: Wheat;
 	border-radius: 5px;
 	width: 100%;
 	height: 100%;
 }
+
 .color-clubs,.color-diamonds,.color-hearts,.color-spades,.color-jockers{
 	color: black;
 	background-position: center;
 	background-size: 80%;
-	/*background-size: 50% ;*/
+	/*background-size: 50% ;
 	/*background-repeat: no-repeat;*/
-/*}
+}
 .color-clubs{
 	background-image: url(../img/clubs.svg);
 	background-image: url(../img/tomes.svg);
@@ -528,4 +535,11 @@ body{
 }
 .color-jockers{
 	background-color: Goldenrod;
-}*/
+}
+
+#lang a{
+	margin-left: 10px;
+}
+#lang a:hover{
+	color: blue;
+}
