@@ -330,16 +330,16 @@ var interpretation = {
 				birth:'Счетовод (Accountant)',
 				text:'Ваша семья зарабатывала на жизнь в финансовой сфере, либо работая на банк, либо служа аналитиком состоятельному покровителю.'},
 			west : {
-				fate:'It is, and it grows',
+				fate:'Оно есть и оно растет',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'and the forgotten shall be recalled.',
+				fate:'и забытые будут вспомнены.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'an exception will corrupt the rule',
+				fate:'исключение испортит правило',
 				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'After the branch snaps beneath your sorrow',
+				fate:'После того как хрустнет ветка под твоей скорбью',
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
@@ -350,16 +350,16 @@ var interpretation = {
 				birth:'Переплетчик (Bookbinder)',
 				text:'Чаще всего находящегося в городском центре, переплетчика обычно можно увидеть с измазанными краской пальцами и усталым взглядом. Хотя семья которую кормит его работа часто живет благоустроенно.'},
 			west : {
-				fate:'Step through the looking glass and into the fable',
+				fate:'Шаг сквозь зеркало в басню',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'but his smile shall never fade.',
+				fate:'но его улыбка не должна угаснуть никогда.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'your dance will draw the sleeping eye',
+				fate:'твой танец будет рисовать спящий глаз',
 				text:'-2/0/0/+2'},
 			south : {
-				fate:'When you wake from the dream of ancestors',
+				fate:'Когда ты просыпаешься от мечты предков',
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
@@ -370,16 +370,16 @@ var interpretation = {
 				birth:'Качок (Muscle)',
 				text:'Влиятельные предприятия наряду с криминальными структурами нуждаются в брутальных людях для насаждения своей воли. Предпочтительно чтобы, домашняя жизнь этих свирепых людей осталась недокументированной.'},
 			west : {
-				fate:'The dogs in the vineyard bellow for you to hunt',
+				fate:'Псы в винограднике ревом зовут тебя к охоте',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'as the jester dances where he will.',
+				fate:'а шут танцует там где он будет.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'the mud flows like a river into the sky',
+				fate:'грязь льется в небо как река',
 				text:'-2/0/0/+2'},
 			south : {
-				fate:'As your hands of flesh touch feet of steel',
+				fate:'Когда руки из плоти ощупают ноги из стали',
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
@@ -390,16 +390,16 @@ var interpretation = {
 				birth:'Смотритель (Caretaker)',
 				text:'Ваше детство было спокойным, проведенное в садах и домах состоятельных людей вместе с одним из ваших родителей, который мог быть садовником или дворецким.'},
 			west : {
-				fate:'And it is only the penitent who shall tread the path',
+				fate:'И только кающийся должен ступить на путь',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'for your secrets are not yours alone.',
+				fate:'для тебя секреты не только твои.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'he will know you not by your rage, but by your temperance',
+				fate:'он узнает тебя не по гневу, но по воздержанию',
 				text:'-2/0/+1/+1'},
 			south : {
-				fate:'When you’ve traded away your beloved',
+				fate:'Когда ты променял свою возлюбленную',
 				text:'3,2,2,2'},
 		},
 		'8' : {
@@ -410,16 +410,16 @@ var interpretation = {
 				birth:'Алхимик (Alchemist)',
 				text:'В то время как многие травяные препараты не требуют особых навыков для приготовления, в вашей семье был как минимум один одаренный алхимик обеспечивавший высокий уровень жизни создавая более сложные лекарства.'},
 			west : {
-				fate:'The empty mind will know the lie from the judgment',
+				fate:'Пустой ум отличит ложь от суда',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'and the page turned is empty of promises.',
+				fate:'и страница оакзалась полна пустых обещаний.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'she must lurk within your joyless paradise',
+				fate:'она должна затаиться в твоем безрадостном раю',
 				text:'-2/0/+1/+1'},
 			south : {
-				fate:'Once your strangers travel in three',
+				fate:'Как только твои странники путешествуют втроем',
 				text:'3,2,2,2'},
 		},
 		'9' : {
@@ -430,16 +430,16 @@ var interpretation = {
 				birth:'Исполнитель (Performer)',
 				text:'Либо на сцене крупного городского поселения, либо на дороге с труппой, ваша семья зарабатывала на жизнь песнями, танцами, игрой и исполнением развлекательных номеров.'},
 			west : {
-				fate:'The reflection in the water shows the truth',
+				fate:'Отражение в воде покажет правду',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'but heed the cripple who speaks for the coin.',
+				fate:'но внимай калеке, кто говорит за деньги.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'the gloom will know you as a brother',
+				fate:'мрак будет знать тебя как брата',
 				text:'-1/-1/0/+2'},
 			south : {
-				fate:'When you open the dead man’s eyes',
+				fate:'Когда ты откроешь глаза мертвеца',
 				text:'3,2,2,2'},
 		},
 		'10' : {
@@ -450,16 +450,16 @@ var interpretation = {
 				birth:'Госпожа (Madame)',
 				text:'Каждый городской центр является приютом для борделя или двух. Ваш опекун управлял одним из таких домов и вы провели юность окруженные богачами и их наложницами.'},
 			west : {
-				fate:'The end’s a miracle that you dare to dream',
+				fate:'Конец это чудо о котором ты смеешь мечтать',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'as the dead rise by your fist.',
+				fate:'как мертвецы восстанут за твоим кулаком.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'your eyes will be open unto the Abyss',
+				fate:'твои глаза будут открыты в бездну',
 				text:'-1/-1/0/+2'},
 			south : {
-				fate:'After you have seen the forever',
+				fate:'После того как ты видел вечность',
 				text:'3,3,1,1'},
 		},
 		'11' : {
@@ -470,16 +470,16 @@ var interpretation = {
 				birth:'Инженер (Engineer)',
 				text:'Общество нуждается в тех кто может конструировать массивные рабочие дома наряду с часовыми механизмами. Инженер зачастую обеспечен и может себе позволить дать детям образование.'},
 			west : {
-				fate:'Search for the lion of the valley',
+				fate:'Поиск льва в долине',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'for you will be reborn in soot and flame.',
+				fate:'для тебя возродится в копоти и пламени.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'you will fall from grace',
+				fate:'ты падешь от благодати',
 				text:'-2/-1/0/+3'},
 			south : {
-				fate:'Once you cross the bloody threshold',
+				fate:'Как только ты пересечешь кровавый порог',
 				text:'3,3,1,1'},
 		},
 		'12' : {
@@ -490,16 +490,16 @@ var interpretation = {
 				birth:'Безумный ученый (Mad Scientist)',
 				text:'Сказать что один из ваших родителей был эксцентричным будет преуменьшением граничащим с преступной халатностью. Вы провели детство наблюдая странные механизмы и слушая эзотерические тирады по ряду “образовательных тем”.'},
 			west : {
-				fate:'Lunatics fear where you will stalk',
+				fate:'Лунатики боятся где ты крадешься',
 				text:'-2/-1/0/+3'},
 			north : {
 				fate:'but you know this has all happened before.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'he will trust your falsehoods',
+				fate:'он доверится твоей лжи',
 				text:'-2/-1/0/+3'},
 			south : {
-				fate:'If justice finds you guilty of the only crime',
+				fate:'Если правосудие признает тебя виновным в единственном преступлении',
 				text:'3,3,1,1'},
 		},
 		'13' : {
@@ -510,16 +510,16 @@ var interpretation = {
 				birth:'Арканист (Arcanist)',
 				text:'Те кто имеет способности к магическим навыкам часто должны держать свои возможности в секрете, если только их семья не обладает достаточным влиянием чобы практиковать способности только в "правовой секретности"'},
 			west : {
-				fate:'Worlds of marble turn flesh again',
+				fate:'Мраморные миры снова облекутся плотью',
 				text:'-1/-1/-1/+3'},
 			north : {
-				fate:'and the lost will drag you into the depths.',
+				fate:'и потерянные утащат тебя в глубины.',
 				text:'3,3,2'},
 			east : {
-				fate:'she strikes with daggers battered from your shield',
+				fate:'она атакует кинжалами отколотыми от твоего щита',
 				text:'-1/-1/-1/+3'},
 			south : {
-				fate:'As you walk the lonely road',
+				fate:'Когда ты идешь по одинокой дороге',
 				text:'3,3,2'},
 		}
 	},
