@@ -28,16 +28,16 @@ var interpretation = {
 				birth:'Подневольный служитель (Indentured Servant)',
 				text:'Несчастен родитель, которому приходится выбирать между долговой тюрьмой и подневольным служением. Однако отработка большого долга держит его ближе к семье и подальше от оков.'},
 			west : {
-				fate:'Again, you turn the wheel and move the stone',
+				fate:'Вновь ты повернешь колесо и сдвинешь камень',
 				text:'-3/0/+1/+2'},
 			north : {
-				fate:'for the gloom will deny that it knows you.',
+				fate:'ради мрака откажется знать тебя.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'you will be bold when it is needed most',
+				fate:'ты будешь отважен в самый нужный момент',
 				text:'-3/0/+1/+2'},
 			south : {
-				fate:'If you ignore the rope in the trees',
+				fate:'Если ты проигнорируешь веревку среди деревьев',
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
@@ -48,16 +48,16 @@ var interpretation = {
 				birth:'Разнорабочий (Laborer)',
 				text:'Обычно рабочие трудятся много часов и зачастую непосредственно в сопровождении семьи. Это тяжелая жизнь наполненная рутиной и ноющими мышцами. И многие семьи находят достоинство в труде... но не все.'},
 			west : {
-				fate:'Hence, the dried lands are watered with the blood of sinners',
+				fate:'Следовательно иссушенные земли оросит кровь грешников',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'but fear the shadow cast by no man.',
+				fate:'но бойся тени отбрасываемой никем.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'your journey will never begin',
+				fate:'твое странствие никогда не начнется',
 				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'When the seventh gifts despair',
+				fate:'Когда седьмые дары отчаятся',
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
@@ -68,16 +68,16 @@ var interpretation = {
 				birth:'Слуга (Servant)',
 				text:'Ваша семья служила более зажиточной семье в качестве горничных и полевых рабочих. Ваше детство прошло в работе, играх с детьми других слуг и вероятно притеснениями со стороны детей господина ваших родителей.'},
 			west : {
-				fate:'Then, the ravens bless your children',
+				fate:'Тогда вороны благословят твоих детей',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'and the sullen stars align for you.',
+				fate:'и угрюмые звезды выстроятся для тебя.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'you will wait when you should act',
+				fate:'ты будешь ждать нужного момента',
 				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'After the quiet of a thousand nights falls upon your ears',
+				fate:'После того как тишина тысячи ночей достигнет твоих ушей',
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
@@ -88,16 +88,16 @@ var interpretation = {
 				birth:'Владелец магазина (Shopkeep)',
 				text:'Владение магазином (любого типа) обеспечивало вашу семью. Ваших родителей похоже уважали в местном сообществе и вы благоустроены.'},
 			west : {
-				fate:'At last, you will sacrifice her on the altars of desperation',
+				fate:'В конце-концов ты принесешь ее в жертву на алтарях отчаяния',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'but welcome the song of frozen winter.',
+				fate:'но прими песнь застывшей зимы.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'an idea will betray you',
+				fate:'задумка тебя подведет',
 				text:'-2/0/0/+2'},
 			south : {
-				fate:'As upon your back you carry the brightest star into the shadows',
+				fate:'Когда за спиной ты несешь ярчайшую звезду в тени',
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
@@ -108,16 +108,16 @@ var interpretation = {
 				birth:'Кузнец (Blacksmith)',
 				text:'Работа с железом прибыльная но изнуряюща. Ваше детство прошло в помощи родителю на кузнице, либо в большоа городе, поселке, либо даже на большом ранчо.'},
 			west : {
-				fate:'You will hold the myth of life in your hands',
+				fate:'Ты будешь держать миф о сотворении жизни в руках',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'as the gathering mocks your gift.',
+				fate:'когда собрание насмехается над твоим даром.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'you will be the uninvited',
+				fate:'ты будешь незваным',
 				text:'-2/0/0/+2'},
 			south : {
-				fate:'Once you rise from the ashes',
+				fate:'Однажды ты восстанешь из праха',
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
@@ -128,16 +128,16 @@ var interpretation = {
 				birth:'Журналист (Reporter)',
 				text:'Один (или оба) из ваших родителей  был журналистом изучающим влиятельных лиц либо странные события. Время от времени это причиняло им (и вашей семье) ущерб.'},
 			west : {
-				fate:'He tightens the strings and tugs at the rivets',
+				fate:'Он подтягивает струны и дергает заклепки',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'for the coldest court will bow to their king.',
+				fate:'для хладейшего двора склонившегося пред своим королем.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'you will find the answer you cannot speak',
+				fate:'ты найдешь ответ, который не сможешь озвучить',
 				text:'-2/0/+1/+1'},
 			south : {
-				fate:'When your shadow is cast upon the wall',
+				fate:'Когда твоя тень упадет на стену',
 				text:'3,2,2,2'},
 		},
 		'8' : {
@@ -168,36 +168,36 @@ var interpretation = {
 				birth:'Адвокат (Barrister)',
 				text:'Законы - краеугольный камень цивилизации и адвокаты те, кто закон трактует. В зале суда ли, в зале совета ли, один из ваших родителей работал с законом.'},
 			west : {
-				fate:'The other place beckons with the voice of oblivion',
+				fate:'Иное место манит голосом забвения',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'and beware the red letter.',
+				fate:'и остерегайся красного послания.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'your shame will be as beaten as the hooves',
+				fate:'твой позор будет избит как копыта',
 				text:'-1/-1/0/+2'},
 			south : {
-				fate:'If you beware oblivion’s hand',
+				fate:'Если ты опасаешься руки забвения',
 				text:'3,2,2,2'},
 		},
 		'10' : {
 			name : '♥ 10',
 			station : {
 				skill:'Кулачный бой (Pugilism)',
-				fate:'and it dreams of you.',
+				fate:'и он мечтает о тебе.',
 				birth:'Вышибала (Enforcer)',
 				text:'Служа в качестве констебля в городе либо поселке или в качестве законника для правительственых нужд, вышибалы удостоверяются, что толпа подчиняется правилам. Это часто приводит к строгому методу воспитания.'},
 			west : {
-				fate:'Watch them as they fall one by one to the ground',
+				fate:'Наблюдай как один за одним они падут к земле',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'but the fear of tomorrow will be drowned in the sorrow of yesterday.',
+				fate:'но завтрашний страх утонет во вчерашней скорби.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'the cauldron-spawn will crawl to your birth',
+				fate:'котлорожденный будет пресмыкаться пред твоим рождением',
 				text:'-1/-1/0/+2'},
 			south : {
-				fate:'When you run when you should walk',
+				fate:'Когда ты побежишь хотя должен идти',
 				text:'3,3,1,1'},
 		},
 		'11' : {
@@ -208,16 +208,16 @@ var interpretation = {
 				birth:'Управляющий (Administrator)',
 				text:'Один или оба из ваших родителей работали в интересах богатых и влиятельных, кому требовалась твердая рука для надзора за операциями проводимыми на объектах удаленных от их сфер влияния.'},
 			west : {
-				fate:'The shards you pass through leave a bloody trail',
+				fate:'Осколки по которым ты проходишь оставляют кровавый след',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'and not but ashes upon your tongue.',
+				fate:'и ничего кроме привкуса праха на языке.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'you will be the grape that sours the wine',
+				fate:'ты будешь ягодой испортившей вино',
 				text:'-2/-1/0/+3'},
 			south : {
-				fate:'As you walk backwards through the knife',
+				fate:'Когда ты идешь назад через нож',
 				text:'3,3,1,1'},
 		},
 		'12' : {
@@ -228,16 +228,16 @@ var interpretation = {
 				birth:'Учение (Academic)',
 				text:'Ваши родители были частью мыслящей элиты. Это может включать университетских профессоров, исследователей либо прославленных ученых в определенной сфере.'},
 			west : {
-				fate:'Time is an illusion of the fading light and the feast counts twice',
+				fate:'Время это иллюзия угасающего света и трапеза учитывается дважды',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'for you will know that a long life is a hundred curses.',
+				fate:'чтобы узнать, что долгая жизнь это сотня проклятий.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'you will return with the balm for all ills',
+				fate:'ты вернешься с бальзамом от всех болезней',
 				text:'-2/-1/0/+3'},
 			south : {
-				fate:'If you choose to see no evil in the chiming of the hour',
+				fate:'Если ты решишь не видеть зла в звоне часа',
 				text:'3,3,1,1'},
 		},
 		'13' : {
@@ -248,16 +248,16 @@ var interpretation = {
 				birth:'Ортега (Ortega)',
 				text:'Вы принадлежите обширной семье охотников на Нерожденных известной как Ортега. Вы провели детство учась подмечать следы их влияния и как тесно взаимодействовать со своей семьей во время охоты.'},
 			west : {
-				fate:'The circle will bind as well as the grave',
+				fate:'Круг свяжет также как могила',
 				text:'-1/-1/-1/+3'},
 			north : {
-				fate:'and she knows.',
+				fate:'и она знает.',
 				text:'3,3,2'},
 			east : {
-				fate:'you will invite him in',
+				fate:'ты пригласишь его войти',
 				text:'-1/-1/-1/+3'},
 			south : {
-				fate:'When you sup upon your pride and dance with cadavers',
+				fate:'Когда ты проглотишь свою гордость и будешь танцевать с трупами',
 				text:'3,3,2'},
 		}
 	},
@@ -270,16 +270,16 @@ var interpretation = {
 				birth:'Шахтер (Miner)',
 				text:'Влиятельные шахтерские компании любят нанимать семьи, поскольку дети могут пробраться в лазы, которых взрослым работникам не достичь. Если вы везучи, то пережили детство всего с парой шрамов.'},
 			west : {
-				fate:'The grave spirit will call to you on a spring song',
+				fate:'Могильный дух взовет к тебе на весенней песне',
 				text:'-3/0/0/+3'},
 			north : {
 				fate:'но твое несчастье не будет твоим собственным.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'the wondering hour will settle on your hearth',
+				fate:'час удивления поселится в твоем сердце',
 				text:'-3/0/0/+3'},
 			south : {
-				fate:'When the gears turn upon the story best forgotten',
+				fate:'Когда завращаются шестерни истории, которую лучше забыть',
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
@@ -290,16 +290,16 @@ var interpretation = {
 				birth:'Плотник (Carpenter)',
 				text:'Подобно кузнецу, талантливый плотник крайне важен в работах любой цивилизации. Лучшие мебель и здания зачастую созданы увлеченным профессионалом (и его преемником).'},
 			west : {
-				fate:'The end will find him in the garden',
+				fate:'Конец настигнет его в саду',
 				text:'-3/0/+1/+2'},
 			north : {
-				fate:'as the witless man fears the child.',
+				fate:'как глупый человек страшится ребенка.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'she will sit alone amongst your misery',
+				fate:'она будет сидеть одна среди твоей убогости',
 				text:'-3/0/+1/+2'},
 			south : {
-				fate:'Once your silver thread spends like golden promises',
+				fate:'Как только твоя серебрянная нить растратится как золотые обещания',
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
@@ -310,16 +310,16 @@ var interpretation = {
 				birth:'Мастеровой маг (Magewright)',
 				text:'Не каждый магически одаренный удерживает силы вселенной на кончиках пальцев. Напротив, один из ваших родителей обладал незначительным магическим даром работая на Гильдийской фабрике зачарования изготавливающей безделушки.'},
 			west : {
-				fate:'Pale faced the innocent will drown in bile',
+				fate:'Бледный столкнувшийся с невинным утонет в желчи',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'for the hunter shall lay down to sleep upon the lilies.',
+				fate:'для охотника следует лечь спать на лилиях.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'you will refuse the call',
+				fate:'ты отвергнешь зов',
 				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'If you refuse the hero’s call',
+				fate:'Если ты отклонишь зов героя',
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
@@ -708,9 +708,9 @@ var interpretation = {
 			name : '♠ 10',
 			station : {
 				skill:'Центровка (Centering)',
-				fate:'and you are a breeze unto the leaves.',
+				fate:'и ты ветер в листьях.',
 				birth:'Убийца (Assassin)',
-				text:'A parent was often gone for long periods of time, sending money home to support the family. One day, you learned why.'},
+				text:'Один из ваших родителей часто подолгу был в отъезде, присылая деньги на содержание семьи. Однажды вы узнали почему.'},
 			west : {
 				fate:'Frozen hearths crawl along the stone',
 				text:'-1/-1/0/+2'},
@@ -728,9 +728,9 @@ var interpretation = {
 			name : '♠ J 11',
 			station : {
 				skill:'Учение: Искусство (Academic: Art)',
-				fate:'and you will let your blood run cold.',
-				birth:'Artist',
-				text:'You likely spent your youth helping to mix paint, tighten canvas, or prepare stone for chiseling. Your family contained at least one practicing artist and you learned to appreciate, or at least understand, the world of an artist.'},
+				fate:'и ты позволишь своей крови застыть.',
+				birth:'Художник (Artist)',
+				text:'Вы провели юность помогая смешивать краски, натягивать холст или готовя камень к рубке. В вашей семье был как минимум один практикующий художник и вы научились если не ценить, то понимать мир искусства.'},
 			west : {
 				fate:'The leaves will whisper your name and shout your exodus',
 				text:'-2/-1/0/+3'},
@@ -747,10 +747,10 @@ var interpretation = {
 		'12' : {
 			name : '♠ Q 12',
 			station : {
-				skill:'Doctor',
-				fate:'and you seek the sound of your last breath.',
-				birth:'Medical',
-				text:'One of your parents was a medical professional who tended to the needs of the sick and injured. Your family was likely well respected in your community.'},
+				skill:'Доктор (Doctor)',
+				fate:'и ты ищешь звук своего последнего вздоха.',
+				birth:'Медик (Medical)',
+				text:'Один из ваших родителей был профессиональным медиков, который заботился о нуждах больных и покалеченных. Вашу семью уважали в обществе.'},
 			west : {
 				fate:'All of the screams will lead you home',
 				text:'-2/-1/0/+3'},
@@ -767,10 +767,10 @@ var interpretation = {
 		'13' : {
 			name : '♠ K 13',
 			station : {
-				skill:'Harness Soulstone',
-				fate:'and you stumble upon the line of life and death.',
-				birth:'Resurrectionists',
-				text:'Your parent or guardian was a Resurrectionist, one of the few necromancers able to ply their trade Earthside. Your childhood was spent hiding in sewers and fleeing summary execution.'},
+				skill:'Снаряжение Камня Души (Harness Soulstone)',
+				fate:'и ты задержался на грани жизни и смерти.',
+				birth:'Воскрешатели (Resurrectionists)',
+				text:'Ваш родитель либо опекун был Воскрешателем, одним из немногих некромантов сумевшим вести дела на Земле. Ваше детство прошло в прятках среди сточных туннелей и бегстве от казни.'},
 			west : {
 				fate:'The mute man must cry out for the wolf',
 				text:'-1/-1/-1/+3'},
@@ -789,10 +789,10 @@ var interpretation = {
 		'1' : {
 			name : '♦ 1',
 			station : {
-				skill:'Forgery',
-				fate:'and obliteration’s touch will be gentle.',
-				birth:'Hustler',
-				text:'A short, or long, grift can easily make use of an entire family of trained hustlers. It is not uncommon for families of confident tricksters to play their trades both on the road and in large cities.'},
+				skill:'Фальсификация (Forgery)',
+				fate:'и уничтожающее касание будет нежным.',
+				birth:'Фальшивомонетчик (Hustler)',
+				text:'Так или иначе мошенники найдут как использовать целую семью опытных фальшифомонетчиков. Нередко семьи уверенных в себе обманщиков совершают свои сделки как в пути так и в больших городах.'},
 			west : {
 				fate:'Spirits run sour in your veins',
 				text:'-3/0/0/+3'},
@@ -809,12 +809,12 @@ var interpretation = {
 		'2' : {
 			name : '♦ 2',
 			station : {
-				skill:'Bewitch',
-				fate:'and your iron wishes to bleed.',
-				birth:'Harlot',
-				text:'The world’s oldest professions are said to be whore and parenthood. Technically, the two aren’t mutually exclusive, and some mothers or fathers turn to prostitution to keep their children fed.'},
+				skill:'Приворожить (Bewitch)',
+				fate:'и твои оковы возжелают истекать кровью.',
+				birth:'Блудница (Harlot)',
+				text:'Говорят, что старейшие профессии это проституция и воспитание детей. Технически они не уникальны и некоторые матери или отцы обращаются к проституции чтобы прокормить детей.'},
 			west : {
-				fate:'She drinks only blood',
+				fate:'Она пьет только кровь',
 				text:'-3/0/+1/+2'},
 			north : {
 				fate:'but there are dragons here.',
@@ -829,10 +829,10 @@ var interpretation = {
 		'3' : {
 			name : '♦ 3',
 			station : {
-				skill:'Music',
-				fate:'and yours is only yours.',
-				birth:'Busker',
-				text:'A close cousin to more traditional entertainers, buskers often work in groups (which included your family), entertaining people on crowded streets for tips.'},
+				skill:'Музыка (Music)',
+				fate:'и что твое, то твое.',
+				birth:'Уличный музыкант (Busker)',
+				text:'Близкие родственники привычных затейников, уличные музыканты часто работают группами (включая вашу семью), развлекая людей на переполненных улицах за подачку.'},
 			west : {
 				fate:'Love knows not the heart but the bosom',
 				text:'-2/-1/+1/+2'},
@@ -849,10 +849,10 @@ var interpretation = {
 		'4' : {
 			name : '♦ 4',
 			station : {
-				skill:'Wilderness',
-				fate:'and you will splinter the white door.',
-				birth:'Settler',
-				text:'Your family migrated out into the wilderness and forged a homestead for themselves. Direct and often stern, your parents were nevertheless independent and proud people who worked hard to instill those traits in you.'},
+				skill:'Дикая местность (Wilderness)',
+				fate:'и ты расщепишь белую дверь.',
+				birth:'Поселенец (Settler)',
+				text:'Ваша семья переехала в глушь и возвела для себя усадьбу. Прямолинейные и зачастую суровые, ваши родители тем не менее были независимыми и гордыми людьми, стремившимися привить эти качества вам.'},
 			west : {
 				fate:'Escape is impossible, freedom is inevitable',
 				text:'-2/-1/+1/+2'},
@@ -869,10 +869,10 @@ var interpretation = {
 		'5' : {
 			name : '♦ 5',
 			station : {
-				skill:'Pick Pocket',
-				fate:'and you will fall.',
-				birth:'Thief',
-				text:'It is an uncommonly good thief who is never caught, but one of your parents managed just that. Perhaps the theft was untraceable (such as banking paperwork) or maybe they just left no trace.'},
+				skill:'Карманник (Pick Pocket)',
+				fate:'И ты падешь.',
+				birth:'Вор (Thief)',
+				text:'Ни разу не попавшийся хороший вор это редкость, но одному из ваших родителей подобное удалось. Возможно кражу было трудно отследить (например банковские документы) или он просто не оставлял следов.'},
 			west : {
 				fate:'The red woman will light the path',
 				text:'-2/0/0/+2'},
@@ -889,10 +889,10 @@ var interpretation = {
 		'6' : {
 			name : '♦ 6',
 			station : {
-				skill:'Gambling',
-				fate:'and the ordeal will be your own.',
-				birth:'Sailor',
-				text:'You travelled the seas, ferrying goods and passengers across the oceans with your parents. Whether they captained their own vessel, or were a respected member of the crew, your parents provided an exciting childhood with many new ports of call.'},
+				skill:'Азартные игры (Gambling)',
+				fate:'и испытание будет твоим собственным.',
+				birth:'Моряк (Sailor)',
+				text:'Вы путешествовали по морям, перевозили товары и пассажиров вместе со своими родителями через океаны. Владели ли они собственным судном или были уважаемыми членами команды, родители обеспечили вам волнующее детство с множеством манящих портов.'},
 			west : {
 				fate:'The reflection in the water shows the truth',
 				text:'-2/0/0/+2'},
@@ -909,10 +909,10 @@ var interpretation = {
 		'7' : {
 			name : '♦ 7',
 			station : {
-				skill:'Appraise',
-				fate:'and you will unshackle the prisoner.',
-				birth:'Hawker',
-				text:'While general stores carry merchandise tailored to everyday life, a hawker provides immediate convenience and inexpensive (if shady) goods. These traveling peddlers might be perfectly fair merchants, but many work with street urchins to turn an even greater profit.'},
+				skill:'Оценка (Appraise)',
+				fate:'и ты освободишь узника.',
+				birth:'Лоточник (Hawker)',
+				text:'Пока универсальные магазины предлагают товары ежедневного пользования, лоточник предоставляет мгновенно доступные и недорогие (если подозрительные) товары. Эти странствующие торговцы могут быть предельно честными, но многие работают с уличными сорванцами, чтобы извлечь еще большую выгоду.'},
 			west : {
 				fate:'An abyss opens beneath your cradle',
 				text:'-2/0/+1/+1'},
@@ -929,10 +929,10 @@ var interpretation = {
 		'8' : {
 			name : '♦ 8',
 			station : {
-				skill:'Flexible',
-				fate:'and the willful earns his due.',
-				birth:'Coachman',
-				text:'A skilled coachman is part of the house staff of any proper society family. You spent your childhood learning to drive a team of horses, as well as maintain a carriage.'},
+				skill:'Гибкость (Flexible)',
+				fate:'и своевольный получит должное.',
+				birth:'Извозчик (Coachman)',
+				text:'Квалифицированный извозчик - неотъемлемая часть персонала полноценной светской семьи. Вы провели детство обучаясь управлению лошадьми и обслуживанию повозки.'},
 			west : {
 				fate:'They sing for laughter, tears, and tomorrow',
 				text:'-2/0/+1/+1'},
@@ -949,10 +949,10 @@ var interpretation = {
 		'9' : {
 			name : '♦ 9',
 			station : {
-				skill:'Lockpicking',
+				skill:'Взлом (Lockpicking)',
 				fate:'and you will deal with the devil.',
-				birth:'Burglar',
-				text:'Entire families that specialize in robbing a place blind and then disappearing are not uncommon in urban environments. You began life as part of one such group.'},
+				birth:'Взломщик (Burglar)',
+				text:'Целые семьи специализирующиеся на ограблении подчистую и последующем исчезновении нередки в городской среде. Вы начали жизнь как часть подобной группы.'},
 			west : {
 				fate:'The deaf man must hear the owl’s warning',
 				text:'-1/-1/0/+2'},
@@ -969,10 +969,10 @@ var interpretation = {
 		'10' : {
 			name : '♦ 10',
 			station : {
-				skill:'Deceive',
-				fate:'and you will murder the deserving.',
-				birth:'Infiltrator',
-				text:'A family of spies can wreak havoc on an industrial concern or a government. The Ten Thunders makes great use of infiltrators, and a family group is often the last to be suspected when the mayhem starts.'},
+				skill:'Обман (Deceive)',
+				fate:'и ты убьешь достойного.',
+				birth:'Лазутчик (Infiltrator)',
+				text:'Семья шпионов может посеять смуту на промышленном предприятии или в правительстве. Десять Громов превосходно пользуются лазутчиками, а семья в начавшемся хаосе будет подозреваться в последнюю очередь.'},
 			west : {
 				fate:'The water falls like envy, the river runs like rage',
 				text:'-1/-1/0/+2'},
@@ -989,10 +989,10 @@ var interpretation = {
 		'11' : {
 			name : '♦ J 11',
 			station : {
-				skill:'Convince',
-				fate:'and it shoulders aside the guardian.',
-				birth:'Sharp',
-				text:'Whether on the road, or as a denizen of a single saloon, one of your parents made their living at the card tables, either as a dealer or as a player.'},
+				skill:'Убеждение (Convince)',
+				fate:'и его поддержка в стороне от стража.',
+				birth:'Шулер (Sharp)',
+				text:'В пути либо как завсегдатай единственного салуна, один из ваших родителей зарабатывал на жизнь будучи крупье или игроком.'},
 			west : {
 				fate:'The grave did not hold her',
 				text:'-2/-1/0/+3'},
@@ -1009,10 +1009,10 @@ var interpretation = {
 		'12' : {
 			name : '♦ Q 12',
 			station : {
-				skill:'Leadership',
-				fate:'and the eyes in the darkness change you.',
-				birth:'Politician',
-				text:'One of your parents was a powerful political figure, such as a senator, industrialist, or even proper royalty.'},
+				skill:'Лидерство (Leadership)',
+				fate:'и глаза во тьме изменят тебя.',
+				birth:'Политик (Politician)',
+				text:'Один из ваших родителей был влиятельной политической фигурой такой как сенатор, промышленник или даже королевская особа.'},
 			west : {
 				fate:'The halo slips around your throat like the noose',
 				text:'-2/-1/0/+3'},
@@ -1029,15 +1029,15 @@ var interpretation = {
 		'13' : {
 			name : '♦ K 13',
 			station : {
-				skill:'Martial Arts',
-				fate:'and the Empress will know the traitor.',
-				birth:'Ten Thunders',
-				text:'Raised as part of a secretive clan of infiltrators, your family practiced martial techniques from the Three Kingdoms, as well as a variety of other traditions.'},
+				skill:'Боевые Искусства (Martial Arts)',
+				fate:'и Императрица узнает предателя.',
+				birth:'Десять Громов (Ten Thunders)',
+				text:'Воспитанная как часть тайного клана лазутчиков, ваша семья практиковала боевые искусства Трех Царств наряду с другими обычаями.'},
 			west : {
 				fate:'The sisters will show the way',
 				text:'-1/-1/-1/+3'},
 			north : {
-				fate:'but you are safe beneath the ice.',
+				fate:'и ты спасешься подо льдом.',
 				text:'3,3,2'},
 			east : {
 				fate:'she will fear your iron, but not your thread',
