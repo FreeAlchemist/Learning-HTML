@@ -109,6 +109,7 @@ border:solid 1px black;border-radius: 3px;
 	border-radius: 5px;
 	/*background-color: Linen;*/
 	/*padding: 5px;*/
+	box-shadow: -4px 4px 10px black;
 }
 .crossroad-card-lear {
 }
@@ -351,13 +352,17 @@ body{
 	left:3%;
 }
 
+.bodyprint .crossroad-card {
+	box-shadow: none;
+}
+
 .bodyprint .crossroad-north ,
 .bodyprint .crossroad-west ,
 .bodyprint .crossroad-station ,
 .bodyprint .crossroad-east,
 .bodyprint .crossroad-south  {
 	height: 20%;
-	width: 27%;	
+	width: 27%;
 }
 
 .bodyprint .crossroad-north {
@@ -493,17 +498,23 @@ body{
 .jockers_0{background-image:url(../img/malifaux_cards/card_p1_black_joker.png);}
 .jockers_14{background-image:url(../img/malifaux_cards/card_p1_red_joker.png);}
 
-/*01.04.2016*/
+#lang a{
+	margin-left: 10px;
+}
+#lang a:hover{
+	color: blue;
+}
+
 .crossroad-north ,
 .crossroad-west ,
 .crossroad-station ,
 .crossroad-east,
 .crossroad-south {
 	background-color: Aliceblue;
-	background-image: url(../img/Back.svg);
+	background-image: url(../img/Back.svg),url('../img/texture_paper.jpg');
 }
 
-.crossroad-checked-text{
+/*.crossroad-checked-text{
 	background-color: Wheat;
 	border-radius: 5px;
 	width: 100%;
@@ -514,8 +525,6 @@ body{
 	color: black;
 	background-position: center;
 	background-size: 80%;
-	/*background-size: 50% ;
-	/*background-repeat: no-repeat;*/
 }
 .color-clubs{
 	background-image: url(../img/clubs.svg);
@@ -535,11 +544,6 @@ body{
 }
 .color-jockers{
 	background-color: Goldenrod;
-}
+}*/
 
-#lang a{
-	margin-left: 10px;
-}
-#lang a:hover{
-	color: blue;
-}
+
