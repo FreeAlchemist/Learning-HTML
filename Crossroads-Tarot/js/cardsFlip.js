@@ -109,7 +109,8 @@ var func = function(){
 			}
 			$(obj[dir].fateId)
 			.html($('<div />',{class:'fate-title',text:obj[dir].text2}))
-			.append($('<div />',{text:T2}));
+			.append($('<div />',{text:T2}))
+			.append($('<div />',{text:T0}));
 		}
 	}()
 function clickCard(o) {
