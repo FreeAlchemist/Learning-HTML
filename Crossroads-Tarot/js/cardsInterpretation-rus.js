@@ -148,16 +148,16 @@ var interpretation = {
 				birth:'Зверолов (Trapper)',
 				text:'Ваши родители выслеживали животных ради шкур и устанавливали ловушки в глуши. Такой суровый образ жизни дал вам много знаний о дикой местности.'},
 			west : {
-				fate:'The games you play are more deadly than she wishes',
+				fate:'Игры в которые ты играешь опаснее чем она желает',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'and the moon shines upon the forest but not your path.',
+				fate:'и луна светит сквозь лес, но не освещает твой путь.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'the melody will be lost within the gutters',
+				fate:'мелодия затеряется в канавах',
 				text:'-2/0/+1/+1'},
 			south : {
-				fate:'After the echoes of your laughter die',
+				fate:'Когда стихнет эхо твоего смеха',
 				text:'3,2,2,2'},
 		},
 		'9' : {
@@ -528,20 +528,20 @@ var interpretation = {
 			name : '♠ 1',
 			station : {
 				skill:'Стойкость (Toughness)',
-				fate:'иты призовешь ворона.',
+				fate:'и ты призовешь ворона.',
 				birth:'Немертвый (Undead)',
 				text:'То что ваши родители были мертвы еще не значит, что они вас не любили. Ваше детство было мягко говоря странным пока вы старались сохранить семейную тайну.'},
 			west : {
-				fate:'Denying the battle will win the war',
+				fate:'Отказ от битвы выиграет войну',
 				text:'-3/0/0/+3'},
 			north : {
-				fate:'for you must dredge the waters till the just give up the dead.',
+				fate:'для тебя должны углублять воды до простого отказа от мертвых.',
 				text:'3,2,1,1,1,1'},
 			east : {
 				fate:'ты не будешь обманут призраками башни',
 				text:'-3/0/0/+3'},
 			south : {
-				fate:'Once the first has been the last and the last has been the first',
+				fate:'Однажды первый был последним и последний был первым',
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
@@ -552,16 +552,16 @@ var interpretation = {
 				birth:'Сирота (Orphan)',
 				text:'Без семьи вы провели юность в детских трудовых домах крупного города либо уворачиваясь от прогулифающихся чиновников на улицах.'},
 			west : {
-				fate:'The mask donned for peace will blind you to bloodshed',
+				fate:'Мирно одетая маска ослепит тебя до кровопролития',
 				text:'-3/0/+1/+2'},
 			north : {
-				fate:'and the wolf will howl at the door.',
+				fate:'и волк завоет под дверью.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'the sleeper dreams not of tomorrow, but of you',
+				fate:'спящий грезит не о завтрашнем дне, а о тебе',
 				text:'-3/0/+1/+2'},
 			south : {
-				fate:'When you accept your fates on the river',
+				fate:'Когда вы примете свои судьбы на реке',
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
@@ -572,36 +572,36 @@ var interpretation = {
 				birth:'Любитель (Dabbler)',
 				text:'Ваша семья тайно баловалась магическими искусствамиторгуя пыльными томами с опасными людьми. Поиск тайных знаний зачастую был наградой сам по себе.'},
 			west : {
-				fate:'The song will end beyond the thrice knocked wall',
+				fate:'Песня прервется за стеной после тройного стука',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'but your loss will be what you would discard.',
+				fate:'но твоя потеря будет тем, что ты отбросишь.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'you will be reborn of flesh and redemption',
+				fate:'ты возродишься из плоти и искупления',
 				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'If you open the gates of wonder in the wall of lies',
+				fate:'Если ты откроешь врата чудес в стене из лжи',
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
 			name : '♠ 4',
 			station : {
 				skill:'Фермерство (Farm)',
-				fate:'и колено мага согнется перед твоей рекой.',
+				fate:'и колено мага склонится перед твоей рекой.',
 				birth:'Фермер (Farmer)',
 				text:'Маленькая ферма была декорацией вашего детства. Вы жили по сезонам и работали на земле вместе со своей семьей.'},
 			west : {
-				fate:'The chime of your blunder will ring through the village',
+				fate:'Звук твоего просчета прозвенит по деревне',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'as you begin, so shall you end.',
+				fate:'как начнешь, так и должен закончить.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'you will refuse to open the tome',
+				fate:'ты откажешься открыть том',
 				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'As you are unmourned by the father',
+				fate:'Поскольку ты неоплакан отцом',
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
@@ -612,16 +612,16 @@ var interpretation = {
 				birth:'Гробокопатель (Graverobber)',
 				text:'Поразительно сколько сокровищ богачи просто хоронят. Ограбление мертвых - легкий способ заработка и возможность содержать семью сытой и одетой.'},
 			west : {
-				fate:'Only in death will the pilgrim be free',
+				fate:'Только в смерти паломник будет свободен',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'for your borrowing is also your lending.',
+				fate:'для того что берешь, то и отдаешь.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'you will not heed the mentor',
+				fate:'ты не внемлешь наставнику',
 				text:'-2/0/0/+2'},
 			south : {
-				fate:'After what is dead has died',
+				fate:'После чего мертвое стало мертво',
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
@@ -632,16 +632,16 @@ var interpretation = {
 				birth:'Работник морга (Mortuary Staff)',
 				text:'Управление моргом зачастую семейное дело. Дети воспитываются чтобы перенять семейный бизнес, жуткая, но необходимая сделка для любого города или поселения.'},
 			west : {
-				fate:'The sands of waters will make you clean',
+				fate:'Пески вод омоют тебя',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'and time waits for no man but you.',
+				fate:'и время ждет только тебя.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'an open door will let him into the red chapel',
+				fate:'открытая дверь приведет его в красную церковь',
 				text:'-2/0/0/+2'},
 			south : {
-				fate:'Once your stains have been bound within',
+				fate:'Когда твои пятна были ограничены изнутри',
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
@@ -652,16 +652,16 @@ var interpretation = {
 				birth:'Преступник (Outlaw)',
 				text:'Бродя в глуши между городами ваша семья жила грабя путешественников и уклоняясь от закона.'},
 			west : {
-				fate:'Poison will be the cure',
+				fate:'Яд будет исцелением',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'but love was left behind.',
+				fate:'но любовь оставлена позади.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'your relic will rust and gleam',
+				fate:'твоя святыня будет ржаветь и мерцать',
 				text:'-2/0/+1/+1'},
 			south : {
-				fate:'If you open the box best left closed',
+				fate:'Если ты откроешь ящик, что должен быть закрыт',
 				text:'3,2,2,2'},
 		},
 		'8' : {
@@ -672,16 +672,16 @@ var interpretation = {
 				birth:'Наемник (Mercenary)',
 				text:'Один (или оба) из ваших родителей были наемниками, обеспечивая военные услуги тем, кто может себе это позволить. Вы могли проводить время с семьей пока они не на деле или путешествовать с ними.'},
 			west : {
-				fate:'The blind woman must lead the seeker',
+				fate:'Слепая должна вести искателя',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'as the cloud drifts upon your rest.',
+				fate:'когда твой отдых накрывает облако.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'the sting of a single wasp will light the agony',
+				fate:'укус одной осы ослабит агонию',
 				text:'-2/0/+1/+1'},
 			south : {
-				fate:'When at last you look upon your beating heart',
+				fate:'Когда наконец ты посмотришь на свое бьющееся сердце',
 				text:'3,2,2,2'},
 		},
 		'9' : {
@@ -692,16 +692,16 @@ var interpretation = {
 				birth:'Ветеринар (Veterinary)',
 				text:'Талантливый ветеринар обеспечивает хорошую жизнь своей семье наряду с образованием. Вы могли провести много лет помогая с рождением телят или успокаивая травмированных “пациентов”.'},
 			west : {
-				fate:'The blood stained cheeks will weave the grasses',
+				fate:'Запятнаные кровью щеки сплетут травы',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'for not all treasures glimmer in the light.',
+				fate:'не все сокровища мерцают на свету.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'she will sicken to the blessed touch',
+				fate:'она заболеет от освященного касания',
 				text:'-1/-1/0/+2'},
 			south : {
-				fate:'As the hunter watches you swallow the maggots',
+				fate:'Пока охотник наблюдает как ты глотаешь личинки',
 				text:'3,2,2,2'},
 		},
 		'10' : {
@@ -712,16 +712,16 @@ var interpretation = {
 				birth:'Убийца (Assassin)',
 				text:'Один из ваших родителей часто подолгу был в отъезде, присылая деньги на содержание семьи. Однажды вы узнали почему.'},
 			west : {
-				fate:'Frozen hearths crawl along the stone',
+				fate:'Застывшие сердца крадуться вдоль камня',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'and the reaper walks the path alongside you.',
+				fate:'и жнец идет рядом с тобой.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'an anvil of the horde will ring with war',
+				fate:'наковальня орды наполнится звоном войны',
 				text:'-1/-1/0/+2'},
 			south : {
-				fate:'If you allow the hands to pull you down',
+				fate:'Если ты позволишь рукам утянуть себя вниз',
 				text:'3,3,1,1'},
 		},
 		'11' : {
@@ -732,16 +732,16 @@ var interpretation = {
 				birth:'Художник (Artist)',
 				text:'Вы провели юность помогая смешивать краски, натягивать холст или готовя камень к рубке. В вашей семье был как минимум один практикующий художник и вы научились если не ценить, то понимать мир искусства.'},
 			west : {
-				fate:'The leaves will whisper your name and shout your exodus',
+				fate:'Листья будут шептать твое имя и огласят твой исход',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'but as destiny grows weary of your follies.',
+				fate:'но как судьба устает от твоих глупостей.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'your chime of warning will be drowned in voices',
+				fate:'твой тревожный звон утонет в голосах',
 				text:'-2/-1/0/+3'},
 			south : {
-				fate:'After you bleed the coal from the bones',
+				fate:'После того как ты истечешь углем из костей',
 				text:'3,3,1,1'},
 		},
 		'12' : {
@@ -752,16 +752,16 @@ var interpretation = {
 				birth:'Медик (Medical)',
 				text:'Один из ваших родителей был профессиональным медиков, который заботился о нуждах больных и покалеченных. Вашу семью уважали в обществе.'},
 			west : {
-				fate:'All of the screams will lead you home',
+				fate:'Все вопли приведут тебя домой',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'as wonders surround your waking echoes.',
+				fate:'как чудеса окружают тебя будя отголоски.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'the August will leave melancholy in everything after',
+				fate:'Август оставит меланхолию во всем после',
 				text:'-2/-1/0/+3'},
 			south : {
-				fate:'As you strain to see through the high noon veil',
+				fate:'Как ты напрягаешься чтобы увидеть сквозь завесу полдня',
 				text:'3,3,1,1'},
 		},
 		'13' : {
@@ -772,16 +772,16 @@ var interpretation = {
 				birth:'Воскрешатели (Resurrectionists)',
 				text:'Ваш родитель либо опекун был Воскрешателем, одним из немногих некромантов сумевшим вести дела на Земле. Ваше детство прошло в прятках среди сточных туннелей и бегстве от казни.'},
 			west : {
-				fate:'The mute man must cry out for the wolf',
+				fate:'Немой мужчина должен взывать к волку',
 				text:'-1/-1/-1/+3'},
 			north : {
-				fate:'for the stars illuminate your path.',
+				fate:'звезды освещают твой путь.',
 				text:'3,3,2'},
 			east : {
-				fate:'you will shatter the stone',
+				fate:'ты раздробишь камень',
 				text:'-1/-1/-1/+3'},
 			south : {
-				fate:'When your death rattles at the door',
+				fate:'Когда твоя смерть стучит в дверь',
 				text:'3,3,2'},
 		}
 	},
@@ -794,13 +794,13 @@ var interpretation = {
 				birth:'Фальшивомонетчик (Hustler)',
 				text:'Так или иначе мошенники найдут как использовать целую семью опытных фальшифомонетчиков. Нередко семьи уверенных в себе обманщиков совершают свои сделки как в пути так и в больших городах.'},
 			west : {
-				fate:'Spirits run sour in your veins',
+				fate:'Духи заставляют кровь стыть в твоих венах',
 				text:'-3/0/0/+3'},
 			north : {
-				fate:'and you will be repaid thrice for the sins you have sold.',
+				fate:'и тебе трижды воздасться за проданные грехи.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'you will lead the children through the valley',
+				fate:'ты поведешь детей сквозь долину',
 				text:'-3/0/0/+3'},
 			south : {
 				fate:'Когда багрянец свернётся на животе падшего',
@@ -817,13 +817,13 @@ var interpretation = {
 				fate:'Она пьет только кровь',
 				text:'-3/0/+1/+2'},
 			north : {
-				fate:'but there are dragons here.',
+				fate:'но там драконы.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'he will shade your tired eyes, and wet your thirsty lips',
+				fate:'он затенит твои усталые глаза и увлажнит твои иссохшие губы',
 				text:'-3/0/+1/+2'},
 			south : {
-				fate:'If the autumn bridge shakes in your bellows',
+				fate:'Если осенний мост содрогнется от твоих воплей',
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
@@ -834,16 +834,16 @@ var interpretation = {
 				birth:'Уличный музыкант (Busker)',
 				text:'Близкие родственники привычных затейников, уличные музыканты часто работают группами (включая вашу семью), развлекая людей на переполненных улицах за подачку.'},
 			west : {
-				fate:'Love knows not the heart but the bosom',
+				fate:'Любовь не знает сердце, но в груди',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'as the living wither from your grasp.',
+				fate:'как живые чахнут от твоего понимания.',
 				text:'3,2,1,1,1,1'},
 			east : {
-				fate:'she is unknown to your divine',
+				fate:'она неизвестна твоей божественности',
 				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'When your power begets your heresy',
+				fate:'Когда твоя сила порождает ересь',
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
@@ -854,16 +854,16 @@ var interpretation = {
 				birth:'Поселенец (Settler)',
 				text:'Ваша семья переехала в глушь и возвела для себя усадьбу. Прямолинейные и зачастую суровые, ваши родители тем не менее были независимыми и гордыми людьми, стремившимися привить эти качества вам.'},
 			west : {
-				fate:'Escape is impossible, freedom is inevitable',
+				fate:'Побег невозможен, свобода неизбежна',
 				text:'-2/-1/+1/+2'},
 			north : {
-				fate:'for new enemies are made from old allies.',
+				fate:'для новых врагов из ряда бывших соратников.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'the dusk of a new sun will light your steps into the cave',
+				fate:'закат нового солнца осветит твой путь в пещеру',
 				text:'-2/-1/+1/+2'},
 			south : {
-				fate:'Once the nemesis has become the mother',
+				fate:'Как только Немезида стала матерью',
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
@@ -874,16 +874,16 @@ var interpretation = {
 				birth:'Вор (Thief)',
 				text:'Ни разу не попавшийся хороший вор это редкость, но одному из ваших родителей подобное удалось. Возможно кражу было трудно отследить (например банковские документы) или он просто не оставлял следов.'},
 			west : {
-				fate:'The red woman will light the path',
+				fate:'Красная женщина осветит путь',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'and you will pan the gutter’s glitter.',
+				fate:'и ты заставишь канаву сверкать.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'the peer of a thousand faces will weep',
+				fate:'ровесник тысячи лиц зарыдает',
 				text:'-2/0/0/+2'},
 			south : {
-				fate:'As the watcher awaits your cry of vengeance',
+				fate:'Как наблюдатель ожидает твой возглас возмездия',
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
@@ -894,16 +894,16 @@ var interpretation = {
 				birth:'Моряк (Sailor)',
 				text:'Вы путешествовали по морям, перевозили товары и пассажиров вместе со своими родителями через океаны. Владели ли они собственным судном или были уважаемыми членами команды, родители обеспечили вам волнующее детство с множеством манящих портов.'},
 			west : {
-				fate:'The reflection in the water shows the truth',
+				fate:'Отражение в воде покажет правду',
 				text:'-2/0/0/+2'},
 			north : {
-				fate:'but the balance will teeter but not tumble.',
+				fate:'но равновесие пошатнется но не обрушится.',
 				text:'3,2,2,1,1'},
 			east : {
-				fate:'you will be asked three times, and deny each',
+				fate:'тебе предложат три раза и отвергнешь их все',
 				text:'-2/0/0/+2'},
 			south : {
-				fate:'When you are a stranger to yourself',
+				fate:'Когда ты чужой для себя',
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
@@ -914,16 +914,16 @@ var interpretation = {
 				birth:'Лоточник (Hawker)',
 				text:'Пока универсальные магазины предлагают товары ежедневного пользования, лоточник предоставляет мгновенно доступные и недорогие (если подозрительные) товары. Эти странствующие торговцы могут быть предельно честными, но многие работают с уличными сорванцами, чтобы извлечь еще большую выгоду.'},
 			west : {
-				fate:'An abyss opens beneath your cradle',
+				fate:'Бездна разверзается под твоей колыбелью',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'as your steed takes you into the jousts of war.',
+				fate:'когда твой скакун унесет тебя к военным турнирам.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'you will take up the sword of your father',
+				fate:'ты возьмешь клинок своего отца',
 				text:'-2/0/+1/+1'},
 			south : {
-				fate:'After the reaper has come for innocence',
+				fate:'Когда жнец пришел за невинностью',
 				text:'3,2,2,2'},
 		},
 		'8' : {
@@ -934,36 +934,36 @@ var interpretation = {
 				birth:'Извозчик (Coachman)',
 				text:'Квалифицированный извозчик - неотъемлемая часть персонала полноценной светской семьи. Вы провели детство обучаясь управлению лошадьми и обслуживанию повозки.'},
 			west : {
-				fate:'They sing for laughter, tears, and tomorrow',
+				fate:'Они поют ради смеха, слез и завтрашнего дня',
 				text:'-2/0/+1/+1'},
 			north : {
-				fate:'for the silence brings inspiration at the door.',
+				fate:'ибо молчание приносит вдохновение к дверям.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'you will refuse deserved love',
+				fate:'ты откажешься от заслуженной любви',
 				text:'-2/0/+1/+1'},
 			south : {
-				fate:'Once your vendetta is nigh upon the mountains',
+				fate:'Как только твоя месть рядом с горами',
 				text:'3,2,2,2'},
 		},
 		'9' : {
 			name : '♦ 9',
 			station : {
 				skill:'Взлом (Lockpicking)',
-				fate:'and you will deal with the devil.',
+				fate:'и ты заключишь сделку с дьяволом.',
 				birth:'Взломщик (Burglar)',
 				text:'Целые семьи специализирующиеся на ограблении подчистую и последующем исчезновении нередки в городской среде. Вы начали жизнь как часть подобной группы.'},
 			west : {
-				fate:'The deaf man must hear the owl’s warning',
+				fate:'Глухой человек должен услышать предупреждение совы',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'and you will find the other lands on the day she dies.',
+				fate:'и ты найдешь новые земли в день её смерти.',
 				text:'3,2,2,2'},
 			east : {
-				fate:'he chooses not you, but the downfall',
+				fate:'он выбирает не тебя, но крах',
 				text:'-1/-1/0/+2'},
 			south : {
-				fate:'When you choose between the quill or the blade',
+				fate:'Когда ты выбираешь между пером или клинком',
 				text:'3,2,2,2'},
 		},
 		'10' : {
@@ -974,16 +974,16 @@ var interpretation = {
 				birth:'Лазутчик (Infiltrator)',
 				text:'Семья шпионов может посеять смуту на промышленном предприятии или в правительстве. Десять Громов превосходно пользуются лазутчиками, а семья в начавшемся хаосе будет подозреваться в последнюю очередь.'},
 			west : {
-				fate:'The water falls like envy, the river runs like rage',
+				fate:'Вода падает как зависть, река бежит как гнев',
 				text:'-1/-1/0/+2'},
 			north : {
-				fate:'but leave your mark in many woes.',
+				fate:'но оставишь свой след во многих бедах.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'an empty grave will fill with melody',
+				fate:'пустую могилу наполнят напевы',
 				text:'-1/-1/0/+2'},
 			south : {
-				fate:'After you don the crimson silks',
+				fate:'После того как наденешь багровые шелка',
 				text:'3,3,1,1'},
 		},
 		'11' : {
@@ -994,16 +994,16 @@ var interpretation = {
 				birth:'Шулер (Sharp)',
 				text:'В пути либо как завсегдатай единственного салуна, один из ваших родителей зарабатывал на жизнь будучи крупье или игроком.'},
 			west : {
-				fate:'The grave did not hold her',
+				fate:'Могила не удержит её',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'but leave your mark in many woes.',
+				fate:'когда ты вспомнишь зеркало и расколешь поток.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'your ruination will hound your desperate exodus',
+				fate:'твоя погибель следует за отчаянным исходом',
 				text:'-2/-1/0/+3'},
 			south : {
-				fate:'If you know the dimming of the lanterns',
+				fate:'Если ты заметишь затемнение фонарей',
 				text:'3,3,1,1'},
 		},
 		'12' : {
@@ -1014,16 +1014,16 @@ var interpretation = {
 				birth:'Политик (Politician)',
 				text:'Один из ваших родителей был влиятельной политической фигурой такой как сенатор, промышленник или даже королевская особа.'},
 			west : {
-				fate:'The halo slips around your throat like the noose',
+				fate:'Нимб скользит по твоей шее как петля',
 				text:'-2/-1/0/+3'},
 			north : {
-				fate:'but leave your mark in many woes.',
+				fate:'и ведьмы будут ждать тебя на перекрестке.',
 				text:'3,3,1,1'},
 			east : {
-				fate:'the last man will speak the lies of your glory',
+				fate:'последний человек восславит тебя ложью',
 				text:'-2/-1/0/+3'},
 			south : {
-				fate:'As the bell tolls for judgment',
+				fate:'Когда колокол призывает к правосудию',
 				text:'3,3,1,1'},
 		},
 		'13' : {
@@ -1034,16 +1034,16 @@ var interpretation = {
 				birth:'Десять Громов (Ten Thunders)',
 				text:'Воспитанная как часть тайного клана лазутчиков, ваша семья практиковала боевые искусства Трех Царств наряду с другими обычаями.'},
 			west : {
-				fate:'The sisters will show the way',
+				fate:'Ctcnhs erf;en genm',
 				text:'-1/-1/-1/+3'},
 			north : {
 				fate:'и ты спасешься подо льдом.',
 				text:'3,3,2'},
 			east : {
-				fate:'she will fear your iron, but not your thread',
+				fate:'она будет боятся твоего железа, но не нити',
 				text:'-1/-1/-1/+3'},
 			south : {
-				fate:'When hope drowns in but three tears',
+				fate:'Когда надежда тонет в трех слезах',
 				text:'3,3,2'},
 		}
 	},
@@ -1056,36 +1056,36 @@ var interpretation = {
 				birth:'Похищенный Нерожденными (Neverborn Stolen)',
 				text:'Непохоже, что вы считали странным свое детство проведенное с Тэдди в прогулках сквозь кошмары других детей, пока однажды не узнали свое предназначение и не были направлены в город Малифо служа темным намерениям.'},
 			west : {
-				fate:'Then, in the middle of none, there was one',
+				fate:'Тогда среди ничего был один',
 				text:'-1/0/0/+1'},
 			north : {
-				fate:'and upon wings of fear you will approach the tower.',
+				fate:'и на крыльях страха ты достигнешь башни.',
 				text:'4,2,1'},
 			east : {
-				fate:'your deeds will be undone before the thirteenth step',
+				fate:'твои поступки будут отменены до тринадцатого шага',
 				text:'-1/0/0/+1'},
 			south : {
-				fate:'Once you witness your golden sunset',
+				fate:'Когда ты увидишь свой золотой закат',
 				text:'4,2,1'},
 		},
 		'0' : {
 			name : 'jockers B 0',
 			station : {
-				skill:'Carouse',
-				fate:'and you will be unmade.',
-				birth:'Bayou Born',
-				text:'You weren’t necessarily born on the Bayou, so much as stolen as a baby and raised by Gremlins. Maybe you escaped to civilization, or left when you came of age, but now you come to Malifaux not through the Breach, but from the swamp.'},
+				skill:'Пьянка (Carouse)',
+				fate:'и ты будешь отменен.',
+				birth:'Рожденный в Байю (Bayou Born)',
+				text:'Вы необязательно непосредственно родились в Байю, скорее похищены ребенком и выращены Гремлинами. Возможно вы сбежали в цивилизацию или ушли в зрелом возрасте, но теперь вы направляетесь в Малифо не со стороны Разлома, а из болот.'},
 			west : {
-				fate:'You will carry the seed of a thousand-fold damnations',
+				fate:'Ты будешь нести семя тысячи проклятий',
 				text:'-3/+1/+1/+1'},
 			north : {
-				fate:'and your blood will run black.',
+				fate:'и твоя кровь станет черной.',
 				text:'2,2,2,2,2,2'},
 			east : {
-				fate:'your every breath will be as your last',
+				fate:'твой каждый вздох будет последним',
 				text:'-3/+1/+1/+1'},
 			south : {
-				fate:'Once your soul has been stained by silence',
+				fate:'Когда твоя душа запятнана тишиной',
 				text:'2,2,2,2,2,2'},
 		},
 	}
