@@ -13,8 +13,6 @@ body {
 /*.fate,.history{border:solid 1px Crimson;border-radius: 10px;}*/
 
 
-
-
 .fate {
 	position: absolute;
 	width: 80%;
@@ -56,6 +54,9 @@ border:solid 1px black;border-radius: 3px;
 	height: 40%;
 	top: 0px;
 	left:3%;
+	background-color: Gainsboro;
+	border-radius: 10px;
+	border: ridge 5px rgb(152, 124, 98);
 }
 
 .crossroad-north ,
@@ -109,12 +110,13 @@ border:solid 1px black;border-radius: 3px;
 	border-radius: 5px;
 	/*background-color: Linen;*/
 	/*padding: 5px;*/
-	box-shadow: -4px 4px 10px black;
+	box-shadow: -2px 2px 5px black;
 }
-.crossroad-card-lear {
+.crossroad-card:hover {
+	box-shadow: -4px 4px 20px black;
+	cursor: pointer;
 }
-.crossroad-card-value {
-}
+
 
 .stage{
 	width: 280px;
@@ -172,6 +174,10 @@ border:solid 1px black;border-radius: 3px;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	font-size: 16pt;
+}
+
+.popupCard:hover{
+	cursor: pointer;
 }
 
 .crossroad-checked-text{
@@ -295,6 +301,9 @@ border:solid 1px black;border-radius: 3px;
 	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(200,150,60,1));
 	color: Darkred;
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /*Print*/
@@ -351,6 +360,12 @@ body{
 	top: 0px;
 	left:3%;
 }
+
+.bodyprint .crossroad{
+	border:none;
+	background-color: transparent;
+}
+
 
 .bodyprint .crossroad-card {
 	box-shadow: none;
@@ -495,8 +510,13 @@ body{
 .diamonds_12{background-image: url(../img/malifaux_cards/card_p1_masks_12.png);}
 .diamonds_13{background-image: url(../img/malifaux_cards/card_p1_masks_13.png);}
 
-.jockers_0{background-image:url(../img/malifaux_cards/card_p1_black_joker.png);}
-.jockers_14{background-image:url(../img/malifaux_cards/card_p1_red_joker.png);}
+/*.jockers_0{background-image:url(../img/malifaux_cards/card_p1_black_joker.png);}
+.jockers_14{background-image:url(../img/malifaux_cards/card_p1_red_joker.png);}*/
+
+/*.jockers_0{background-image:url(../img/bjocker.jpg);}
+.jockers_14{background-image:url(../img/rjocker.jpg);}*/
+
+
 
 #lang a{
 	margin-left: 10px;
@@ -514,13 +534,13 @@ body{
 	background-image: url(../img/Back.svg),url('../img/texture_paper.jpg');
 }
 
-/*.crossroad-checked-text{
+.crossroad-checked-text{
 	background-color: Wheat;
 	border-radius: 5px;
 	width: 100%;
 	height: 100%;
+	/*box-shadow: inset 0px 5px 20px black;*/
 }
-
 .color-clubs,.color-diamonds,.color-hearts,.color-spades,.color-jockers{
 	color: black;
 	background-position: center;
@@ -543,7 +563,55 @@ body{
 	background-image: url(../img/crows.svg);
 }
 .color-jockers{
-	background-color: Goldenrod;
+	background-color: Wheat;
+	background-size: 100%;
+	font-size: 10pt;
+}
+
+.jockers_0{background-image:url(../img/jockers-black.svg);}
+.jockers_14{background-image:url(../img/jockers-red.svg);}
+
+/*
+ANIMATION OPTIONS
+-webkit-animation-name:;
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:10s;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:once;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:normal;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+-webkit-animation: aniname 10s linear 2s infinite alternate;
+*/
+
+/*.jockers_0:hover{
+-webkit-animation-name:background-rainbow;
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:10s;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:normal;
+-webkit-animation-play-state:running;	
 }*/
 
+.crossroad-checked-text{
+-webkit-animation-name:appear1;
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:1s;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:once;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;	
+}
+
+/*.crossroad-card:hover {
+	-webkit-animation-name:gradient-red;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-duration:2s;
+	-webkit-animation-delay:0s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+}*/
 
