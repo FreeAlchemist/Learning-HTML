@@ -1,4 +1,4 @@
-	var objs = {};
+var objs = {};
 	var arr = [];
 	for (var l in interpretation) {
 		var key = '' + l;
