@@ -10,34 +10,36 @@
 
 <div class="crossroad">
 	<div class="crossroad-north" id="crossroad-north">
-		<div class="crossroad-card" id="card-north"><!-- ♠ 10 --></div>
+		<div class="crossroad-card card-back" id="card-north">
+		</div>
 	</div>
 	<div class="crossroad-west" id="crossroad-west">
-		<div class="crossroad-card" id="card-west"><!-- ♥ K --></div>
+		<div class="crossroad-card card-back" id="card-west"></div>
 	</div>
 	<div class="crossroad-station" id="crossroad-station">
-		<div class="crossroad-card" id="card-station"><!-- ♦ 6 --></div>
+		<div class="crossroad-card card-back" id="card-station"></div>
 	</div>
 	<div class="crossroad-east" id="crossroad-east">
-		<div class="crossroad-card" id="card-east"><!-- ♣ J --></div>
+		<div class="crossroad-card card-back" id="card-east"></div>
 	</div>
 	<div class="crossroad-south" id="crossroad-south">
-		<div class="crossroad-card" id="card-south"><b><!-- J --></b></div>
+		<div class="crossroad-card card-back" id="card-south"></div>
 	</div>
 </div>
 
 <div class="history">
-	<p id="lang">Language:<a href="index.html">ENG</a><a href="index-rus.html">RUS</a></p>
+	<p id="header">
+	<!-- Language: -->
+	<a href="index.html">ENG</a><a href="index-rus.html">RUS</a>
+	<input type="button" id="printbtn" value="Print" onclick="print()">
+	<input type="button" id="randombtn" value="Random Fate" onclick="randomize()">
+	</p>
 	<h2>Crossroads Tarot</h2>
-	<h3>History</h3>
-	<form>
-		<input type="button" id="printbtn" value="Print" onclick="print()">
-		<div class="stage">
-			<div class="title">Fated:</div>
-			<div class="title"><input id="name" type="text" placeholder="Jack Daw"></div>
-		</div>
-		<input type="button" id="randombtn" value="Random Fate" onclick="randomize()">
-	</form>
+	<!-- <h3>History</h3> -->
+	<div class="stage">
+		<div class="title">Fated:</div>
+		<div class="title"><input id="name" type="text" placeholder="Jack Daw"></div>
+	</div>
 	<div class="history-block" id="history-station">
 	</div>
 	<div class="history-block" id="history-west">
