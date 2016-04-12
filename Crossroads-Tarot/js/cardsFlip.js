@@ -49,8 +49,8 @@ $('#crossroad-east').click(function(){
 $('#crossroad-south').click(function(){
 	openCards(this);
 })
-function openCards(derection) {
-	popupSelectedDirection = $(derection).attr('id');
+function openCards(direction) {
+	popupSelectedDirection = $(direction).attr('id');
 	$popupWrapper.removeClass('notdisplay');
 }
 var func = function(){
@@ -97,16 +97,53 @@ var func = function(){
 			} 
 		}
 		return function(dir,classfinish,T0,T1,T2,S1,B1) {
-			$(obj[dir].cardId).html($('<div />',{class:classfinish+' crossroad-checked-text',text:T0}));
-			$(obj[dir].crossroadClass).addClass('checked');
+
+			// console.log("obj[dir].cardId "+obj[dir].cardId);
+			// console.log('dir '+dir)
+			// console.log('classfinish '+classfinish)
+			// console.log('T0 '+T0)
+			// console.log('T1 '+T1)
+			// console.log('T2 '+T2)
+			// console.log('S1 '+S1)
+			// console.log('B1 '+B1)
+
+			var element = $(obj[dir].cardId)
+
+			function cardflip(){
+				element.css('transform','rotateY(90deg)');
+				// element.css('transform','rotateX(90deg)');
+				setTimeout(cardflip2,250);
+			}
+
+			function cardflip2(){
+				if(element.hasClass('card-back')){
+					// element.removeClass('card-back').addClass(classfinish+' card-face').html(T0);
+					element.removeClass('card-back').addClass(classfinish).html(T0);
+					setTimeout(cardflip3,500);
+				}
+				else{
+					element.attr( "class", "crossroad-card card-back" );
+					cardflip2();
+				}
+			}
+
+			function cardflip3(){
+				element.css('transform','rotateY(0deg)');
+				// element.css('transform','rotateX(0deg)');
+			}
+
+			cardflip()
+
+			console.log("obj[dir].historyId "+obj[dir].historyId);
 			$(obj[dir].historyId)
-			.html($('<h2 />',{text:obj[dir].text1}))
+			.html($('<h4 />',{text:obj[dir].text1}))
 			.append($('<p />',{text:B1}))
 			.append($('<p />',{text:T1}));
 			if(S1){
 				$(obj[dir].historyId)
 				.append($('<p />',{text:'Station skill: '+S1}));
 			}
+			console.log("obj[dir].fateId "+obj[dir].fateId);
 			$(obj[dir].fateId)
 			.html($('<div />',{class:'fate-title',text:obj[dir].text2}))
 			.append($('<div />',{text:T2}))
