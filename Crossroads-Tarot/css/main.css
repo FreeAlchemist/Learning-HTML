@@ -1,7 +1,5 @@
 body {
-	/*background-color: rgb(241,233,222);*/
-	background-color: Burlywood;
-	/*background-color: Whitesmoke;*/
+	background-color: Whitesmoke;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -9,22 +7,15 @@ body {
 	margin: 0px;
 }
 
-.crossroad,.fate,.history,{border:solid 1px Crimson;border-radius: 10px;}
-/*.fate,.history{border:solid 1px Crimson;border-radius: 10px;}*/
-
-
 .fate {
 	position: absolute;
 	width: 80%;
 	height: 35%;
-	top: 60%;
+	/*top: 55%;*/
+	top: 50%;
 	left:3%;
 	overflow: auto;
 	padding: 10px;
-	/*background-image: url(../img/Terrain-Interior-Room-2x2.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;*/
 }
 
 .fate-title{
@@ -40,7 +31,7 @@ border:solid 1px black;border-radius: 3px;
 .history {
 	position: absolute;
 	width: 50%;
-	height: 95%;
+	height: 55%;
 	top: 0px;
 	left: 45%;
 	overflow: auto;
@@ -50,13 +41,12 @@ border:solid 1px black;border-radius: 3px;
 
 .crossroad {
 	position: absolute;
-	width: 30%;
-	height: 40%;
+	/*width: 30%;
+	height: 40%;*/
+	width: 8cm;
+	height: 11cm;
 	top: 0px;
 	left:3%;
-	background-color: Gainsboro;
-	border-radius: 10px;
-	border: ridge 5px rgb(152, 124, 98);
 }
 
 .crossroad-north ,
@@ -65,41 +55,10 @@ border:solid 1px black;border-radius: 3px;
 .crossroad-east,
 .crossroad-south {
 	position: absolute;	
-	background-color: rgba(0,233,222,0.2);
-	background-color: Steelblue;
-	background-image: url(../img/CardBackSepia.png);
-	background-image: url(../img/malifaux_cards/player_two_card_back.png);
-	background-size: 100% 100% ;
-	background-position: center;
-	background-repeat: no-repeat;	
 	height: 30%;
 	width: 15%;
-	border:solid 2px black;
-	border-radius: 5px;
 	font-size: 16pt;
-	/*padding: 5px;*/
 	box-sizing: border-box;
-}
-
-.crossroad-north {
-	top:2.5%;
-	left: 35%;
-}
-.crossroad-west {
-	top:35%;
-	left: 18%;
-}
-.crossroad-station {
-	top:35%;
-	left: 35%;
-}
-.crossroad-east {
-	top:35%;
-	left:52%;
-}
-.crossroad-south {
-	top:67%;
-	left: 35%;
 }
 
 .crossroad-card {
@@ -108,15 +67,22 @@ border:solid 1px black;border-radius: 3px;
 	box-sizing:border-box;
 	border: 1px solid black;
 	border-radius: 5px;
-	/*background-color: Linen;*/
-	/*padding: 5px;*/
 	box-shadow: -2px 2px 5px black;
+	text-align: center;
+	font-size: 16pt;
+	line-height: 40px;
+	background-position: 55% 80%;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-color: Linen;
+	transition: 0.5s;
+	transform-style: preserve-3d;
 }
+
 .crossroad-card:hover {
 	box-shadow: -4px 4px 20px black;
 	cursor: pointer;
 }
-
 
 .stage{
 	width: 280px;
@@ -135,6 +101,104 @@ border:solid 1px black;border-radius: 3px;
 	width: 160px;
 }
 
+body{
+	background-color: transparent;
+	width: 20cm;
+	height: 29cm;
+	border:solid 3px Black;
+}
+
+.crossroad-north , .crossroad-west , .crossroad-station , .crossroad-east, .crossroad-south  {
+	/*height: 20%;
+	width: 27%;*/
+	height: 3cm;
+	width: 2cm;
+}
+
+.crossroad-north {
+	/*top:2.5%;
+	left: 35%;*/
+	top:0.5cm;
+	left: 3cm;
+}
+.crossroad-west {
+	/*top:25%;
+	left: 2.5%;*/
+	top:4cm;
+	left: 0.5cm;
+}
+.crossroad-station {
+	/*top:25%;
+	left: 35%;*/
+	top:4cm;
+	left: 3cm;
+}
+.crossroad-east {
+	/*top:25%;
+	left:67.5%;*/
+	top:4cm;
+	left:5.5cm;
+}
+.crossroad-south {
+	/*top:48%;
+	left: 35%;*/
+	top:7.5cm;
+	left: 3cm;
+}
+
+#header a{
+	margin-left: 10px;
+}
+#header a:hover{
+	color: blue;
+}
+#header input{
+	margin-left: 10px;
+}
+
+.card-back{
+	background-size: 100% 100%;
+	background-color: Burlywood;
+	background-image: url(../img/Back.svg),url('../img/texture_paper.jpg');
+}
+
+.color-clubs{
+	/*background-color:rgba(48,100,175,1);*/
+	background-image: url(../img/clubs.svg);
+	background-image: url(../img/tomes.svg);
+	/*box-shadow: 0px 0px 15px rgba(48,100,175,1);*/
+}
+
+.color-diamonds{
+	/*background-color:rgba(121,78,143,1);*/
+	background-image: url(../img/diamonds.svg);
+	background-image: url(../img/masks.svg);
+	/*box-shadow: 0px 0px 15px rgba(121,78,143,1);*/
+}
+
+.color-hearts{
+	/*background-color:rgba(171,49,45,1);*/
+	background-image: url(../img/hearts.svg);
+	background-image:url(../img/rams.svg);
+	/*box-shadow: 0px 0px 15px rgba(171,49,45,1);*/
+}
+
+.color-spades{
+	/*background-color: rgba(0,150,72,1);*/
+	background-image: url(../img/spades.svg);
+	background-image: url(../img/crows.svg);
+	/*box-shadow: 0px 0px 15px rgba(0,150,72,1);*/
+}
+
+.color-jockers{
+	/*background-color: rgba(200,130,30,1);*/
+	background-size: 100%;
+	font-size: 10pt;
+	/*box-shadow: 0px 0px 15px rgba(200,130,30,1);*/
+}
+
+.jockers_0{background-image:url(../img/jockers-black.svg);}
+.jockers_14{background-image:url(../img/jockers-red.svg);}
 
 /*--- POPUP ---*/
 .popup {
@@ -150,21 +214,22 @@ border:solid 1px black;border-radius: 3px;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,0.5);
-
 }
 .notdisplay {
 	display: none;
 }
 .popupLine {
-	height: 18%;
-	margin-bottom: 1%;
+	/*height: 18%;
+	margin-bottom: 1%;*/
+	height: 8%;
+	margin-bottom: 5%;
 	text-align: center;
-
 }
 .popupCard {
 	display: inline-block;
 	width: 6%;
-	height: 70%;
+	/*height: 70%;*/
+	height: 90%;
 	background-color: rgba(255,255,255,0.5);
 	background-color: Wheat;
 	margin-right: 0.5%;
@@ -173,193 +238,46 @@ border:solid 1px black;border-radius: 3px;
 	border:solid 1px black;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	font-size: 16pt;
+	font-size: 14pt;
+	line-height: 35px;
+	background-position: 55% 80%;
+	background-size: 70%;
+	background-repeat: no-repeat;
 }
 
 .popupCard:hover{
 	cursor: pointer;
 }
 
-.crossroad-checked-text{
-	/*margin: 5px;*/
-	/*padding: 5px;*/
-	background-color: Yellow;
-	border-radius: 5px;
-	width: 100%;
-	height: 100%;
-	background-size: 100% 100% ;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: red;
-	/*color: transparent;*/
-}
-
-.color-hearts,.color-clubs,.color-spades,.color-diamonds{
-	color: black;
-	
-}
-
-.crossroad-checked-text{
+.popupCard.color-jockers{
 	color: transparent;
-}
-
-.color-clubs{
-	background-color: SteelBlue;
-	background-color: White;
-	/*background-color: rgba(48,100,175,1);*/
-	/*background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent, rgba(48,100,175,1)),
-	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent, rgba(48,100,175,1)),
-	url(../img/tomes.svg);*/
-	background-image: url(../img/cards/ace_of_clubs.svg);
-	/*background-size: 100% 100% ;*/
-	background-size: contain;
 	background-position: center;
-	background-repeat: no-repeat;
-	/*color: black;*/
-}
-
-.color-diamonds{
-	background-color: Indigo;
-	background-color: White;
-	/*background-color: rgba(121,78,143,1);*/
-	background-image:
-	radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent, rgba(121,78,143,1)),
-	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent, rgba(121,78,143,1)),
-	url(../img/cards/ace_of_diamonds.svg);
-	/*background-image:url(../img/masks.svg);*/
-	background-image:url(../img/cards/ace_of_diamonds.svg);
-	/*background-size: 100% 100% ;*/
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	/*color: black;*/
-}
-
-.color-hearts{
-	background-color: Darkred;
-	background-color: White;
-	/*background-color: rgba(171,49,45,1);*/
-	/*background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(171,49,45,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(171,49,45,1));*/
-	
-	/*background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent,
-		rgba(171,49,45,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent,rgba(171,49,45,1)),
-		url(../img/cards/ace_of_hearts.svg);*/
-	background-image: url(../img/cards/ace_of_hearts.svg);
-	/*background-size: 100% 100% ;*/
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	/*color: black;*/
-}
-
-
-
-.color-spades{
-	background-color: DarkOliveGreen;
-	background-color: White;
-	/*background-color: rgba(0,150,72,1);*/
-	/*background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent,
-			rgba(0,150,72,1)),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent,rgba(0,150,72,1)),
-			url(../img/cards/ace_of_spades.svg);*/
-	background-image: url(../img/cards/ace_of_spades.svg);
-	/*background-size: 100% 100% ;*/
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	/*color: black;*/
-}
-
-.color-jockers{
-	/*background-color: red;*/
-	background-color: Linen;
-	background-color: White;
-	/*background-image: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent,transparent,
-			Wheat),radial-gradient(circle farthest-side at 100% 100%, transparent,transparent,transparent,Wheat),
-			url(../img/card/joker.svg);*/
-	/*background-image: url(../img/cards/red_joker.svg);*/
-	/*background-image:url(../img/jocker_black.png);*/
-	background-image:url(../img/bjocker.jpg);
-	background-image:url(../img/rjocker.jpg);
-	/*background-size: 100% 100% ;*/
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	/*color: black;*/
+	background-size: 95%;
 }
 
 .catched {
-	background-color: black;
-	color: #FFF;
-	/*background-image: url(../img/CardBackSepia.png);
-	background-size: 15%;*/
 	box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
-}
-
-.checked {
-	background-image: none;
-	background: radial-gradient(circle farthest-side at 0px 0px, transparent,transparent, rgba(200,150,60,1)),
-	radial-gradient(circle farthest-side at 100% 100%, transparent,transparent, rgba(200,150,60,1));
-	color: Darkred;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	background-size: 100% 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+	margin-top: 5px;
 }
 
 /*Print*/
-body{
-	background-color: transparent;
-	width: 20cm;
-	height: 29cm;
-	border:solid 3px Black;
-}
-
-.crossroad-north , .crossroad-west , .crossroad-station , .crossroad-east, .crossroad-south  {
-	height: 20%;
-	width: 27%;	
-}
-
-.crossroad-north {
-	top:2.5%;
-	left: 35%;
-}
-.crossroad-west {
-	top:25%;
-	left: 2.5%;
-}
-.crossroad-station {
-	top:25%;
-	left: 35%;
-}
-.crossroad-east {
-	top:25%;
-	left:67.5%;
-}
-.crossroad-south {
-	top:48%;
-	left: 35%;
-}
-
 .bodyprint{
 	background-color: transparent;
 	width: 20cm;
 	height: 29cm;
 	border:solid 3px Black;
 }
-/*
-6.2
-8.7
-*/
 
-.bodyprint #printbtn,.bodyprint #randombtn{display: none;}
+/*.bodyprint #printbtn,.bodyprint #randombtn{display: none;}*/
+.bodyprint #header{display: none;}
 
-.bodyprint .crossroad,.crossroad {
+/*.bodyprint .crossroad,.crossroad {
 	position: absolute;
 	width: 40%;
 	height: 50%;
 	top: 0px;
 	left:3%;
-}
+}*/
 
 .bodyprint .crossroad{
 	border:none;
@@ -369,9 +287,16 @@ body{
 
 .bodyprint .crossroad-card {
 	box-shadow: none;
+	background-color: transparent;
+	/*width: 6.2cm;
+	height: 8.7cm;*/
 }
 
-.bodyprint .crossroad-north ,
+.bodyprint .card-back{
+	background-image: none;
+}
+
+/*.bodyprint .crossroad-north ,
 .bodyprint .crossroad-west ,
 .bodyprint .crossroad-station ,
 .bodyprint .crossroad-east,
@@ -399,7 +324,7 @@ body{
 .bodyprint .crossroad-south {
 	top:48%;
 	left: 35%;
-}
+}*/
 
 /*.hearts_1{background-image: url(../img/cards/hearts_1.svg);}
 .hearts_2{background-image: url(../img/cards/hearts_2.svg);}
@@ -454,7 +379,7 @@ body{
 .diamonds_12{background-image: url(../img/cards/diamonds_12.svg);}
 .diamonds_13{background-image: url(../img/cards/diamonds_13.svg);}*/
 
-.hearts_1{background-image: url(../img/malifaux_cards/card_p1_ram_1.png);}
+/*.hearts_1{background-image: url(../img/malifaux_cards/card_p1_ram_1.png);}
 .hearts_2{background-image: url(../img/malifaux_cards/card_p1_ram_2.png);}
 .hearts_3{background-image: url(../img/malifaux_cards/card_p1_ram_3.png);}
 .hearts_4{background-image: url(../img/malifaux_cards/card_p1_ram_4.png);}
@@ -508,68 +433,13 @@ body{
 .diamonds_10{background-image: url(../img/malifaux_cards/card_p1_masks_10.png);}
 .diamonds_11{background-image: url(../img/malifaux_cards/card_p1_masks_11.png);}
 .diamonds_12{background-image: url(../img/malifaux_cards/card_p1_masks_12.png);}
-.diamonds_13{background-image: url(../img/malifaux_cards/card_p1_masks_13.png);}
+.diamonds_13{background-image: url(../img/malifaux_cards/card_p1_masks_13.png);}*/
 
 /*.jockers_0{background-image:url(../img/malifaux_cards/card_p1_black_joker.png);}
 .jockers_14{background-image:url(../img/malifaux_cards/card_p1_red_joker.png);}*/
 
 /*.jockers_0{background-image:url(../img/bjocker.jpg);}
 .jockers_14{background-image:url(../img/rjocker.jpg);}*/
-
-
-
-#lang a{
-	margin-left: 10px;
-}
-#lang a:hover{
-	color: blue;
-}
-
-.crossroad-north ,
-.crossroad-west ,
-.crossroad-station ,
-.crossroad-east,
-.crossroad-south {
-	background-color: Aliceblue;
-	background-image: url(../img/Back.svg),url('../img/texture_paper.jpg');
-}
-
-.crossroad-checked-text{
-	background-color: Wheat;
-	border-radius: 5px;
-	width: 100%;
-	height: 100%;
-	/*box-shadow: inset 0px 5px 20px black;*/
-}
-.color-clubs,.color-diamonds,.color-hearts,.color-spades,.color-jockers{
-	color: black;
-	background-position: center;
-	background-size: 80%;
-}
-.color-clubs{
-	background-image: url(../img/clubs.svg);
-	background-image: url(../img/tomes.svg);
-}
-.color-diamonds{
-	background-image: url(../img/diamonds.svg);
-	background-image: url(../img/masks.svg);
-}
-.color-hearts{
-	background-image: url(../img/hearts.svg);
-	background-image:url(../img/rams.svg);
-}
-.color-spades{
-	background-image: url(../img/spades.svg);
-	background-image: url(../img/crows.svg);
-}
-.color-jockers{
-	background-color: Wheat;
-	background-size: 100%;
-	font-size: 10pt;
-}
-
-.jockers_0{background-image:url(../img/jockers-black.svg);}
-.jockers_14{background-image:url(../img/jockers-red.svg);}
 
 /*
 ANIMATION OPTIONS
@@ -585,33 +455,26 @@ ANIMATION OPTIONS
 -webkit-animation: aniname 10s linear 2s infinite alternate;
 */
 
-/*.jockers_0:hover{
--webkit-animation-name:background-rainbow;
+.crossroad-card:hover{
+-webkit-animation-name:cardflip-h;
 -webkit-animation-timing-function:linear;
--webkit-animation-duration:10s;
+-webkit-animation-duration:2s;
 -webkit-animation-delay:0s;
 -webkit-animation-iteration-count:infinite;
 -webkit-animation-direction:normal;
 -webkit-animation-play-state:running;	
-}*/
+}
 
-.crossroad-checked-text{
--webkit-animation-name:appear1;
+.popupCard:hover{
+-webkit-animation-name:cardflip-h;
 -webkit-animation-timing-function:linear;
--webkit-animation-duration:1s;
+-webkit-animation-duration:2s;
 -webkit-animation-delay:0s;
--webkit-animation-iteration-count:once;
--webkit-animation-direction:alternate;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:normal;
 -webkit-animation-play-state:running;	
 }
 
-/*.crossroad-card:hover {
-	-webkit-animation-name:gradient-red;
-	-webkit-animation-timing-function:linear;
-	-webkit-animation-duration:2s;
-	-webkit-animation-delay:0s;
-	-webkit-animation-iteration-count:infinite;
-	-webkit-animation-direction:alternate;
-	-webkit-animation-play-state:running;
-}*/
-
+.crossroad, .history, .fate{
+	border:solid Crimson 1px;
+}
