@@ -1,7 +1,8 @@
 var interpretation = {
 	hearts : {
 		'1' : {
-			name : '♥ 1',
+			suit : '♥',
+			name : '1',
 			station : {
 				skill:'Дробовик (Shotgun)',
 				fate:'и ты услышишь шепоты вдали.',
@@ -21,7 +22,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
-			name : '♥ 2',
+			suit : '♥',
+			name : '2',
 			station : {
 				skill:'Пневматика (Pneumatic)',
 				fate:'и ты забудешь себя.',
@@ -41,7 +43,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
-			name : '♥ 3',
+			suit : '♥',
+			name : '3',
 			station : {
 				skill:'Труд (Labor)',
 				fate:'и ты поцелуешь корону.',
@@ -61,7 +64,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
-			name : '♥ 4',
+			suit : '♥',
+			name : '4',
 			station : {
 				skill:'Скрытность (Stealth)',
 				fate:'и ты тщетно расколешь небо.',
@@ -81,7 +85,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
-			name : '♥ 5',
+			suit : '♥',
+			name : '5',
 			station : {
 				skill:'Торговля (Barter)',
 				fate:'и ты оставишь ветвь чтобы удержать песок.',
@@ -101,7 +106,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
-			name : '♥ 6',
+			suit : '♥',
+			name : '6',
 			station : {
 				skill:'Ремесло: Кузнечное дело (Crafting: Blacksmithing)',
 				fate:'и она отвернется от тебя навеки.',
@@ -121,7 +127,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
-			name : '♥ 7',
+			suit : '♥',
+			name : '7',
 			station : {
 				skill:'Учение: Грамота(Academic: Literacy)',
 				fate:'и арки рухнут.',
@@ -141,7 +148,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'8' : {
-			name : '♥ 8',
+			suit : '♥',
+			name : '8',
 			station : {
 				skill:'Слежение (Track)',
 				fate:'и он получит свою оплату.',
@@ -161,7 +169,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'9' : {
-			name : '♥ 9',
+			suit : '♥',
+			name : '9',
 			station : {
 				skill:'Учение: Бюрократия (Academic: Bureaucracy)',
 				fate:'и ты предпримешь последний шаг.',
@@ -181,7 +190,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'10' : {
-			name : '♥ 10',
+			suit : '♥',
+			name : '10',
 			station : {
 				skill:'Кулачный бой (Pugilism)',
 				fate:'и он мечтает о тебе.',
@@ -201,7 +211,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'11' : {
-			name : '♥ J 11',
+			suit : '♥',
+			name : '11',
 			station : {
 				skill:'Лидерство (Leadership)',
 				fate:'и она частью кровь и частью родня.',
@@ -221,7 +232,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'12' : {
-			name : '♥ Q 12',
+			suit : '♥',
+			name : '12',
 			station : {
 				skill:'Преподавание (Teach)',
 				fate:'и движение сбивается и вздрагивает.',
@@ -241,7 +253,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'13' : {
-			name : '♥ K 13',
+			suit : '♥',
+			name : '13',
 			station : {
 				skill:'Пистолеты (Pistols)',
 				fate:'и он будет наблюдать как ты пьешь яд.',
@@ -263,7 +276,8 @@ var interpretation = {
 	},
 	clubs : {
 		'1' : {
-			name : '♣ 1',
+			suit : '♣',
+			name : '1',
 			station : {
 				skill:'Взрывчатка (Explosives)',
 				fate:'и ты не можешь убрать красное.',
@@ -283,7 +297,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
-			name : '♣ 2',
+			suit : '♣',
+			name : '2',
 			station : {
 				skill:'Ремесло: Усадебные работы (Crafting: Homesteading)',
 				fate:'и это провозгласит зловещее восстание.',
@@ -303,7 +318,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
-			name : '♣ 3',
+			suit : '♣',
+			name : '3',
 			station : {
 				skill:'Зачарование (Enchanting)',
 				fate:'и она будет оплакивать тебя до конца своих дней.',
@@ -323,7 +339,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
-			name : '♣ 4',
+			suit : '♣',
+			name : '4',
 			station : {
 				skill:'Учение: Математика (Academic: Mathematics)',
 				fate:'и факел зашипит во тьме.',
@@ -343,7 +360,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
-			name : '♣ 5',
+			suit : '♣',
+			name : '5',
 			station : {
 				skill:'Ремесло: Печатное дело (Crafting: Printing)',
 				fate:'и он призовет Тюрьму к прорыву.',
@@ -363,7 +381,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
-			name : '♣ 6',
+			suit : '♣',
+			name : '6',
 			station : {
 				skill:'Ближний бой (Melee)',
 				fate:'и ты троекратно проклянешь его.',
@@ -383,7 +402,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
-			name : '♣ 7',
+			suit : '♣',
+			name : '7',
 			station : {
 				skill:'Наблюдение (Notice)',
 				fate:'и оно закудахчет из медальона.',
@@ -403,7 +423,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'8' : {
-			name : '♣ 8',
+			suit : '♣',
+			name : '8',
 			station : {
 				skill:'Ремесло: Алхимия (Crafting: Alchemistry)',
 				fate:'и она несет плод твоего прощения.',
@@ -423,7 +444,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'9' : {
-			name : '♣ 9',
+			suit : '♣',
+			name : '9',
 			station : {
 				skill:'Акробатика (Acrobatics)',
 				fate:'и лист будет тонуть как плывущий камень.',
@@ -443,7 +465,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'10' : {
-			name : '♣ 10',
+			suit : '♣',
+			name : '10',
 			station : {
 				skill:'Запугивание (Intimidate)',
 				fate:'и он для тебя как отшельник для леса.',
@@ -463,7 +486,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'11' : {
-			name : '♣ J 11',
+			suit : '♣',
+			name : '11',
 			station : {
 				skill:'Учение: Инженерное дело (Academic: Engineering)',
 				fate:'и ты будешь править колесницей зимы.',
@@ -483,7 +507,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'12' : {
-			name : '♣ Q 12',
+			suit : '♣',
+			name : '12',
 			station : {
 				skill:'Ремесло: Создание артефактов (Crafting: Artefacting)',
 				fate:'и дар будет принесен Императором.',
@@ -503,7 +528,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'13' : {
-			name : '♣ K 13',
+			suit : '♣',
+			name : '13',
 			station : {
 				skill:'Волшебство (Sorcery)',
 				fate:'и она поцелует губы висельника.',
@@ -525,7 +551,8 @@ var interpretation = {
 	},
 	spades : {
 		'1' : {
-			name : '♠ 1',
+			suit : '♠',
+			name : '1',
 			station : {
 				skill:'Стойкость (Toughness)',
 				fate:'и ты призовешь ворона.',
@@ -545,7 +572,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
-			name : '♠ 2',
+			suit : '♠',
+			name : '2',
 			station : {
 				skill:'Уклонение (Evade)',
 				fate:'и конец настигнет всех.',
@@ -565,7 +593,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
-			name : '♠ 3',
+			suit : '♠',
+			name : '3',
 			station : {
 				skill:'Ловкость рук (Prestidigitation)',
 				fate:'и ты будешь искалечен.',
@@ -585,7 +614,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
-			name : '♠ 4',
+			suit : '♠',
+			name : '4',
 			station : {
 				skill:'Фермерство (Farm)',
 				fate:'и колено мага склонится перед твоей рекой.',
@@ -605,7 +635,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
-			name : '♠ 5',
+			suit : '♠',
+			name : '5',
 			station : {
 				skill:'Некромантия (Necromancy)',
 				fate:'и аркан щелкнет подобно грому.',
@@ -625,7 +656,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
-			name : '♠ 6',
+			suit : '♠',
+			name : '6',
 			station : {
 				skill:'Шитье (Stitching)',
 				fate:'и с шепотом ты разделишь стены.',
@@ -645,7 +677,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
-			name : '♠ 7',
+			suit : '♠',
+			name : '7',
 			station : {
 				skill:'Тяжелый ближний бой (Heavy Melee)',
 				fate:'и уплаченный пенни заработан троекратно.',
@@ -665,7 +698,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'8' : {
-			name : '♠ 8',
+			suit : '♠',
+			name : '8',
 			station : {
 				skill:'Винтовки (Long Arms)',
 				fate:'и ты спалишь старейшую страницу.',
@@ -685,7 +719,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'9' : {
-			name : '♠ 9',
+			suit : '♠',
+			name : '9',
 			station : {
 				skill:'Животноводство (Husbandry)',
 				fate:'и преступление, что ты скрываешь уничтожит тебя.',
@@ -705,7 +740,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'10' : {
-			name : '♠ 10',
+			suit : '♠',
+			name : '10',
 			station : {
 				skill:'Центровка (Centering)',
 				fate:'и ты ветер в листьях.',
@@ -725,7 +761,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'11' : {
-			name : '♠ J 11',
+			suit : '♠',
+			name : '11',
 			station : {
 				skill:'Учение: Искусство (Academic: Art)',
 				fate:'и ты позволишь своей крови застыть.',
@@ -745,7 +782,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'12' : {
-			name : '♠ Q 12',
+			suit : '♠',
+			name : '12',
 			station : {
 				skill:'Доктор (Doctor)',
 				fate:'и ты ищешь звук своего последнего вздоха.',
@@ -765,7 +803,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'13' : {
-			name : '♠ K 13',
+			suit : '♠',
+			name : '13',
 			station : {
 				skill:'Снаряжение Камня Души (Harness Soulstone)',
 				fate:'и ты задержался на грани жизни и смерти.',
@@ -787,7 +826,8 @@ var interpretation = {
 	},
 	diamonds : {
 		'1' : {
-			name : '♦ 1',
+			suit : '♦',
+			name : '1',
 			station : {
 				skill:'Фальсификация (Forgery)',
 				fate:'и уничтожающее касание будет нежным.',
@@ -807,7 +847,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
-			name : '♦ 2',
+			suit : '♦',
+			name : '2',
 			station : {
 				skill:'Приворожить (Bewitch)',
 				fate:'и твои оковы возжелают истекать кровью.',
@@ -827,7 +868,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
-			name : '♦ 3',
+			suit : '♦',
+			name : '3',
 			station : {
 				skill:'Музыка (Music)',
 				fate:'и что твое, то твое.',
@@ -847,7 +889,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
-			name : '♦ 4',
+			suit : '♦',
+			name : '4',
 			station : {
 				skill:'Дикая местность (Wilderness)',
 				fate:'и ты расщепишь белую дверь.',
@@ -867,10 +910,11 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
-			name : '♦ 5',
+			suit : '♦',
+			name : '5',
 			station : {
 				skill:'Карманник (Pick Pocket)',
-				fate:'И ты падешь.',
+				fate:'и ты падешь.',
 				birth:'Вор (Thief)',
 				text:'Ни разу не попавшийся хороший вор это редкость, но одному из ваших родителей подобное удалось. Возможно кражу было трудно отследить (например банковские документы) или он просто не оставлял следов.'},
 			west : {
@@ -887,7 +931,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
-			name : '♦ 6',
+			suit : '♦',
+			name : '6',
 			station : {
 				skill:'Азартные игры (Gambling)',
 				fate:'и испытание будет твоим собственным.',
@@ -907,7 +952,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
-			name : '♦ 7',
+			suit : '♦',
+			name : '7',
 			station : {
 				skill:'Оценка (Appraise)',
 				fate:'и ты освободишь узника.',
@@ -927,7 +973,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'8' : {
-			name : '♦ 8',
+			suit : '♦',
+			name : '8',
 			station : {
 				skill:'Гибкость (Flexible)',
 				fate:'и своевольный получит должное.',
@@ -947,7 +994,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'9' : {
-			name : '♦ 9',
+			suit : '♦',
+			name : '9',
 			station : {
 				skill:'Взлом (Lockpicking)',
 				fate:'и ты заключишь сделку с дьяволом.',
@@ -967,7 +1015,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'10' : {
-			name : '♦ 10',
+			suit : '♦',
+			name : '10',
 			station : {
 				skill:'Обман (Deceive)',
 				fate:'и ты убьешь достойного.',
@@ -987,7 +1036,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'11' : {
-			name : '♦ J 11',
+			suit : '♦',
+			name : '11',
 			station : {
 				skill:'Убеждение (Convince)',
 				fate:'и его поддержка в стороне от стража.',
@@ -1007,7 +1057,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'12' : {
-			name : '♦ Q 12',
+			suit : '♦',
+			name : '12',
 			station : {
 				skill:'Лидерство (Leadership)',
 				fate:'и глаза во тьме изменят тебя.',
@@ -1027,7 +1078,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'13' : {
-			name : '♦ K 13',
+			suit : '♦',
+			name : '13',
 			station : {
 				skill:'Боевые Искусства (Martial Arts)',
 				fate:'и Императрица узнает предателя.',
@@ -1049,7 +1101,8 @@ var interpretation = {
 	},
 	jockers : {
 		'14' : {
-			name : 'jockers R 14',
+			suit : 'jockers R',
+			name : '14',
 			station : {
 				skill:'Антимагия (Counter-Spelling)',
 				fate:'и ты умрешь.',
@@ -1069,7 +1122,8 @@ var interpretation = {
 				text:'4,2,1'},
 		},
 		'0' : {
-			name : 'jockers B 0',
+			suit : 'jockers B',
+			name : '0',
 			station : {
 				skill:'Пьянка (Carouse)',
 				fate:'и ты будешь отменен.',
