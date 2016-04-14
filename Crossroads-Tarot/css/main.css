@@ -69,10 +69,10 @@ border:solid 1px black;border-radius: 3px;
 	border-radius: 5px;
 	box-shadow: -2px 2px 5px black;
 	text-align: center;
-	font-size: 16pt;
-	line-height: 40px;
+	font-size: 20pt;
+	line-height: 1.5cm;
 	background-position: 55% 80%;
-	background-size: 70%;
+	background-size: 60%;
 	background-repeat: no-repeat;
 	background-color: Linen;
 	transition: 0.5s;
@@ -159,13 +159,17 @@ body{
 .card-back{
 	background-size: 100% 100%;
 	background-color: Burlywood;
-	background-image: url(../img/Back.svg),url('../img/texture_paper.jpg');
+	background-image: url(../img/Back.svg);
+	background-image: url(../img/Back.svg),radial-gradient(circle farthest-corner at 20px 20px, #FFFFFF, #E4CB9E);
+
 }
 
 .color-clubs{
 	/*background-color:rgba(48,100,175,1);*/
 	background-image: url(../img/clubs.svg);
 	background-image: url(../img/tomes.svg);
+	/*background-image: url(../img/tomes1.svg);*/
+	/*background-size: 80%;*/
 	/*box-shadow: 0px 0px 15px rgba(48,100,175,1);*/
 }
 
@@ -173,6 +177,8 @@ body{
 	/*background-color:rgba(121,78,143,1);*/
 	background-image: url(../img/diamonds.svg);
 	background-image: url(../img/masks.svg);
+	/*background-image: url(../img/masks1.svg);*/
+	/*background-size: 50%;*/
 	/*box-shadow: 0px 0px 15px rgba(121,78,143,1);*/
 }
 
@@ -180,6 +186,9 @@ body{
 	/*background-color:rgba(171,49,45,1);*/
 	background-image: url(../img/hearts.svg);
 	background-image:url(../img/rams.svg);
+	/*background-image:url(../img/rams1.svg);*/
+	/*background-image:url(../img/rams2.svg);*/
+	/*background-size: 80%;*/
 	/*box-shadow: 0px 0px 15px rgba(171,49,45,1);*/
 }
 
@@ -187,18 +196,23 @@ body{
 	/*background-color: rgba(0,150,72,1);*/
 	background-image: url(../img/spades.svg);
 	background-image: url(../img/crows.svg);
+	/*background-image: url(../img/crows1.svg);*/
+	/*background-image: url(../img/crows2.svg);*/
+	/*background-size: 60%;*/
 	/*box-shadow: 0px 0px 15px rgba(0,150,72,1);*/
 }
 
 .color-jockers{
 	/*background-color: rgba(200,130,30,1);*/
-	background-size: 100%;
-	font-size: 10pt;
+	background-size: 70%;
+	/*font-size: 10pt;*/
 	/*box-shadow: 0px 0px 15px rgba(200,130,30,1);*/
 }
 
 .jockers_0{background-image:url(../img/jockers-black.svg);}
 .jockers_14{background-image:url(../img/jockers-red.svg);}
+.jockers_14{background-image:url(../img/jockers-red0.svg);}
+/*.jockers_14:hover{background-image:url(../img/jockers-red1.svg);}*/
 
 /*--- POPUP ---*/
 .popup {
@@ -243,10 +257,14 @@ body{
 	background-position: 55% 80%;
 	background-size: 70%;
 	background-repeat: no-repeat;
+	/*transition: 0.1s;*/
+	/*transform-style: preserve-3d;*/
 }
 
 .popupCard:hover{
 	cursor: pointer;
+	background-color: Linen;
+	background-color: Burlywood;
 }
 
 .popupCard.color-jockers{
@@ -256,8 +274,9 @@ body{
 }
 
 .catched {
-	box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
+	box-shadow: inset 0 0 30px rgba(170,20,20,1);
 	margin-top: 5px;
+	transform:skew(2grad);
 }
 
 /*Print*/
@@ -268,22 +287,12 @@ body{
 	border:solid 3px Black;
 }
 
-/*.bodyprint #printbtn,.bodyprint #randombtn{display: none;}*/
 .bodyprint #header{display: none;}
-
-/*.bodyprint .crossroad,.crossroad {
-	position: absolute;
-	width: 40%;
-	height: 50%;
-	top: 0px;
-	left:3%;
-}*/
 
 .bodyprint .crossroad{
 	border:none;
 	background-color: transparent;
 }
-
 
 .bodyprint .crossroad-card {
 	box-shadow: none;
@@ -296,35 +305,10 @@ body{
 	background-image: none;
 }
 
-/*.bodyprint .crossroad-north ,
-.bodyprint .crossroad-west ,
-.bodyprint .crossroad-station ,
-.bodyprint .crossroad-east,
-.bodyprint .crossroad-south  {
-	height: 20%;
-	width: 27%;
+.bodyprint a{
+	color: black;
+	text-decoration: none;
 }
-
-.bodyprint .crossroad-north {
-	top:2.5%;
-	left: 35%;
-}
-.bodyprint .crossroad-west {
-	top:25%;
-	left: 2.5%;
-}
-.bodyprint .crossroad-station {
-	top:25%;
-	left: 35%;
-}
-.bodyprint .crossroad-east {
-	top:25%;
-	left:67.5%;
-}
-.bodyprint .crossroad-south {
-	top:48%;
-	left: 35%;
-}*/
 
 /*.hearts_1{background-image: url(../img/cards/hearts_1.svg);}
 .hearts_2{background-image: url(../img/cards/hearts_2.svg);}
@@ -455,7 +439,7 @@ ANIMATION OPTIONS
 -webkit-animation: aniname 10s linear 2s infinite alternate;
 */
 
-.crossroad-card:hover{
+/*.crossroad-card:hover{
 -webkit-animation-name:cardflip-h;
 -webkit-animation-timing-function:linear;
 -webkit-animation-duration:2s;
@@ -463,9 +447,9 @@ ANIMATION OPTIONS
 -webkit-animation-iteration-count:infinite;
 -webkit-animation-direction:normal;
 -webkit-animation-play-state:running;	
-}
+}*/
 
-.popupCard:hover{
+/*.popupCard:hover{
 -webkit-animation-name:cardflip-h;
 -webkit-animation-timing-function:linear;
 -webkit-animation-duration:2s;
@@ -473,8 +457,15 @@ ANIMATION OPTIONS
 -webkit-animation-iteration-count:infinite;
 -webkit-animation-direction:normal;
 -webkit-animation-play-state:running;	
-}
+}*/
 
-.crossroad, .history, .fate{
+/*.crossroad, .history, .fate{
 	border:solid Crimson 1px;
+}*/
+
+#suits{
+	position: absolute;
+	top: 0cm;
+	left:20cm;
+	display: none;
 }
