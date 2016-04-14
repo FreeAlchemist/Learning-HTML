@@ -96,7 +96,7 @@ var func = function(){
 				text2 : 'South Fate: ',
 			} 
 		}
-		return function(dir,classfinish,T0,T1,T2,S1,B1) {
+		return function(dir,classfinish,suit,T0,T1,T2,S1,B1) {
 
 			// console.log("obj[dir].cardId "+obj[dir].cardId);
 			// console.log('dir '+dir)
@@ -111,14 +111,18 @@ var func = function(){
 
 			function cardflip(){
 				element.css('transform','rotateY(90deg)');
-				// element.css('transform','rotateX(90deg)');
 				setTimeout(cardflip2,250);
 			}
 
 			function cardflip2(){
 				if(element.hasClass('card-back')){
-					// element.removeClass('card-back').addClass(classfinish+' card-face').html(T0);
-					element.removeClass('card-back').addClass(classfinish).html(T0);
+					if(suit){
+						// element.removeClass('card-back').addClass(classfinish).html(suit+' '+T0);
+						element.removeClass('card-back').addClass(classfinish).html(T0);
+					}
+					else{
+						element.removeClass('card-back').addClass(classfinish).html(T0);
+					}
 					setTimeout(cardflip3,500);
 				}
 				else{
@@ -130,11 +134,16 @@ var func = function(){
 			function cardflip3(){
 				element.css('transform','rotateY(0deg)');
 				// element.css('transform','rotateX(0deg)');
+				setTimeout(cardflip4,100);
+			}
+
+			function cardflip4(){
+				element.css('transform','skewX(2deg)');
 			}
 
 			cardflip()
 
-			console.log("obj[dir].historyId "+obj[dir].historyId);
+			// console.log("obj[dir].historyId "+obj[dir].historyId);
 			$(obj[dir].historyId)
 			.html($('<h4 />',{text:obj[dir].text1}))
 			.append($('<p />',{text:B1}))
@@ -143,11 +152,16 @@ var func = function(){
 				$(obj[dir].historyId)
 				.append($('<p />',{text:'Station skill: '+S1}));
 			}
-			console.log("obj[dir].fateId "+obj[dir].fateId);
+			// console.log("obj[dir].fateId "+obj[dir].fateId);
 			$(obj[dir].fateId)
 			.html($('<div />',{class:'fate-title',text:obj[dir].text2}))
 			.append($('<div />',{text:T2}))
-			.append($('<div />',{text:T0}));
+			if(suit){
+				$(obj[dir].fateId).append($('<div />',{text:suit+' '+T0}));
+			}
+			else{
+				$(obj[dir].fateId).append($('<div />',{text:T0}));
+			}
 		}
 	}()
 function clickCard(o) {
@@ -159,11 +173,11 @@ function clickCard(o) {
 	var card = $(this).attr('data-id');
 	// var cardcolor = $(this[class*='color']);
 	var cardcolor = $(this).attr('class');
-	console.log(cardcolor);
+	// console.log(cardcolor);
 	var classstart = cardcolor.indexOf('color');
 	if(classstart != -1){
-		console.log("something: "+cardcolor)
-		console.log(cardcolor.substr(classstart))
+		// console.log("something: "+cardcolor)
+		// console.log(cardcolor.substr(classstart))
 		var classfinish = cardcolor.substr(classstart)+' '+card
 	}
 	if (popupSelectedCard[popupSelectedDirection]) {
@@ -176,19 +190,19 @@ function clickCard(o) {
 	// console.log(card + ' -> ' + popupSelectedDirection)
 	// console.log(objs[card])
 	if(popupSelectedDirection == "crossroad-station"){
-		func('station',classfinish, objs[card].name,objs[card].station.text,objs[card].station.fate,objs[card].station.skill,objs[card].station.birth)
+		func('station',classfinish, objs[card].suit, objs[card].name,objs[card].station.text,objs[card].station.fate,objs[card].station.skill,objs[card].station.birth)
 	}
 	if(popupSelectedDirection == "crossroad-west"){
-		func('west',classfinish, objs[card].name,objs[card].west.text,objs[card].west.fate )
+		func('west',classfinish, objs[card].suit, objs[card].name,objs[card].west.text,objs[card].west.fate )
 	}
 	if(popupSelectedDirection == "crossroad-north"){
-		func('north',classfinish, objs[card].name,objs[card].north.text,objs[card].north.fate )
+		func('north',classfinish, objs[card].suit, objs[card].name,objs[card].north.text,objs[card].north.fate )
 	}
 	if(popupSelectedDirection == "crossroad-east"){
-		func('east',classfinish, objs[card].name,objs[card].east.text,objs[card].east.fate )
+		func('east',classfinish, objs[card].suit, objs[card].name,objs[card].east.text,objs[card].east.fate )
 	}
 	if(popupSelectedDirection == "crossroad-south"){
-		func('south',classfinish, objs[card].name,objs[card].south.text,objs[card].south.fate )
+		func('south',classfinish, objs[card].suit, objs[card].name,objs[card].south.text,objs[card].south.fate )
 	}
 }
 /*Random*/
@@ -206,11 +220,11 @@ function randomize(){
 		if(arr[i].indexOf('jockers') != -1){classarr[i] = arr[i]}
 	};
 	// console.log(classarr)
-	func('station',classarr[0], objs[arr[0]].name,objs[arr[0]].station.text,objs[arr[0]].station.fate,objs[arr[0]].station.skill,objs[arr[0]].station.birth)
-	func('west',classarr[1], objs[arr[1]].name,objs[arr[1]].west.text,objs[arr[1]].west.fate)
-	func('north',classarr[2], objs[arr[2]].name,objs[arr[2]].north.text,objs[arr[2]].north.fate)
-	func('east',classarr[3], objs[arr[3]].name,objs[arr[3]].east.text,objs[arr[3]].east.fate)
-	func('south',classarr[4], objs[arr[4]].name,objs[arr[4]].south.text,objs[arr[4]].south.fate)
+	func('station',classarr[0], objs[arr[0]].suit, objs[arr[0]].name,objs[arr[0]].station.text,objs[arr[0]].station.fate,objs[arr[0]].station.skill,objs[arr[0]].station.birth)
+	func('west',classarr[1], objs[arr[1]].suit, objs[arr[1]].name,objs[arr[1]].west.text,objs[arr[1]].west.fate)
+	func('north',classarr[2], objs[arr[2]].suit, objs[arr[2]].name,objs[arr[2]].north.text,objs[arr[2]].north.fate)
+	func('east',classarr[3], objs[arr[3]].suit, objs[arr[3]].name,objs[arr[3]].east.text,objs[arr[3]].east.fate)
+	func('south',classarr[4], objs[arr[4]].suit, objs[arr[4]].name,objs[arr[4]].south.text,objs[arr[4]].south.fate)
 }
 /*Print*/
 function print(){
