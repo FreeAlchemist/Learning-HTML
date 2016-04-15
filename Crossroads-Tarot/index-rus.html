@@ -38,13 +38,15 @@
 </div>
 
 <div class="history">
-	<p id="header">
+	<div id="header-wrap">
 	<!-- Язык: -->
-	<a href="index.html">ENG</a><a href="index-rus.html">RUS</a>
-	<input type="button" id="printbtn" value="Print" onclick="print()">
-	<input type="button" id="randombtn" value="Random Fate" onclick="randomize()">
-	</p>
-	<h2><a href="index-rus.html">Таро перекрёстка</a></h2>
+	<div id="header-title"><a href="index-rus.html">Таро перекрёстка</a></div>
+	<div id="header-menu">
+		<a href="index.html">ENG</a><a href="index-rus.html">RUS</a>
+		<input type="button" id="printbtn" value="Print" onclick="print()">
+		<input type="button" id="randombtn" value="Random Fate" onclick="randomize()">
+	</div>	
+	</div>
 	<!-- <h3>История</h3> -->
 	<div class="stage">
 		<div class="title">Обречённый:</div>
@@ -57,6 +59,12 @@
 	<div class="history-block" id="history-north">
 	</div>	
 	<div class="history-block" id="history-east">
+	
+	<div class="skill">
+		<div class="skill-title">South (Endeavour Skills)</div>
+		<div class="skill-text">3,2,1,1,1,1</div>
+	</div>
+	
 	</div>	
 	<div class="history-block" id="history-south">
 	</div>	
