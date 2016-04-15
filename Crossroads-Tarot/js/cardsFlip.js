@@ -98,14 +98,14 @@ var func = function(){
 		}
 		return function(dir,classfinish,suit,T0,T1,T2,S1,B1) {
 
-			// console.log("obj[dir].cardId "+obj[dir].cardId);
-			// console.log('dir '+dir)
-			// console.log('classfinish '+classfinish)
-			// console.log('T0 '+T0)
-			// console.log('T1 '+T1)
-			// console.log('T2 '+T2)
-			// console.log('S1 '+S1)
-			// console.log('B1 '+B1)
+			console.log("obj[dir].cardId: "+obj[dir].cardId);
+			console.log('dir: '+dir)
+			console.log('classfinish: '+classfinish)
+			console.log('T0: '+T0)
+			console.log('T1: '+T1)
+			console.log('T2: '+T2)
+			console.log('S1: '+S1)
+			console.log('B1: '+B1)
 
 			var element = $(obj[dir].cardId)
 
@@ -144,14 +144,38 @@ var func = function(){
 			cardflip()
 
 			// console.log("obj[dir].historyId "+obj[dir].historyId);
-			$(obj[dir].historyId)
-			.html($('<h4 />',{text:obj[dir].text1}))
-			.append($('<p />',{text:B1}))
-			.append($('<p />',{text:T1}));
-			if(S1){
+			// $(obj[dir].historyId)
+			// .html($('<h4 />',{text:obj[dir].text1}))
+			// .append($('<p />',{text:B1}))
+			// .append($('<p />',{text:T1}));
+			// if(S1){
+			// 	$(obj[dir].historyId)
+			// 	.append($('<p />',{text:'Station skill: '+S1}));
+			// }
+
+			if(dir=='station'){
 				$(obj[dir].historyId)
-				.append($('<p />',{text:'Station skill: '+S1}));
+				.html($('<h4 />',{text:obj[dir].text1}))
+				.append($('<p />',{text:B1}))
+				.append($('<p />',{text:T1}));
+				if(S1){
+					$(obj[dir].historyId)
+					.append($('<p />',{text:'Station skill: '+S1}));
+				}
 			}
+			else{
+				$(obj[dir].historyId)
+				.html($('<div />',{class:'skill',id:'skill'+dir}))
+				$('#skill'+dir)
+				.html($('<div />',{class:'skill-title',text:obj[dir].text1}))
+				.append($('<div />',{class:'skill-text',text:T1}))
+
+				// .append($('<p />',{text:B1}))
+				// .append($('<p />',{text:T1}));
+			}
+
+
+
 			// console.log("obj[dir].fateId "+obj[dir].fateId);
 			$(obj[dir].fateId)
 			.html($('<div />',{class:'fate-title',text:obj[dir].text2}))
