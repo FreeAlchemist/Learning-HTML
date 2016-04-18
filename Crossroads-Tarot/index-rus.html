@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/animation.css">
 </head>
-<body>
+<body onload="checkLang('RUS')">
 
 <div id=suits>
 	<img src="img/crows.svg">
@@ -42,7 +42,7 @@
 	<!-- Язык: -->
 	<div id="header-title"><a href="index-rus.html">Таро перекрёстка</a></div>
 	<div id="header-menu">
-		<a href="index.html">ENG</a><a href="index-rus.html">RUS</a>
+		<a id="lang-eng" href="index.html">ENG</a><a id="lang-rus" href="index-rus.html">RUS</a>
 		<input type="button" id="printbtn" value="Print" onclick="print()">
 		<input type="button" id="randombtn" value="Random Fate" onclick="randomize()">
 	</div>	
