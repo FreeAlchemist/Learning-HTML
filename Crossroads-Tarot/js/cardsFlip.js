@@ -31,7 +31,6 @@ for (var l in interpretation) {
 		var keyv = key+'_'+v;
 		var $obj = $('<div />', {class:'popupCard '+l+'_'+v+' color-'+l,'data-id':keyv, text:objs[keyv].name, click:clickCard})
 		$line.append($obj);
-		// objs[keyv].$obj = $obj;
 	}
 }
 $('#crossroad-north').click(function(){
@@ -61,7 +60,7 @@ var func = function(){
 				historyId : '#history-station',
 				text1 : 'Station',
 				fateId : '#fate-station',
-				text2 : 'Station Fate: ',
+				text2 : 'Station Fate',
 			},
 			west : {
 				cardId : '#card-west',
@@ -69,7 +68,7 @@ var func = function(){
 				historyId : '#history-west',
 				text1 : 'West (Physical aspects)',
 				fateId : '#fate-west',
-				text2 : 'West Fate: ',
+				text2 : 'West Fate',
 			},
 			north : {
 				cardId : '#card-north',
@@ -77,7 +76,7 @@ var func = function(){
 				historyId : '#history-north',
 				text1 : 'North (Main Skills)',
 				fateId : '#fate-north',
-				text2 : 'North Fate: ',
+				text2 : 'North Fate',
 			},
 			east : {
 				cardId : '#card-east',
@@ -85,7 +84,7 @@ var func = function(){
 				historyId : '#history-east',
 				text1 : 'East (Mental aspects)',
 				fateId : '#fate-east',
-				text2 : 'East Fate: ',
+				text2 : 'East Fate',
 			},
 			south : {
 				cardId : '#card-south',
@@ -93,19 +92,19 @@ var func = function(){
 				historyId : '#history-south',
 				text1 : 'South (Endeavour Skills)',
 				fateId : '#fate-south',
-				text2 : 'South Fate: ',
+				text2 : 'South Fate',
 			} 
 		}
 		return function(dir,classfinish,suit,T0,T1,T2,S1,B1) {
 
-			console.log("obj[dir].cardId: "+obj[dir].cardId);
-			console.log('dir: '+dir)
-			console.log('classfinish: '+classfinish)
-			console.log('T0: '+T0)
-			console.log('T1: '+T1)
-			console.log('T2: '+T2)
-			console.log('S1: '+S1)
-			console.log('B1: '+B1)
+			// console.log("obj[dir].cardId: "+obj[dir].cardId);
+			// console.log('dir: '+dir)
+			// console.log('classfinish: '+classfinish)
+			// console.log('T0: '+T0)
+			// console.log('T1: '+T1)
+			// console.log('T2: '+T2)
+			// console.log('S1: '+S1)
+			// console.log('B1: '+B1)
 
 			var element = $(obj[dir].cardId)
 
@@ -116,13 +115,7 @@ var func = function(){
 
 			function cardflip2(){
 				if(element.hasClass('card-back')){
-					if(suit){
-						// element.removeClass('card-back').addClass(classfinish).html(suit+' '+T0);
-						element.removeClass('card-back').addClass(classfinish).html(T0);
-					}
-					else{
-						element.removeClass('card-back').addClass(classfinish).html(T0);
-					}
+					element.removeClass('card-back').addClass(classfinish).html(T0);
 					setTimeout(cardflip3,500);
 				}
 				else{
@@ -133,59 +126,42 @@ var func = function(){
 
 			function cardflip3(){
 				element.css('transform','rotateY(0deg)');
-				// element.css('transform','rotateX(0deg)');
-				setTimeout(cardflip4,100);
-			}
-
-			function cardflip4(){
-				element.css('transform','skewX(2deg)');
 			}
 
 			cardflip()
 
 			// console.log("obj[dir].historyId "+obj[dir].historyId);
-			// $(obj[dir].historyId)
-			// .html($('<h4 />',{text:obj[dir].text1}))
-			// .append($('<p />',{text:B1}))
-			// .append($('<p />',{text:T1}));
-			// if(S1){
-			// 	$(obj[dir].historyId)
-			// 	.append($('<p />',{text:'Station skill: '+S1}));
-			// }
 
 			if(dir=='station'){
 				$(obj[dir].historyId)
-				.html($('<h4 />',{text:obj[dir].text1}))
-				.append($('<p />',{text:B1}))
-				.append($('<p />',{text:T1}));
+					.html($('<div />',{class:'skill',id:'skill'+dir+'B1'}))
+					$('#skill'+dir+'B1')
+					.html($('<div />',{class:'skill-title',text:obj[dir].text1+':'}))
+					.append($('<div />',{class:'skill-text',text:B1}))
+				$(obj[dir].historyId)
+					.append($('<div />',{class:'skill-desc',text:T1}))
+
 				if(S1){
-					$(obj[dir].historyId)
-					.append($('<p />',{text:'Station skill: '+S1}));
+				$(obj[dir].historyId)
+				.append($('<div />',{class:'skill',id:'skill'+dir+'S1'}))
+				$('#skill'+dir+'S1')
+				.html($('<div />',{class:'skill-title',text:'Station skill: '}))
+				.append($('<div />',{class:'skill-text',text:S1}))
 				}
 			}
 			else{
 				$(obj[dir].historyId)
 				.html($('<div />',{class:'skill',id:'skill'+dir}))
 				$('#skill'+dir)
-				.html($('<div />',{class:'skill-title',text:obj[dir].text1}))
+				.html($('<div />',{class:'skill-title',text:obj[dir].text1+':'}))
 				.append($('<div />',{class:'skill-text',text:T1}))
-
-				// .append($('<p />',{text:B1}))
-				// .append($('<p />',{text:T1}));
 			}
 
-
-
-			// console.log("obj[dir].fateId "+obj[dir].fateId);
 			$(obj[dir].fateId)
-			.html($('<div />',{class:'fate-title',text:obj[dir].text2}))
-			.append($('<div />',{text:T2}))
-			if(suit){
-				$(obj[dir].fateId).append($('<div />',{text:suit+' '+T0}));
-			}
-			else{
-				$(obj[dir].fateId).append($('<div />',{text:T0}));
-			}
+			.html($('<div />',{class:'skill-fate',id:'skill'+dir+'fate'}))
+			$('#skill'+dir+'fate')
+			.html($('<div />',{class:'skill-fate-title',text:obj[dir].text2+' ('+suit+' '+T0+'):'}))
+			.append($('<div />',{class:'skill-fate-text',text:T2}))
 		}
 	}()
 function clickCard(o) {
@@ -210,7 +186,6 @@ function clickCard(o) {
 	popupSelectedCard[popupSelectedDirection] = this;
 	$(this).addClass('catched');
 	$popupWrapper.addClass('notdisplay');
-	// alert(card + ' -> ' + popupSelectedDirection);
 	// console.log(card + ' -> ' + popupSelectedDirection)
 	// console.log(objs[card])
 	if(popupSelectedDirection == "crossroad-station"){
