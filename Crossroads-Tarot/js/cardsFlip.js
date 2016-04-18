@@ -1,3 +1,14 @@
+function checkLang(language){
+	var lang = language
+	console.log(lang)
+	if(lang == 'ENG'){
+		$('#lang-eng').css('color','red')
+	}
+	if(lang == 'RUS'){
+		$('#lang-rus').css('color','red')
+	}
+}
+
 var objs = {};
 	var arr = [];
 	for (var l in interpretation) {
