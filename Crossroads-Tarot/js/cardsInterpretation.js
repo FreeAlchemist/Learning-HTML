@@ -1,7 +1,8 @@
 var interpretation = {
 	hearts : {
-		'1' : {
-			name : '♥ 1',
+		'1' : {			
+			suit : '♥',
+			name : '1',
 			station : {
 				skill:'Shotgun',
 				fate:'and you will hear the whispers beyond.',
@@ -21,7 +22,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
-			name : '♥ 2',
+			suit : '♥',
+			name : '2',
 			station : {
 				skill:'Pneumatic',
 				fate:'and you will forget yourself.',
@@ -41,7 +43,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
-			name : '♥ 3',
+			suit : '♥',
+			name : '3',
 			station : {
 				skill:'Labor',
 				fate:'and you will kiss the crown.',
@@ -61,7 +64,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
-			name : '♥ 4',
+			suit : '♥',
+			name : '4',
 			station : {
 				skill:'Stealth',
 				fate:'and you cleave the sky in vain.',
@@ -81,7 +85,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
-			name : '♥ 5',
+			suit : '♥',
+			name : '5',
 			station : {
 				skill:'Barter',
 				fate:'and you will leave a twig to hold the sand.',
@@ -101,7 +106,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
-			name : '♥ 6',
+			suit : '♥',
+			name : '6',
 			station : {
 				skill:'Crafting: Blacksmithing',
 				fate:'and she will turn from you, forever.',
@@ -121,7 +127,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
-			name : '♥ 7',
+			suit : '♥',
+			name : '7',
 			station : {
 				skill:'Academic: Literacy',
 				fate:'and the arches will crumble.',
@@ -141,7 +148,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'8' : {
-			name : '♥ 8',
+			suit : '♥',
+			name : '8',
 			station : {
 				skill:'Track',
 				fate:'and he will be paid his price.',
@@ -161,7 +169,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'9' : {
-			name : '♥ 9',
+			suit : '♥',
+			name : '9',
 			station : {
 				skill:'Academic: Bureaucracy',
 				fate:'and you take the last step.',
@@ -181,7 +190,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'10' : {
-			name : '♥ 10',
+			suit : '♥',
+			name : '10',
 			station : {
 				skill:'Pugilism',
 				fate:'and it dreams of you.',
@@ -201,7 +211,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'11' : {
-			name : '♥ J 11',
+			suit : '♥',
+			name : '11',
 			station : {
 				skill:'Leadership',
 				fate:'and she is part gore and part kin.',
@@ -221,7 +232,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'12' : {
-			name : '♥ Q 12',
+			suit : '♥',
+			name : '12',
 			station : {
 				skill:'Teach',
 				fate:'and the motion stutters and shudders.',
@@ -241,7 +253,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'13' : {
-			name : '♥ K 13',
+			suit : '♥',
+			name : '13',
 			station : {
 				skill:'Pistols',
 				fate:'and he will watch you drink the venom.',
@@ -263,7 +276,8 @@ var interpretation = {
 	},
 	clubs : {
 		'1' : {
-			name : '♣ 1',
+			suit : '♣',
+			name : '1',
 			station : {
 				skill:'Explosives',
 				fate:'and you cannot remove the red.',
@@ -283,7 +297,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
-			name : '♣ 2',
+			suit : '♣',
+			name : '2',
 			station : {
 				skill:'Crafting: Homesteading',
 				fate:'and it will herald the sinister revolution.',
@@ -303,7 +318,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
-			name : '♣ 3',
+			suit : '♣',
+			name : '3',
 			station : {
 				skill:'Enchanting',
 				fate:'and she will mourn you all of her days.',
@@ -323,7 +339,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
-			name : '♣ 4',
+			suit : '♣',
+			name : '4',
 			station : {
 				skill:'Academic: Mathematics',
 				fate:'and the torch will sputter into darkness.',
@@ -343,7 +360,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
-			name : '♣ 5',
+			suit : '♣',
+			name : '5',
 			station : {
 				skill:'Crafting: Printing',
 				fate:'and he will call the Bastille into the break.',
@@ -363,7 +381,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
-			name : '♣ 6',
+			suit : '♣',
+			name : '6',
 			station : {
 				skill:'Melee',
 				fate:'and you will thrice damn him.',
@@ -383,7 +402,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
-			name : '♣ 7',
+			suit : '♣',
+			name : '7',
 			station : {
 				skill:'Notice',
 				fate:'and it cackles from the locket.',
@@ -403,7 +423,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'8' : {
-			name : '♣ 8',
+			suit : '♣',
+			name : '8',
 			station : {
 				skill:'Crafting: Alchemistry',
 				fate:'and she bears the fruit of your absolution.',
@@ -423,7 +444,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'9' : {
-			name : '♣ 9',
+			suit : '♣',
+			name : '9',
 			station : {
 				skill:'Acrobatics',
 				fate:'and the leaf will sink as the stone floats.',
@@ -443,7 +465,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'10' : {
-			name : '♣ 10',
+			suit : '♣',
+			name : '10',
 			station : {
 				skill:'Intimidate',
 				fate:'and he is to you as the hermit is to the forest.',
@@ -463,7 +486,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'11' : {
-			name : '♣ J 11',
+			suit : '♣',
+			name : '11',
 			station : {
 				skill:'Academic: Engineering',
 				fate:'and you will drive the chariot of winter.',
@@ -483,7 +507,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'12' : {
-			name : '♣ Q 12',
+			suit : '♣',
+			name : '12',
 			station : {
 				skill:'Crafting: Artefacting',
 				fate:'and it is the Emperor who will bring the gift.',
@@ -503,7 +528,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'13' : {
-			name : '♣ K 13',
+			suit : '♣',
+			name : '13',
 			station : {
 				skill:'Sorcery',
 				fate:'and she will kiss the hanged man’s lips.',
@@ -525,7 +551,8 @@ var interpretation = {
 	},
 	spades : {
 		'1' : {
-			name : '♠ 1',
+			suit : '♠',
+			name : '1',
 			station : {
 				skill:'Toughness',
 				fate:'and you will call upon the crow.',
@@ -545,7 +572,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
-			name : '♠ 2',
+			suit : '♠',
+			name : '2',
 			station : {
 				skill:'Evade',
 				fate:'and the end will come to all.',
@@ -565,7 +593,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
-			name : '♠ 3',
+			suit : '♠',
+			name : '3',
 			station : {
 				skill:'Prestidigitation',
 				fate:'and you will be maimed.',
@@ -585,7 +614,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
-			name : '♠ 4',
+			suit : '♠',
+			name : '4',
 			station : {
 				skill:'Farm',
 				fate:'and the mage’s knee bends before your river.',
@@ -605,7 +635,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
-			name : '♠ 5',
+			suit : '♠',
+			name : '5',
 			station : {
 				skill:'Necromancy',
 				fate:'and the noose will snap like thunder.',
@@ -625,7 +656,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
-			name : '♠ 6',
+			suit : '♠',
+			name : '6',
 			station : {
 				skill:'Stitching',
 				fate:'and with a whisper you will sunder the walls.',
@@ -645,7 +677,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
-			name : '♠ 7',
+			suit : '♠',
+			name : '7',
 			station : {
 				skill:'Heavy Melee',
 				fate:'and the penny paid is thrice earned.',
@@ -665,7 +698,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'8' : {
-			name : '♠ 8',
+			suit : '♠',
+			name : '8',
 			station : {
 				skill:'Long Arms',
 				fate:'and you will burn the oldest page.',
@@ -685,7 +719,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'9' : {
-			name : '♠ 9',
+			suit : '♠',
+			name : '9',
 			station : {
 				skill:'Husbandry',
 				fate:'and the crime that you hide will destroy you.',
@@ -705,7 +740,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'10' : {
-			name : '♠ 10',
+			suit : '♠',
+			name : '10',
 			station : {
 				skill:'Centering',
 				fate:'and you are a breeze unto the leaves.',
@@ -725,7 +761,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'11' : {
-			name : '♠ J 11',
+			suit : '♠',
+			name : '11',
 			station : {
 				skill:'Academic: Art',
 				fate:'and you will let your blood run cold.',
@@ -745,7 +782,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'12' : {
-			name : '♠ Q 12',
+			suit : '♠',
+			name : '12',
 			station : {
 				skill:'Doctor',
 				fate:'and you seek the sound of your last breath.',
@@ -765,7 +803,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'13' : {
-			name : '♠ K 13',
+			suit : '♠',
+			name : '13',
 			station : {
 				skill:'Harness Soulstone',
 				fate:'and you stumble upon the line of life and death.',
@@ -787,7 +826,8 @@ var interpretation = {
 	},
 	diamonds : {
 		'1' : {
-			name : '♦ 1',
+			suit : '♦',
+			name : '1',
 			station : {
 				skill:'Forgery',
 				fate:'and obliteration’s touch will be gentle.',
@@ -807,7 +847,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'2' : {
-			name : '♦ 2',
+			suit : '♦',
+			name : '2',
 			station : {
 				skill:'Bewitch',
 				fate:'and your iron wishes to bleed.',
@@ -827,7 +868,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'3' : {
-			name : '♦ 3',
+			suit : '♦',
+			name : '3',
 			station : {
 				skill:'Music',
 				fate:'and yours is only yours.',
@@ -847,7 +889,8 @@ var interpretation = {
 				text:'3,2,1,1,1,1'},
 		},
 		'4' : {
-			name : '♦ 4',
+			suit : '♦',
+			name : '4',
 			station : {
 				skill:'Wilderness',
 				fate:'and you will splinter the white door.',
@@ -867,7 +910,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'5' : {
-			name : '♦ 5',
+			suit : '♦',
+			name : '5',
 			station : {
 				skill:'Pick Pocket',
 				fate:'and you will fall.',
@@ -887,7 +931,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'6' : {
-			name : '♦ 6',
+			suit : '♦',
+			name : '6',
 			station : {
 				skill:'Gambling',
 				fate:'and the ordeal will be your own.',
@@ -907,7 +952,8 @@ var interpretation = {
 				text:'3,2,2,1,1'},
 		},
 		'7' : {
-			name : '♦ 7',
+			suit : '♦',
+			name : '7',
 			station : {
 				skill:'Appraise',
 				fate:'and you will unshackle the prisoner.',
@@ -927,7 +973,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'8' : {
-			name : '♦ 8',
+			suit : '♦',
+			name : '8',
 			station : {
 				skill:'Flexible',
 				fate:'and the willful earns his due.',
@@ -947,7 +994,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'9' : {
-			name : '♦ 9',
+			suit : '♦',
+			name : '9',
 			station : {
 				skill:'Lockpicking',
 				fate:'and you will deal with the devil.',
@@ -967,7 +1015,8 @@ var interpretation = {
 				text:'3,2,2,2'},
 		},
 		'10' : {
-			name : '♦ 10',
+			suit : '♦',
+			name : '10',
 			station : {
 				skill:'Deceive',
 				fate:'and you will murder the deserving.',
@@ -987,7 +1036,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'11' : {
-			name : '♦ J 11',
+			suit : '♦',
+			name : '11',
 			station : {
 				skill:'Convince',
 				fate:'and it shoulders aside the guardian.',
@@ -1007,7 +1057,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'12' : {
-			name : '♦ Q 12',
+			suit : '♦',
+			name : '12',
 			station : {
 				skill:'Leadership',
 				fate:'and the eyes in the darkness change you.',
@@ -1027,7 +1078,8 @@ var interpretation = {
 				text:'3,3,1,1'},
 		},
 		'13' : {
-			name : '♦ K 13',
+			suit : '♦',
+			name : '13',
 			station : {
 				skill:'Martial Arts',
 				fate:'and the Empress will know the traitor.',
@@ -1049,7 +1101,8 @@ var interpretation = {
 	},
 	jockers : {
 		'14' : {
-			name : 'jockers R 14',
+			suit : 'jockers R',
+			name : '14',
 			station : {
 				skill:'Counter-Spelling',
 				fate:'and you will die.',
@@ -1069,7 +1122,8 @@ var interpretation = {
 				text:'4,2,1'},
 		},
 		'0' : {
-			name : 'jockers B 0',
+			suit : 'jockers B',
+			name : '0',
 			station : {
 				skill:'Carouse',
 				fate:'and you will be unmade.',
