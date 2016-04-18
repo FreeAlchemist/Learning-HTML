@@ -1,19 +1,23 @@
 body {
-	background-color: Whitesmoke;
 	position: absolute;
-	width: 100%;
-	height: 100%;
 	padding: 0px;
 	margin: 0px;
+	background-color: transparent;
+	width: 20cm;
+	/*height: 29cm;*/
+	/*height: 24cm;*/
+	height: 21cm;
+	border:solid 3px Black;
 }
 
 .fate {
 	position: absolute;
 	width: 19cm;
 	/*height: 35%;*/
-	height: 44%;
+	/*height: 44%;*/
+	height: 9cm;
 	/*top: 55%;*/
-	top: 12.5cm;
+	top: 11.5cm;
 	left:3%;
 	overflow: auto;
 	/*padding: 10px;*/
@@ -25,15 +29,11 @@ position: relative;
 float: left;
 }
 
-.fate-block{
-border:solid 1px black;border-radius: 3px;
-}
-
 .history {
 	position: absolute;
 	width: 10.5cm;
 	/*height: 50%;*/
-	height: 12cm;
+	height: 11cm;
 	top: 0px;
 	left: 43%;
 	overflow: auto;
@@ -89,26 +89,25 @@ border:solid 1px black;border-radius: 3px;
 .stage{
 	width: 280px;
 	height: 30px;
-	border:1px solid;
+	/*border:1px solid;*/
 	border-radius: 3px;
 	margin-bottom: 10px;
 }
 .title{
 	float: left;
 	width: 90px;
-	padding: 5px;
+	padding-right: 5px;
+	font-size: 12pt;
+	text-align: center;
+}
+.title input{
+	border:none;
+	border-bottom: solid 2px;
 }
 #name{
 	float: left;
-	width: 160px;
-}
-
-body{
-	background-color: transparent;
-	width: 20cm;
-	/*height: 29cm;*/
-	height: 24cm;
-	border:solid 3px Black;
+	width: 290px;
+	font-size: 16px;
 }
 
 .crossroad-north , .crossroad-west , .crossroad-station , .crossroad-east, .crossroad-south  {
@@ -149,19 +148,50 @@ body{
 	left: 3cm;
 }
 
-.skill{
+.skill,.skill-fate{
 height: 30px;
-border:1px solid;
+width: 100%;
+/*border: 1px solid;*/
+/*border-radius: 3px;*/
+margin-top: 10px;
+line-height: 30px;
+/*background-color: Linen;*/
+}
+.skill-title,.skill-fate-title{
+float: left;
+font-size: 16px;
+font-weight: bold;
+width: 43%;
+padding-left: 5px;
+border: 1px solid;
 border-radius: 3px;
-margin-bottom: 10px;
+background-color: Bisque;
+margin-right: 3px;
 }
-.skill-title{
+.skill-fate-title{
+	width: 26%;
+}
+.skill-text,.skill-fate-text{
 float: left;
-font-size: 18px;
+padding-left: 5px;
 width: 50%;
+font-size: 13px;
+border: 1px solid;
+border-radius: 3px;
+background-color: Linen;
+/*overflow: hidden;*/
+/*height: 30px;*/
 }
-.skill-text{
-float: left;
+.skill-fate-text{
+	width: 69%;
+}
+.skill-desc{
+margin-top: 6px;
+/*background-color: Linen;
+border: solid 1px;
+border-radius: 3px;*/
+padding: 5px;
+width: 94%;
 }
 
 #header-wrap{
@@ -285,9 +315,9 @@ float: left;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	font-size: 14pt;
-	line-height: 35px;
-	background-position: 55% 80%;
-	background-size: 70%;
+	line-height: 30px;
+	background-position: 55% 85%;
+	background-size: 50%;
 	background-repeat: no-repeat;
 	/*transition: 0.1s;*/
 	/*transform-style: preserve-3d;*/
@@ -312,14 +342,14 @@ float: left;
 }
 
 /*Print*/
-.bodyprint{
+/*.bodyprint{
 	background-color: transparent;
 	width: 20cm;
-	/*height: 29cm;*/
+	height: 29cm;
 	height: 24cm;
 	border:solid 3px Black;
 }
-
+*/
 .bodyprint #header-menu{display: none;}
 
 .bodyprint .crossroad{
@@ -341,6 +371,10 @@ float: left;
 .bodyprint a{
 	color: black;
 	text-decoration: none;
+}
+
+.bodyprint .skill div,.bodyprint .skill-fate div,.bodyprint .skill-desc{
+	background-color: transparent;
 }
 
 /*.hearts_1{background-image: url(../img/cards/hearts_1.svg);}
