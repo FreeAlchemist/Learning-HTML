@@ -151,11 +151,8 @@ float: left;
 .skill,.skill-fate{
 height: 30px;
 width: 100%;
-/*border: 1px solid;*/
-/*border-radius: 3px;*/
 margin-top: 10px;
 line-height: 30px;
-/*background-color: Linen;*/
 }
 .skill-title,.skill-fate-title{
 float: left;
@@ -179,17 +176,12 @@ font-size: 13px;
 border: 1px solid;
 border-radius: 3px;
 background-color: Linen;
-/*overflow: hidden;*/
-/*height: 30px;*/
 }
 .skill-fate-text{
 	width: 69%;
 }
 .skill-desc{
 margin-top: 6px;
-/*background-color: Linen;
-border: solid 1px;
-border-radius: 3px;*/
 padding: 5px;
 width: 94%;
 }
@@ -203,19 +195,70 @@ width: 94%;
 }
 #header-title{
 	float: left;
-	font-size: 18px;
+	/*font-size: 18px;*/
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
 }
+#header-title a{
+	color: black;
+	text-decoration: none;
+}
+
 #header-menu{
 	float: left;
 }
-#header-menu a{
-	margin-left: 10px;
-}
-#header-menu a:hover{
-	color: blue;
-}
+
 #header-menu input{
+	margin-left: 5px;
+	border:2px groove;
+	border-bottom-width: 3px;
+	border-radius: 8px;
+	background: linear-gradient(to bottom, Linen, Burlywood);
+	border-left-color: Bisque;
+    border-right-color: Burlywood;
+    border-bottom-color: Burlywood;
+    border-top-color: Bisque;
+    color: black;
+}
+
+#header-menu input:hover{
+	background: linear-gradient(to bottom, Burlywood ,Linen);
+}
+
+.lang{
+	padding: 1px 5px;
+	border:2px groove;
+	border-bottom-width: 3px;
+	text-decoration: none;
+    border-left-color: Bisque;
+    border-right-color: Burlywood;
+    border-bottom-color: Burlywood;
+    border-top-color: Bisque;
+    color: black;
+    background-color: Linen;
+}
+
+#lang-eng{
+	border-radius: 8px 0px 0px 8px;
 	margin-left: 10px;
+	margin-right: 0px;
+}
+
+#lang-rus{
+	border-radius: 0px 8px 8px 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+
+.lang:hover{
+	background: linear-gradient(to bottom, Burlywood ,Linen);
+}
+
+.lang-active{
+	background-color: Bisque;
+	box-shadow: inset -1px 2px 3px Saddlebrown;
 }
 
 .card-back{
@@ -223,11 +266,9 @@ width: 94%;
 	background-color: Burlywood;
 	background-image: url(../img/Back.svg);
 	background-image: url(../img/Back.svg),radial-gradient(circle farthest-corner at 20px 20px, #FFFFFF, #E4CB9E);
-
 }
 
 .color-clubs{
-	/*background-color:rgba(48,100,175,1);*/
 	background-image: url(../img/clubs.svg);
 	background-image: url(../img/tomes.svg);
 	/*background-image: url(../img/tomes1.svg);*/
@@ -236,7 +277,6 @@ width: 94%;
 }
 
 .color-diamonds{
-	/*background-color:rgba(121,78,143,1);*/
 	background-image: url(../img/diamonds.svg);
 	background-image: url(../img/masks.svg);
 	/*background-image: url(../img/masks1.svg);*/
@@ -245,7 +285,6 @@ width: 94%;
 }
 
 .color-hearts{
-	/*background-color:rgba(171,49,45,1);*/
 	background-image: url(../img/hearts.svg);
 	background-image:url(../img/rams.svg);
 	/*background-image:url(../img/rams1.svg);*/
@@ -255,7 +294,6 @@ width: 94%;
 }
 
 .color-spades{
-	/*background-color: rgba(0,150,72,1);*/
 	background-image: url(../img/spades.svg);
 	background-image: url(../img/crows.svg);
 	/*background-image: url(../img/crows1.svg);*/
@@ -265,7 +303,6 @@ width: 94%;
 }
 
 .color-jockers{
-	/*background-color: rgba(200,130,30,1);*/
 	background-size: 70%;
 	/*font-size: 10pt;*/
 	/*box-shadow: 0px 0px 15px rgba(200,130,30,1);*/
@@ -274,7 +311,6 @@ width: 94%;
 .jockers_0{background-image:url(../img/jockers-black.svg);}
 .jockers_14{background-image:url(../img/jockers-red.svg);}
 .jockers_14{background-image:url(../img/jockers-red0.svg);}
-/*.jockers_14:hover{background-image:url(../img/jockers-red1.svg);}*/
 
 /*--- POPUP ---*/
 .popup {
@@ -304,9 +340,7 @@ width: 94%;
 .popupCard {
 	display: inline-block;
 	width: 6%;
-	/*height: 70%;*/
 	height: 90%;
-	background-color: rgba(255,255,255,0.5);
 	background-color: Wheat;
 	margin-right: 0.5%;
 	margin-left: 0.5%;
@@ -319,8 +353,6 @@ width: 94%;
 	background-position: 55% 85%;
 	background-size: 50%;
 	background-repeat: no-repeat;
-	/*transition: 0.1s;*/
-	/*transform-style: preserve-3d;*/
 }
 
 .popupCard:hover{
@@ -350,7 +382,7 @@ width: 94%;
 	border:solid 3px Black;
 }
 */
-.bodyprint #header-menu{display: none;}
+.bodyprint #header-menu,.bodyprint #copyright{display: none;}
 
 .bodyprint .crossroad{
 	border:none;
