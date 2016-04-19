@@ -2,10 +2,10 @@ function checkLang(language){
 	var lang = language
 	console.log(lang)
 	if(lang == 'ENG'){
-		$('#lang-eng').css('color','red')
+		$('#lang-eng').addClass('lang-active')
 	}
 	if(lang == 'RUS'){
-		$('#lang-rus').css('color','red')
+		$('#lang-rus').addClass('lang-active')
 	}
 }
 
