@@ -58,7 +58,7 @@ for (var i = 0; i < quantity; i++) {
 
 $('#page').append($('<div />',{class:'row'}))
 
-for (var i = 0; i < quantity; i++) {
+for (var i = quantity-1; i >= 0; i--) {
 	var cardid = arr[i];
 	var cardbackid = cardid+'-back';
 	$('#page').append($('<div />',{class:'card card-back',id:cardbackid}))
