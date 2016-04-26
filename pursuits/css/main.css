@@ -1,0 +1,120 @@
+body{
+	width:20cm;
+}
+
+.card{
+	width: 6.2cm;
+	height: 8.7cm;
+	float: left;
+	border: solid black 1px;
+	margin-bottom: 1.2cm;
+	background-color: Blanchedalmond;
+	background-color: transparent;
+}
+
+.title{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 8pt;
+	/*margin-top: 3px;*/
+}
+
+.text{font-size: 8pt;}
+
+.name{font-weight: bold;}
+
+.pursuit-title{
+	text-align: center;
+	background-image:radial-gradient(circle farthest-corner at 20px 20px, rgba(180, 135, 105, 1), rgba(89, 62, 42, 1));
+	color: Linen;
+	height: 0.5cm;
+	line-height: 0.5cm;
+}
+
+.step-title{
+	text-align: center;
+	background-image: radial-gradient(circle farthest-corner at 20px 20px, rgba(180, 135, 105, 1), rgba(89, 62, 42, 1));
+	color: Linen;
+	height: 0.4cm;
+	line-height: 0.4cm;
+	font-size: 10pt;
+}
+
+.pursuit-text{
+	font-size: 8pt;
+	display: none;
+}
+.gear-name{font-weight: bold;}
+.gear-text{font-size: 10pt;}
+.talent-name{font-weight: bold;}
+.talent-text{font-size: 8pt;}
+
+.step td{
+border: solid black 1px;
+line-height: 0.35cm;
+padding-left: 0.1cm;
+}
+
+.step{
+width: 100%;
+}
+
+.td-num{
+	width: 0.1cm;
+}
+
+.card-back{
+background-color: Burlywood;
+background-color: transparent;
+margin-bottom: 1cm;
+
+}
+
+.title-back{
+background-color: Blanchedalmond;
+background-image:radial-gradient(circle farthest-corner at 20px 20px, rgba(180, 135, 105, 1), rgba(89, 62, 42, 1));
+font-weight: bold;
+color: Linen;
+text-transform: uppercase;
+font-size: 16pt;
+position: relative;
+top: 6.5cm;
+border: 1px solid rgba(89, 62, 42, 1);
+text-align: center;
+}
+
+.front{
+height: 8cm;
+background-color: Linen;
+margin: 0.3cm;
+border: 1px solid black;
+/*border-radius: 6px;*/
+background-image:radial-gradient(circle farthest-corner at 20px 20px, #FFFFFF, #E4CB9E);
+}
+
+.back{
+height: 8cm;
+background-color: Blanchedalmond;
+background-size: auto 100%;
+background-repeat: no-repeat;
+margin: 0.3cm;
+border: 1px solid black;
+border-radius: 6px;
+}
+
+.row{clear:both;}
+
+.academic{background-image: url(../img/academic.jpg);}
+.criminal{background-image: url(../img/criminal.jpg);}
+.dabbler{background-image: url(../img/dabbler.jpg);}
+.drudge{background-image: url(../img/drudge.jpg);}
+.graverobber{background-image: url(../img/graverobber.jpg);}
+.guard{background-image: url(../img/guard.jpg);}
+.gunfighter{background-image: url(../img/gunfighter.jpg);}
+.mercenary{background-image: url(../img/mercenary.jpg);}
+.overseer{background-image: url(../img/overseer.jpg);}
+.performer{background-image: url(../img/performer.jpg);}
+.pioneer{background-image: url(../img/pioneer.jpg);}
+.scrapper{background-image: url(../img/scrapper.jpg);}
+.tinkerer{background-image: url(../img/tinkerer.jpg);}
+.wastrel{background-image: url(../img/wastrel.jpg);}
