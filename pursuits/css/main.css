@@ -59,6 +59,23 @@ padding-left: 0.1cm;
 width: 100%;
 }
 
+table.gear{
+	width: 100%;
+
+}
+
+table.gear{
+	width: 100%;
+	
+}
+
+table.step{
+/*position: relative;*/
+/*top: 24%;*/
+}
+
+
+
 .td-num{
 	width: 0.1cm;
 }
@@ -91,6 +108,26 @@ border: 1px solid black;
 /*border-radius: 6px;*/
 background-image:radial-gradient(circle farthest-corner at 20px 20px, #FFFFFF, #E4CB9E);
 }
+
+.front1{
+height: 3.6cm;
+background-color: Linen;
+margin: 0.3cm 0.3cm 0cm 0.3cm;
+border: 1px solid black;
+/*border-radius: 6px;*/
+background-image:radial-gradient(circle farthest-corner at 20px 20px, #FFFFFF, #E4CB9E);
+overflow: hidden;
+}
+
+.front2{
+height: 4.4cm;
+background-color: Linen;
+margin: 0cm 0.3cm 0.3cm 0.3cm;
+border: 1px solid black;
+/*border-radius: 6px;*/
+background-image:radial-gradient(circle farthest-corner at 20px 20px, #FFFFFF, #E4CB9E);
+}
+
 
 .back{
 height: 8cm;
