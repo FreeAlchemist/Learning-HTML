@@ -1,3 +1,13 @@
+$('body').append($('<div />',{id:'menu'}))
+$('#menu').append($('<a />',{href:'pursuits-basic.html',text:'Pursuits: Basic'}),$('<br />'))
+$('#menu').append($('<a />',{href:'pursuits-advanced.html',text:'Pursuits: Advanced'}),$('<br />'))
+$('#menu').append($('<a />',{href:'pursuits-into-the-steam.html',text:'Pursuits: Into the Steam'}),$('<br />'))
+$('#menu').append($('<a />',{href:'pursuits-under-quarantine.html',text:'Pursuits: Under Quarantine'}),$('<br />'))
+$('#menu').append($('<a />',{href:'pursuits-into-the-bayou.html',text:'Pursuits: Into the Bayou'}),$('<br />'))
+$('#menu').append($('<a />',{href:'pursuits-from-nightmares.html',text:'Pursuits: From Nightmares'}),$('<br />'))
+$('#menu').append($('<a />',{href:'pursuits-guild-wars.html',text:'Pursuits: Guild Wars'}),$('<br />'))
+$('#menu').append($('<a />',{href:'pursuits-beyond-fate.html',text:'Pursuits: Beyond Fate'}),$('<br />'))
+
 var arr = [];
 
 for (var p in pursuit) {
