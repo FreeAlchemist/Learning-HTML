@@ -251,6 +251,27 @@ border-radius: 6px;
 /*Into the Bayou*/
 .bokor{background-image: url(../img/into-the-bayou/bokor.jpg);}
 
-/*@media print {
-	body{background-color: red;}
-}*/
+
+
+#menu{
+position: absolute;
+top: 1cm;
+left: 21cm;
+border: solid 1px;
+border-radius: 8px;
+padding: 5px;
+background-color: Bisque;
+}
+
+#menu a{
+	text-decoration: none;
+	border: solid 1px;
+border-radius: 3px;
+background-color: Burlywood;
+margin: 3px;
+float: left;
+}
+
+@media print {
+	#menu{display: none;}
+}
