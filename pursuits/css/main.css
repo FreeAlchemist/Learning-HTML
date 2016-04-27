@@ -206,6 +206,7 @@ height: 8cm;
 background-color: Blanchedalmond;
 background-color: #FAFBF8;
 background-position: center;
+background-position: 50% 20px;
 background-size: auto 100%;
 background-repeat: no-repeat;
 margin: 0.3cm;
@@ -231,7 +232,7 @@ border-radius: 6px;
 .wastrel{background-image: url(../img/basic/wastrel.png);}
 
 /*Advanced*/
-.death-marshal{background-image: url(../img/advanced/death-marshal.jpg);}
+.death-marshal{background-image: url(../img/advanced/death-marshal.png);}
 
 /*Into the Steam*/
 .animator{background-image: url(../img/into-the-steam/animator.jpg);}
@@ -254,7 +255,7 @@ border-radius: 6px;
 
 
 #menu{
-position: absolute;
+position: fixed;
 top: 1cm;
 left: 21cm;
 border: solid 1px;
