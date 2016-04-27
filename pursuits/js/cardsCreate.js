@@ -64,4 +64,5 @@ for (var i = quantity-1; i >= 0; i--) {
 	$('#page').append($('<div />',{class:'card card-back',id:cardbackid}))
 	$('#'+cardbackid).append($('<div />',{class:'back '+cardid,id:cardbackid+'-bg'}))
 	$('#'+cardbackid+'-bg').append($('<div />',{class:'title-back',text:pursuit[cardid].name}))
+	$('#'+cardbackid+'-bg').append($('<div />',{class:'title-back type',text:'\"'+pursuit[cardid].type+'\"'}))
 }
