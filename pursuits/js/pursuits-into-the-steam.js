@@ -1,6 +1,7 @@
 var pursuit = {
+	type:'Into The Steam',
+	faction:'arcanist',
 	'animator' : {
-		type:'Into The Steam',
 		name: 'animator',
 		text:'animator text',
 		gear:'',
@@ -22,7 +23,6 @@ var pursuit = {
 		}
 	},
 	'augmented' : {
-		type:'Into The Steam',
 		name: 'augmented',
 		text:'augmented text',
 		gear:'',
@@ -44,7 +44,6 @@ var pursuit = {
 		}
 	},
 	'collaborator' : {
-		type:'Into The Steam',
 		name: 'collaborator',
 		text:'collaborator text',
 		gear:'',
@@ -66,7 +65,6 @@ var pursuit = {
 		}
 	},
 	'engineer' : {
-		type:'Into The Steam',
 		name: 'engineer',
 		text:'engineer text',
 		gear:'',
@@ -88,7 +86,6 @@ var pursuit = {
 		}
 	},
 	'illusionist' : {
-		type:'Into The Steam',
 		name: 'illusionist',
 		text:'illusionist text',
 		gear:'',
@@ -110,7 +107,6 @@ var pursuit = {
 		}
 	},
 	'infiltrator' : {
-		type:'Into The Steam',
 		name: 'infiltrator',
 		text:'infiltrator text',
 		gear:'',
@@ -132,7 +128,6 @@ var pursuit = {
 		}
 	},
 	'mage' : {
-		type:'Into The Steam',
 		name: 'mage',
 		text:'mage text',
 		gear:'',
@@ -154,7 +149,6 @@ var pursuit = {
 		}
 	},
 	'primal' : {
-		type:'Into The Steam',
 		name: 'primal',
 		text:'primal text',
 		gear:'',
@@ -176,7 +170,6 @@ var pursuit = {
 		}
 	},
 	'shape-shifter' : {
-		type:'Into The Steam',
 		name: 'shape-shifter',
 		text:'shape-shifter text',
 		gear:'',
