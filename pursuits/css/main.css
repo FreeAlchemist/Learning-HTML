@@ -95,9 +95,13 @@ color: Linen;
 text-transform: uppercase;
 font-size: 16pt;
 position: relative;
-top: 6.5cm;
+top: 5.5cm;
 border: 1px solid rgba(89, 62, 42, 1);
 text-align: center;
+}
+
+.type{
+font-size: 12pt;
 }
 
 .front{
@@ -132,6 +136,8 @@ background-image:radial-gradient(circle farthest-corner at 20px 20px, #FFFFFF, #
 .back{
 height: 8cm;
 background-color: Blanchedalmond;
+background-color: #FAFBF8;
+background-position: center;
 background-size: auto 100%;
 background-repeat: no-repeat;
 margin: 0.3cm;
@@ -140,18 +146,39 @@ border-radius: 6px;
 }
 
 .row{clear:both;}
+/*Basic*/
+.academic{background-image: url(../img/basic/academic.png);}
+.criminal{background-image: url(../img/basic/criminal.png);}
+.dabbler{background-image: url(../img/basic/dabbler.jpg);}
+.drudge{background-image: url(../img/basic/drudge.png);}
+.graverobber{background-image: url(../img/basic/graverobber.png);}
+.guard{background-image: url(../img/basic/guard.png);}
+.gunfighter{background-image: url(../img/basic/gunfighter.png);}
+.mercenary{background-image: url(../img/basic/mercenary.png);}
+.overseer{background-image: url(../img/basic/overseer.png);}
+.performer{background-image: url(../img/basic/performer.png);}
+.pioneer{background-image: url(../img/basic/pioneer.png);}
+.scrapper{background-image: url(../img/basic/scrapper.png);}
+.tinkerer{background-image: url(../img/basic/tinkerer.png);}
+.wastrel{background-image: url(../img/basic/wastrel.png);}
 
-.academic{background-image: url(../img/academic.jpg);}
-.criminal{background-image: url(../img/criminal.jpg);}
-.dabbler{background-image: url(../img/dabbler.jpg);}
-.drudge{background-image: url(../img/drudge.jpg);}
-.graverobber{background-image: url(../img/graverobber.jpg);}
-.guard{background-image: url(../img/guard.jpg);}
-.gunfighter{background-image: url(../img/gunfighter.jpg);}
-.mercenary{background-image: url(../img/mercenary.jpg);}
-.overseer{background-image: url(../img/overseer.jpg);}
-.performer{background-image: url(../img/performer.jpg);}
-.pioneer{background-image: url(../img/pioneer.jpg);}
-.scrapper{background-image: url(../img/scrapper.jpg);}
-.tinkerer{background-image: url(../img/tinkerer.jpg);}
-.wastrel{background-image: url(../img/wastrel.jpg);}
+/*Advanced*/
+.death-marshal{background-image: url(../img/advanced/death-marshal.jpg);}
+
+/*Into the Steam*/
+.animator{background-image: url(../img/into-the-steam/animator.jpg);}
+.augmented{background-image: url(../img/into-the-steam/augmented.jpg);}
+.collaborator{background-image: url(../img/into-the-steam/collaborator.jpg);}
+.engineer{background-image: url(../img/into-the-steam/engineer.jpg);}
+.illusionist{background-image: url(../img/into-the-steam/illusionist.jpg);}
+.infiltrator{background-image: url(../img/into-the-steam/infiltrator.jpg);}
+.mage{background-image: url(../img/into-the-steam/mage.jpg);}
+.primal{background-image: url(../img/into-the-steam/primal.jpg);}
+.shape-shifter{background-image: url(../img/into-the-steam/shape-shifter.jpg);}
+
+/*Under Quarantine*/
+.bully{background-image: url(../img/under-quarantine/bully.jpg);}
+.ghost-eater{background-image: url(../img/under-quarantine/ghost-eater.jpg);}
+.ghoul{background-image: url(../img/under-quarantine/ghoul.jpg);}
+/*Into the Bayou*/
+.bokor{background-image: url(../img/into-the-bayou/bokor.jpg);}
