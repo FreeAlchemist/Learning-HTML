@@ -1,6 +1,7 @@
 var pursuit = {
+	type:'Under Quarantine',
+	faction:'ressurectionist',
 	'bully' : {
-		type:'Under Quarantine',
 		name: 'bully',
 		text:'bully text',
 		gear:'',
@@ -23,7 +24,6 @@ var pursuit = {
 	},
 	
 	'ghost-eater' : {
-		type:'Under Quarantine',
 		name: 'ghost-eater',
 		text:'ghost-eater text',
 		gear:'',
@@ -45,7 +45,6 @@ var pursuit = {
 		}
 	},
 	'ghoul' : {
-		type:'Under Quarantine',
 		name: 'ghoul',
 		text:'ghoul text',
 		gear:'',
