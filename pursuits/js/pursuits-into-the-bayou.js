@@ -1,6 +1,7 @@
 var pursuit = {
+	type:'Into The Bayou',
+	faction:'gremlin',
 	'bokor' : {
-		type:'Into The Bayou',
 		name: 'bokor',
 		text:'bokor text',
 		gear:'',
