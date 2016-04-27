@@ -4,13 +4,14 @@ for (var p in pursuit) {
 	arr.push(p);
 }
 
+
 console.log(arr)
 console.log(arr.length)
 // console.log(arr[0])
 
 var quantity = arr.length;
 
-for (var i = 0; i < quantity; i++) {
+for (var i = 2; i < quantity; i++) {
 	console.log('PURSUIT #'+i+': ')
 	console.log(pursuit[arr[i]])
 	// console.log(pursuit[i].text)
@@ -27,26 +28,30 @@ for (var i = 0; i < quantity; i++) {
 	$('#'+cardfrontid).append($('<div />',{class:'front2',id:cardfrontid+'-bg2'}))
 
 
-	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'title pursuit-title',text:pursuit[cardid].name}))
-	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'text pursuit-text',text:pursuit[cardid].text}))
+	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'pursuit-title',text:pursuit[cardid].name}))
+	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'pursuit-text',text:pursuit[cardid].text}))
 
-	var gearid = cardfrontid+'-bg1'+'-gear'
-	$('#'+cardfrontid+'-bg1').append($('<table />',{class:'text gear step',id:gearid,cellspacing:'0',cellpadding:'2'}))
-	var gearrowid = gearid+'-row'
-	$('#'+gearid).append($('<tr />',{id:gearrowid}))
-	$('#'+gearrowid).append($('<td />',{text:'GEAR: '}))
-	$('#'+gearrowid).append($('<td />',{text:pursuit[cardid].gear}))
+	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'gear-name',text:'GEAR:'}))
+	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'gear-text',text:pursuit[cardid].gear}))
 
-	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'title',text:pursuit[cardid].talent['name']}))
-	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'text talent-text',text:pursuit[cardid].talent['text']}))
+	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'talent-name',text:pursuit[cardid].talent['name']}))
+	$('#'+cardfrontid+'-bg1').append($('<div />',{class:'talent-text',text:pursuit[cardid].talent['text']}))
 
 	var stepid = cardfrontid+'-bg2'+'-step'
 	$('#'+cardfrontid+'-bg2').append($('<table />',{class:'text step',id:stepid,cellspacing:'0',cellpadding:'0'}))
 	$('#'+stepid).append($('<tr />',{id:stepid+'-row-0'}))
-	$('#'+stepid+'-row-0').append($('<td />',{class:'step-title',text:'Step'}))
+	$('#'+stepid+'-row-0').append($('<td />',{class:'step-title',text:'#'}))
 	$('#'+stepid+'-row-0').append($('<td />',{class:'step-title',text:'Talent'}))
-		
-	for (var s = 1; s <= 10; s++) {
+	
+
+	var steparr = [];
+	for (var c in pursuit[cardid].step) {
+		steparr.push(c);
+	}
+	var stepquantity = steparr.length;
+	console.log(stepquantity)
+	for (var s = 1; s <= stepquantity; s++) {
+	// for (var s = 1; s <= 10; s++) {
 		// console.log('STEP #'+s+': ')
 		// console.log(pursuit[arr[i]].step[s])
 		var steprowid = stepid+'-row-'+s
@@ -58,11 +63,11 @@ for (var i = 0; i < quantity; i++) {
 
 $('#page').append($('<div />',{class:'row'}))
 
-for (var i = quantity-1; i >= 0; i--) {
+for (var i = quantity-1; i >= 2; i--) {
 	var cardid = arr[i];
 	var cardbackid = cardid+'-back';
 	$('#page').append($('<div />',{class:'card card-back',id:cardbackid}))
 	$('#'+cardbackid).append($('<div />',{class:'back '+cardid,id:cardbackid+'-bg'}))
 	$('#'+cardbackid+'-bg').append($('<div />',{class:'title-back',text:pursuit[cardid].name}))
-	$('#'+cardbackid+'-bg').append($('<div />',{class:'title-back type',text:'\"'+pursuit[cardid].type+'\"'}))
+	$('#'+cardbackid+'-bg').append($('<div />',{class:'title-back type '+pursuit.faction,text:'\"'+pursuit.type+'\"'}))
 }
